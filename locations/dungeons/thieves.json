@@ -244,7 +244,7 @@
         ],
         "sections": [
           {
-            "name": "Chest",
+            "name": "Heart Container",
             "access_rules": [
               "$tt_big_key, $thEscapeEquipment, merge, $attack",
               "[hard], $tt_big_key, $thEscapeEquipment, merge, $attack",

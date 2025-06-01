@@ -1188,7 +1188,7 @@
         ]
       },
       {
-        "name": "Graveyard",
+        "name": "Lorule Graveyard",
         "access_rules": [
           "$access_lorule_graveyard",
           "[lampless], $lampless_access_lorule_graveyard"

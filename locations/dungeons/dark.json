@@ -378,7 +378,7 @@
             ],
             "sections": [
               {
-                "name": "Chest",
+                "name": "Heart Container",
                 "access_rules": [
                   "bombs, $fire, $pd_small_keys|4, $pd_big_key",
                   "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"

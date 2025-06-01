@@ -211,7 +211,7 @@
         ],
         "sections": [
           {
-            "name": "Chest",
+            "name": "Yuga Rewards",
             "hosted_item": "ep_chest_10_11",
             "access_rules": ["$yuga_eastern"]
           }

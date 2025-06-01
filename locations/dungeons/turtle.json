@@ -281,7 +281,7 @@
         ],
         "sections": [
           {
-            "name": "Chest",
+            "name": "Heart Container",
             "access_rules": [
               "$tr_small_keys|3, $tr_big_key, $enterTR",
               "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",

@@ -205,7 +205,7 @@
         ],
         "sections": [
           {
-            "name": "Chest",
+            "name": "Heart Container",
             //"capture_item": true,
             "hosted_item": "toh_chest_10",
             "access_rules": [

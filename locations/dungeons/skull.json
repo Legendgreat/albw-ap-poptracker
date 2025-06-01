@@ -184,7 +184,7 @@
         ],
         "sections": [
           {
-            "name": "Chest",
+            "name": "Heart Container",
             //"capture_item": true,
             "hosted_item": "sw_chest_09",
             "access_rules": [

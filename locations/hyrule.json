@@ -385,7 +385,7 @@
             ],
             "sections": [
               {
-                "name": "Zora Flippers Reward",
+                "name": "Zora Flippers reward",
                 "access_rules": [
                   "merge, oren, smooth_gem",
                   "[hell], oren, smooth_gem, $beeBoost"
@@ -456,7 +456,7 @@
             ],
             "sections": [
               {
-                "name": "Roof Maimai under rock",
+                "name": "Roof Maiamai under rock",
                 "item_count": 1,
                 //"capture_item": true,
                 "visibility_rules": ["maiamai_map"],
@@ -764,7 +764,7 @@
             ],
             "sections": [
               {
-                "name": "Pouch Reward",
+                "name": "Pouch reward",
                 "access_rules": ["courage"],
                 "capture_item": true,
                 "item_count": 1

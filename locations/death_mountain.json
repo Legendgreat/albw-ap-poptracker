@@ -313,7 +313,7 @@
         ],
         "sections": [
           {
-            "name": "Chest",
+            "name": "Bottle reward",
             "access_rules": [
               "$access_dm_east_top, merge, premium_milk",
               "[glitched], merge, hookshot, premium_milk",
@@ -321,7 +321,16 @@
               "[advanced], $adv_glitched_access_dm_east_top, premium_milk, trod, boots"
             ],
             "hosted_item": "bottle",
-            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Trash",
+            "access_rules": [
+              "$access_dm_east_top, merge, premium_milk",
+              "[glitched], merge, hookshot, premium_milk",
+              "[advanced], $adv_glitched_access_dm_east_top, premium_milk, merge",
+              "[advanced], $adv_glitched_access_dm_east_top, premium_milk, trod, boots"
+            ],
             "item_count": 1
           }
         ]

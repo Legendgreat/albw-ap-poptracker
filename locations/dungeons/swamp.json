@@ -254,7 +254,7 @@
             ],
             "sections": [
               {
-                "name": "Chest",
+                "name": "Heart Container",
                 //"capture_item": true,
                 "hosted_item": "sp_chest_12"
               }

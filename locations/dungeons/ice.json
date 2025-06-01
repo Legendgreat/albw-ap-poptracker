@@ -275,7 +275,7 @@
         ],
         "sections": [
           {
-            "name": "Chest",
+            "name": "Heart Container",
             //"capture_item": true,
             "access_rules": [
               "$ir_small_keys|3, $ir_big_key",
