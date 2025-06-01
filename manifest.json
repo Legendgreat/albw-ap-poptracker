@@ -1,21 +1,21 @@
 ﻿{
-  "name": "ALBW Randomizer v0.4 PopTracker",
+  "name": "ALBW Auto PopTracker",
   "game_name": "The Legend of Zelda: A Link Between Worlds",
   "platform": "3DS",
-  "package_version": "4.0.7",
-  "package_uid": "lemonkong_albwr_tracker",
-  "author": "RickWithAnH",
+  "package_version": "1.0.0",
+  "package_uid": "albw-ap-poptracker",
+  "author": "Legend",
   "variants": {
     "standard": {
       "display_name": "Standard Map Tracker",
       "flags": ["ap"]
     },
     "compact": {
-      "display_name": "Compact Map Tracker",
+      "display_name": "Compact Map Tracker (Not implemented, YMMV)",
       "flags": ["ap"]
     },
     "items_only": {
-      "display_name": "Item Tracker",
+      "display_name": "Item Tracker (Not implemented, YMMV)",
       "flags": ["ap"]
     }
   }
