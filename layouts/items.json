@@ -1,0 +1,46 @@
+{
+  "item_grid": {
+    "type": "container",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "dropshadow": true,
+        "h_alignment": "center",
+        "item_size": 64,
+        "item_margin": 1,
+        "rows": [
+          [
+            "fsword",
+            "green_tunic",
+            "shield",
+            "lamp",
+            "bow",
+            "boomerang",
+            "hookshot"
+          ],
+          ["merge", "glove", "boots", "hammer", "bombs", "frod", "irod"],
+          [
+            "flippers_smooth_gem",
+            "bee_badge",
+            "scroll",
+            "trod",
+            "srod",
+            "net",
+            "hint_glasses"
+          ],
+          ["bell", "maiamai", "ore", "bottle", "bottle_trade", "foul", "scoot"],
+          [
+            "quake",
+            "great_spin",
+            "wisdom",
+            "power",
+            "courage",
+            "",
+            "bow_of_light"
+          ]
+        ]
+      }
+    ]
+  }
+}

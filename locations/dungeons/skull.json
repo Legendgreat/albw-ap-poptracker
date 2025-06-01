@@ -1,0 +1,580 @@
+[
+  {
+    "name": "Skull Woods",
+    "color": "#43c2be",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": ["$access_skull_woods_area"],
+    "children": [
+      {
+        "name": "(B1) South Chest",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 128,
+            "y": 112
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "capture_item": true,
+            "hosted_item": "sw_chest_01",
+            "access_rules": ["$lampless"]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Gibdo Room (Lower)",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 137,
+            "y": 50
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "sw_chest_03",
+            "access_rules": ["$lampless"]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Gibdo Room (Hole)",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 142,
+            "y": 33
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "sw_chest_02",
+            "access_rules": ["$sw_small_keys|1, $lampless"]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Grate Room",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 97,
+            "y": 38
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "sw_chest_04",
+            "access_rules": [
+              "$sw_small_keys|1, $lampless, progression_enemies",
+              "$sw_small_keys|1, $lampless, bombs",
+              "$sw_small_keys|1, $lampless, hammer"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(B2) Moving Platform Room",
+        "map_locations": [
+          {
+            "map": "skullB2",
+            "x": 113,
+            "y": 23
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "sw_chest_05",
+            "access_rules": [
+              "$sw_small_keys|2, $lampless, merge, bombs",
+              "$sw_small_keys|2, $lampless, merge, hammer",
+              "$sw_small_keys|2, $lampless, merge, $attack, progression_enemies",
+              // Have hand kill everything
+              "[hell], $sw_small_keys|2, $lampless, merge, progression_enemies"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Big Chest (Eyes)",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 40,
+            "y": 16
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "chest_unopened_img": "images/chest_big_unopened.png",
+            "chest_opened_img": "images/chest_big_opened.png",
+            "capture_item": true,
+            "hosted_item": "sw_chest_08",
+            "access_rules": [
+              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Big Chest (Upper)",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 24,
+            "y": 68
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "chest_unopened_img": "images/chest_big_unopened.png",
+            "chest_opened_img": "images/chest_big_opened.png",
+            "hosted_item": "sw_chest_07",
+            "access_rules": [
+              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Outdoor Chest",
+        "map_locations": [
+          {
+            "map": "skullB1",
+            "x": 41,
+            "y": 115
+          },
+          {
+            "map": "lorule",
+            "x": 88,
+            "y": 296
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "sw_chest_06",
+            "access_rules": [
+              "{csmc}",
+              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Knucklemaster",
+        "map_locations": [
+          {
+            "map": "skullB2",
+            "x": 63,
+            "y": 25
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            //"capture_item": true,
+            "hosted_item": "sw_chest_09",
+            "access_rules": [
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods Rewards",
+        "map_locations": [
+          {
+            "map": "skullB2",
+            "x": 63,
+            "y": 9,
+            "size": 20
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pendant of Power",
+            "hosted_item": "power",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_power_sw"]
+          },
+          {
+            "name": "Pendant of Wisdom",
+            "hosted_item": "wisdom",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_wisdom_sw"]
+          },
+          {
+            "name": "Pendant of Courage",
+            "hosted_item": "courage",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_courage_sw"]
+          },
+          {
+            "name": "Gulley",
+            "hosted_item": "gulley",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_gulley_sw"]
+          },
+          {
+            "name": "Oren",
+            "hosted_item": "oren",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_oren_sw"]
+          },
+          {
+            "name": "Seres",
+            "hosted_item": "seres",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_seres_sw"]
+          },
+          {
+            "name": "Osfala",
+            "hosted_item": "osfala",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_osfala_sw"]
+          },
+          {
+            "name": "Impa",
+            "hosted_item": "impa",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_impa_sw"]
+          },
+          {
+            "name": "Irene",
+            "hosted_item": "irene",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_irene_sw"]
+          },
+          {
+            "name": "Rosso",
+            "hosted_item": "rosso",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_rosso_sw"]
+          }
+        ]
+      },
+      {
+        "name": "Skull Woods",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 363,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "(B1) South Chest",
+            "capture_item": true,
+            "hosted_item": "sw_chest_01",
+            "access_rules": ["$lampless"]
+          },
+          {
+            "name": "(B1) Gibdo Room (Lower)",
+            "hosted_item": "sw_chest_03",
+            "access_rules": ["$lampless"]
+          },
+          {
+            "name": "(B1) Gibdo Room (Hole)",
+            "hosted_item": "sw_chest_02",
+            "access_rules": ["$sw_small_keys|1, $lampless"]
+          },
+          {
+            "name": "(B1) Grate Room",
+            "hosted_item": "sw_chest_04",
+            "access_rules": [
+              "$sw_small_keys|1, $lampless, progression_enemies",
+              "$sw_small_keys|1, $lampless, bombs",
+              "$sw_small_keys|1, $lampless, hammer"
+            ]
+          },
+          {
+            "name": "(B2) Moving Platform Room",
+            "hosted_item": "sw_chest_05",
+            "access_rules": [
+              "$sw_small_keys|2, $lampless, merge, bombs",
+              "$sw_small_keys|2, $lampless, merge, hammer",
+              "$sw_small_keys|2, $lampless, merge, $attack, progression_enemies",
+              // Have hand kill everything
+              "[hell], $sw_small_keys|2, $lampless, merge, progression_enemies"
+            ]
+          },
+          {
+            "name": "Outdoor Chest",
+            "hosted_item": "sw_chest_06",
+            "access_rules": [
+              "{csmc}",
+              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+            ]
+          },
+          {
+            "name": "(B1) Big Chest (Eyes)",
+            "chest_unopened_img": "images/chest_big_unopened.png",
+            "chest_opened_img": "images/chest_big_opened.png",
+            "capture_item": true,
+            "hosted_item": "sw_chest_08",
+            "access_rules": [
+              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+            ]
+          },
+          {
+            "name": "(B1) Big Chest (Upper)",
+            "chest_unopened_img": "images/chest_big_unopened.png",
+            "chest_opened_img": "images/chest_big_opened.png",
+            "hosted_item": "sw_chest_07",
+            "access_rules": [
+              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+            ]
+          },
+          {
+            "name": "Knucklemaster",
+            //"capture_item": true,
+            "hosted_item": "sw_chest_09",
+            "access_rules": [
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster"
+            ]
+          },
+
+          {
+            "name": "Pendant of Power",
+            "hosted_item": "power",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_power_sw"]
+          },
+          {
+            "name": "Pendant of Wisdom",
+            "hosted_item": "wisdom",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_wisdom_sw"]
+          },
+          {
+            "name": "Pendant of Courage",
+            "hosted_item": "courage",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_courage_sw"]
+          },
+          {
+            "name": "Gulley",
+            "hosted_item": "gulley",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_gulley_sw"]
+          },
+          {
+            "name": "Oren",
+            "hosted_item": "oren",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_oren_sw"]
+          },
+          {
+            "name": "Seres",
+            "hosted_item": "seres",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_seres_sw"]
+          },
+          {
+            "name": "Osfala",
+            "hosted_item": "osfala",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_osfala_sw"]
+          },
+          {
+            "name": "Impa",
+            "hosted_item": "impa",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_impa_sw"]
+          },
+          {
+            "name": "Irene",
+            "hosted_item": "irene",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_irene_sw"]
+          },
+          {
+            "name": "Rosso",
+            "hosted_item": "rosso",
+            "access_rules": [
+              "{}",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
+              "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
+              "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
+              "[hell], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod"
+            ],
+            "visibility_rules": ["label_rosso_sw"]
+          }
+        ]
+      }
+    ]
+  }
+]

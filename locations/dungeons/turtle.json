@@ -1,0 +1,670 @@
+[
+  {
+    "name": "Turtle Rock",
+    "color": "#a332ce",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "children": [
+      {
+        "name": "(1F) Center",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 89,
+            "y": 95
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "tr_chest_01",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Defeat Flamolas",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 67,
+            "y": 85
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "tr_chest_02",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Northeast Ledge",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 109,
+            "y": 74
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            //"capture_item": true,
+            "hosted_item": "tr_chest_03",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Grate Chest",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 89,
+            "y": 58
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "tr_chest_04",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Southeast Chest",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 120,
+            "y": 133
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "tr_chest_05",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Northwest Room",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 52,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            //"capture_item": true,
+            "hosted_item": "tr_chest_06",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Left Balcony",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 16,
+            "y": 46
+          },
+          {
+            "map": "lorule",
+            "x": 1508,
+            "y": 1639
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [
+              //"{merge, quake}",
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ],
+            //"capture_item": true,
+            "hosted_item": "tr_chest_07"
+          }
+        ]
+      },
+      {
+        "name": "(B1) Grate Chest (Small)",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 89,
+            "y": 47
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "tr_chest_08",
+            "access_rules": [
+              "$enterTR, $tr_small_keys|1",
+              "[advanced], $advanced_enterTR, $tr_small_keys|1",
+              "[hell], $hell_enterTR, $tr_small_keys|1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Big Chest (Top)",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 89,
+            "y": 58
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "tr_chest_09",
+            "access_rules": [
+              "$enterTR, $shielded_switch",
+              "[hard], $enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Big Chest (Center)",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 89,
+            "y": 85
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "capture_item": true,
+            "hosted_item": "tr_chest_10",
+            "access_rules": [
+              "$enterTR, $shielded_switch",
+              "[hard], $enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Northeast Room",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 136,
+            "y": 49
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            //"capture_item": true,
+            "hosted_item": "tr_chest_11",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(B1) Platform",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 109,
+            "y": 85
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "tr_chest_12",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grinexx",
+        "map_locations": [
+          {
+            "map": "turtleB2",
+            "x": 78,
+            "y": 92
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            //"capture_item": true,
+            "hosted_item": "tr_chest_13"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock Rewards",
+        "map_locations": [
+          {
+            "map": "turtleB2",
+            "x": 89,
+            "y": 75,
+            "size": 20
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pendant of Power",
+            "hosted_item": "power",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_power_tr"]
+          },
+          {
+            "name": "Pendant of Wisdom",
+            "hosted_item": "wisdom",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_wisdom_tr"]
+          },
+          {
+            "name": "Pendant of Courage",
+            "hosted_item": "courage",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_courage_tr"]
+          },
+          {
+            "name": "Gulley",
+            "hosted_item": "gulley",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_gulley_tr"]
+          },
+          {
+            "name": "Oren",
+            "hosted_item": "oren",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_oren_tr"]
+          },
+          {
+            "name": "Seres",
+            "hosted_item": "seres",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_seres_tr"]
+          },
+          {
+            "name": "Osfala",
+            "hosted_item": "osfala",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_osfala_tr"]
+          },
+          {
+            "name": "Impa",
+            "hosted_item": "impa",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_impa_tr"]
+          },
+          {
+            "name": "Irene",
+            "hosted_item": "irene",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_irene_tr"]
+          },
+          {
+            "name": "Rosso",
+            "hosted_item": "rosso",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_rosso_tr"]
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1572,
+            "y": 1710
+          }
+        ],
+        "sections": [
+          {
+            "name": "(1F) Southeast Chest",
+            "hosted_item": "tr_chest_05",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "(1F) Center",
+            "hosted_item": "tr_chest_01",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "(1F) Defeat Flamolas",
+            "hosted_item": "tr_chest_02",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "Left Balcony",
+            "access_rules": [
+              //"{merge, quake}",
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ],
+            //"capture_item": true,
+            "hosted_item": "tr_chest_07"
+          },
+          {
+            "name": "(1F) Northwest Room",
+            //"capture_item": true,
+            "hosted_item": "tr_chest_06",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "(1F) Northeast Ledge",
+            //"capture_item": true,
+            "hosted_item": "tr_chest_03",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "(1F) Grate Chest",
+            "hosted_item": "tr_chest_04",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "(B1) Northeast Room",
+            //"capture_item": true,
+            "hosted_item": "tr_chest_11",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "(B1) Grate Chest (Small)",
+            "hosted_item": "tr_chest_08",
+            "access_rules": [
+              "$enterTR, $tr_small_keys|1",
+              "[advanced], $advanced_enterTR, $tr_small_keys|1",
+              "[hell], $hell_enterTR, $tr_small_keys|1"
+            ]
+          },
+          {
+            "name": "(B1) Big Chest (Top)",
+            "hosted_item": "tr_chest_09",
+            "access_rules": [
+              "$enterTR, $shielded_switch",
+              "[hard], $enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "(B1) Big Chest (Center)",
+            "capture_item": true,
+            "hosted_item": "tr_chest_10",
+            "access_rules": [
+              "$enterTR, $shielded_switch",
+              "[hard], $enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "(B1) Platform",
+            "hosted_item": "tr_chest_12",
+            "access_rules": [
+              "$enterTR",
+              "[advanced], $advanced_enterTR",
+              "[hell], $hell_enterTR"
+            ]
+          },
+          {
+            "name": "Grinexx",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            //"capture_item": true,
+            "hosted_item": "tr_chest_13"
+          },
+          {
+            "name": "Pendant of Power",
+            "hosted_item": "power",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_power_tr"]
+          },
+          {
+            "name": "Pendant of Wisdom",
+            "hosted_item": "wisdom",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_wisdom_tr"]
+          },
+          {
+            "name": "Pendant of Courage",
+            "hosted_item": "courage",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_courage_tr"]
+          },
+          {
+            "name": "Gulley",
+            "hosted_item": "gulley",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_gulley_tr"]
+          },
+          {
+            "name": "Oren",
+            "hosted_item": "oren",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_oren_tr"]
+          },
+          {
+            "name": "Seres",
+            "hosted_item": "seres",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_seres_tr"]
+          },
+          {
+            "name": "Osfala",
+            "hosted_item": "osfala",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_osfala_tr"]
+          },
+          {
+            "name": "Impa",
+            "hosted_item": "impa",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_impa_tr"]
+          },
+          {
+            "name": "Irene",
+            "hosted_item": "irene",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_irene_tr"]
+          },
+          {
+            "name": "Rosso",
+            "hosted_item": "rosso",
+            "access_rules": [
+              "$tr_small_keys|3, $tr_big_key, $enterTR",
+              "[], bow, $tr_small_keys|1, $tr_big_key, $enterTR",
+              "[advanced], $advanced_enterTR, trod, nicebombs",
+              "[hell], $hell_enterTR, trod, bombs"
+            ],
+            "visibility_rules": ["label_rosso_tr"]
+          }
+        ]
+      }
+    ]
+  }
+]

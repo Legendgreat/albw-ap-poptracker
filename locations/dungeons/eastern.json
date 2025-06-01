@@ -1,0 +1,494 @@
+[
+  {
+    "name": "Eastern Palace",
+    "color": "#00FF00",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "merge",
+      "bow",
+      "hookshot",
+      "boomerang",
+      "bombs",
+      "great_spin, fsword",
+      "niceirod",
+      "[hard], glove, msword",
+      "[hard], irod, msword",
+      "[hard], bell, wv_eastern, msword"
+    ],
+    "children": [
+      {
+        "name": "(1F) Merge Chest",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 114,
+            "y": 121
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_01",
+            "access_rules": ["merge"]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Left Door Chest",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 73,
+            "y": 101
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_02",
+            "access_rules": [
+              "{csmc}",
+              "bow",
+              "hookshot",
+              "boomerang",
+              "bombs",
+              "great_spin, fsword",
+              "niceirod",
+              "[hard]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Popo Room",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 45,
+            "y": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_03",
+            "access_rules": ["$attack"]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Secret Room",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 45,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_04",
+            "access_rules": ["$attack"]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Switch Room",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 141,
+            "y": 47
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_05",
+            "access_rules": [
+              "{csmc}",
+              "bow",
+              "boomerang",
+              "hookshot",
+              "bombs",
+              "great_spin, fsword",
+              "[hard], irod",
+              "[hard], msword"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(2F) Ball Room",
+        "map_locations": [
+          {
+            "map": "ep2F",
+            "x": 48,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_06",
+            "access_rules": ["$ep_small_keys|1, $attack"]
+          }
+        ]
+      },
+      {
+        "name": "(2F) Defeat Popos",
+        "map_locations": [
+          {
+            "map": "ep2F",
+            "x": 128,
+            "y": 45
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_07",
+            "access_rules": ["$ep_small_keys|1, $attack"]
+          }
+        ]
+      },
+      {
+        "name": "(2F) Switch Room",
+        "map_locations": [
+          {
+            "map": "ep2F",
+            "x": 164,
+            "y": 109
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_08",
+            "access_rules": [
+              "$ep_small_keys|1, bow",
+              "$ep_small_keys|1, bombs",
+              "$ep_small_keys|1, irod",
+              "$ep_small_keys|1, $attack, boomerang",
+              "$ep_small_keys|1, $attack, hookshot",
+              "$ep_small_keys|1, great_spin, fsword",
+              // You can use 4 of the 6 pots
+              "[hard], $ep_small_keys|1, $attack"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "(2F) Big Chest",
+        "map_locations": [
+          {
+            "map": "ep2F",
+            "x": 42,
+            "y": 97.5
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_09",
+            "access_rules": [
+              "$ep_small_keys|2, $attack",
+              "[advanced], $ep_small_keys|1, trod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Yuga",
+        "map_locations": [
+          {
+            "map": "ep3F",
+            "x": 88,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_10_11",
+            "access_rules": ["$yuga_eastern"]
+          }
+        ]
+      },
+      {
+        "name": "(3F) Escape Chest",
+        "map_locations": [
+          {
+            "map": "ep3F",
+            "x": 135,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "hosted_item": "ep_chest_12",
+            "access_rules": ["$yuga_eastern, merge"]
+          }
+        ]
+      },
+      {
+        "name": "(1F) Escape Chest",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 41,
+            "y": 97.5
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "capture_item": true,
+            "hosted_item": "ep_chest_13",
+            "access_rules": ["$yuga_eastern, merge"]
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace Reward",
+        "sections": [
+          {
+            "name": "Pendant of Power",
+            "hosted_item": "power",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_power_ep"]
+          },
+          {
+            "name": "Pendant of Wisdom",
+            "hosted_item": "wisdom",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_wisdom_ep"]
+          },
+          {
+            "name": "Pendant of Courage",
+            "hosted_item": "courage",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_courage_ep"]
+          },
+          {
+            "name": "Gulley",
+            "hosted_item": "gulley",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_gulley_ep"]
+          },
+          {
+            "name": "Oren",
+            "hosted_item": "oren",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_oren_ep"]
+          },
+          {
+            "name": "Seres",
+            "hosted_item": "seres",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_seres_ep"]
+          },
+          {
+            "name": "Osfala",
+            "hosted_item": "osfala",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_osfala_ep"]
+          },
+          {
+            "name": "Impa",
+            "hosted_item": "impa",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_impa_ep"]
+          },
+          {
+            "name": "Irene",
+            "hosted_item": "irene",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_irene_ep"]
+          },
+          {
+            "name": "Rosso",
+            "hosted_item": "rosso",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_rosso_ep"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 89,
+            "y": 130.5,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "sections": [
+          {
+            "name": "(1F) Merge Chest",
+            "hosted_item": "ep_chest_01",
+            "access_rules": ["merge"]
+          },
+          {
+            "name": "(1F) Left Door Chest",
+            "hosted_item": "ep_chest_02",
+            "access_rules": [
+              "{csmc}",
+              "bow",
+              "hookshot",
+              "boomerang",
+              "bombs",
+              "great_spin, fsword",
+              "niceirod",
+              "[hard]"
+            ]
+          },
+          {
+            "name": "(1F) Popo Room",
+            "hosted_item": "ep_chest_03",
+            "access_rules": ["$attack"]
+          },
+          {
+            "name": "(1F) Secret Room",
+            "hosted_item": "ep_chest_04",
+            "access_rules": ["$attack"]
+          },
+          {
+            "name": "(1F) Switch Room",
+            "hosted_item": "ep_chest_05",
+            "access_rules": [
+              "{csmc}",
+              "bow",
+              "boomerang",
+              "hookshot",
+              "bombs",
+              "great_spin, fsword",
+              "[hard], irod",
+              "[hard], msword"
+            ]
+          },
+          {
+            "name": "(2F) Ball Room",
+            "hosted_item": "ep_chest_06",
+            "access_rules": ["$ep_small_keys|1, $attack"]
+          },
+          {
+            "name": "(2F) Defeat Popos",
+            "hosted_item": "ep_chest_07",
+            "access_rules": ["$ep_small_keys|1, $attack"]
+          },
+          {
+            "name": "(2F) Switch Room",
+            "hosted_item": "ep_chest_08",
+            "access_rules": [
+              "$ep_small_keys|1, bow",
+              "$ep_small_keys|1, bombs",
+              "$ep_small_keys|1, irod",
+              "$ep_small_keys|1, $attack, boomerang",
+              "$ep_small_keys|1, $attack, hookshot",
+              "$ep_small_keys|1, great_spin, fsword",
+              // You can use 4 of the 6 pots
+              "[hard], $ep_small_keys|1, $attack"
+            ]
+          },
+          {
+            "name": "(2F) Big Chest",
+            "hosted_item": "ep_chest_09",
+            "access_rules": [
+              "$ep_small_keys|2, $attack",
+              "[advanced], $ep_small_keys|1, trod"
+            ]
+          },
+          {
+            "name": "Yuga",
+            "hosted_item": "ep_chest_10_11",
+            "access_rules": ["$yuga_eastern"]
+          },
+          {
+            "name": "(3F) Escape Chest",
+            "hosted_item": "ep_chest_12",
+            "access_rules": ["$yuga_eastern, merge"]
+          },
+          {
+            "name": "(1F) Escape Chest",
+            "capture_item": true,
+            "hosted_item": "ep_chest_13",
+            "access_rules": ["$yuga_eastern, merge"]
+          },
+
+          {
+            "name": "Pendant of Power",
+            "hosted_item": "power",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_power_ep"]
+          },
+          {
+            "name": "Pendant of Wisdom",
+            "hosted_item": "wisdom",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_wisdom_ep"]
+          },
+          {
+            "name": "Pendant of Courage",
+            "hosted_item": "courage",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_courage_ep"]
+          },
+          {
+            "name": "Gulley",
+            "hosted_item": "gulley",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_gulley_ep"]
+          },
+          {
+            "name": "Oren",
+            "hosted_item": "oren",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_oren_ep"]
+          },
+          {
+            "name": "Seres",
+            "hosted_item": "seres",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_seres_ep"]
+          },
+          {
+            "name": "Osfala",
+            "hosted_item": "osfala",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_osfala_ep"]
+          },
+          {
+            "name": "Impa",
+            "hosted_item": "impa",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_impa_ep"]
+          },
+          {
+            "name": "Irene",
+            "hosted_item": "irene",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_irene_ep"]
+          },
+          {
+            "name": "Rosso",
+            "hosted_item": "rosso",
+            "access_rules": ["$yuga_eastern"],
+            "visibility_rules": ["label_rosso_ep"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1921,
+            "y": 820
+          }
+        ]
+      }
+    ]
+  }
+]

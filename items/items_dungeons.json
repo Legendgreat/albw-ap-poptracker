@@ -1,0 +1,335 @@
+[
+  // Eastern Palace
+  {
+    "name": "Eastern Palace Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // House of Gales
+  {
+    "name": "House of Gales Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "hg,gales"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Tower of Hera
+  {
+    "name": "Tower of Hera Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "th,hera"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "th,hera,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "th,hera,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Dark Palace
+  {
+    "name": "Dark Palace Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "pd,dark"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Swamp Palace
+  {
+    "name": "Swamp Palace Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "ep,swamp"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "ep,swamp,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "ep,swamp,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Skull Woods
+  {
+    "name": "Skull Woods Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "sw,skull"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Thieves' Hideout
+  {
+    "name": "Thieves' Hideout Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Turtle Rock
+  {
+    "name": "Turtle Rock Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Desert Palace
+  {
+    "name": "Desert Palace Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "dp,desert"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Ice Ruins
+  {
+    "name": "Ice Ruins Reward",
+    "type": "progressive_toggle",
+    "capturable": false,
+    "stages": [
+      {
+        "img": "images/prizes/unknown.png",
+        "inherit_codes": false,
+        "codes": "ir,ice"
+      },
+      {
+        "img": "images/prizes/sage_rainbow.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,sage",
+        "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/pendant.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,pendant",
+        "secondary_codes": "pendant"
+      }
+    ]
+  },
+
+  // Pendants
+  {
+    "name": "Pendant of Power",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/pendant_power.png",
+    "codes": "pendant, power"
+  },
+  {
+    "name": "Pendant of Wisdom",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/pendant_wisdom.png",
+    "codes": "pendant, wisdom"
+  },
+  {
+    "name": "Pendant of Courage",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/pendant_courage.png",
+    "codes": "pendant, courage"
+  },
+
+  // Sages
+  {
+    "name": "Sage Gulley",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_gulley.png",
+    "codes": "sage, gulley"
+  },
+  {
+    "name": "Sage Oren",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_oren.png",
+    "codes": "sage, oren"
+  },
+  {
+    "name": "Sage Seres",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_seres.png",
+    "codes": "sage, seres"
+  },
+  {
+    "name": "Sage Osfala",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_osfala.png",
+    "codes": "sage, osfala"
+  },
+  {
+    "name": "Sage Impa",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_impa.png",
+    "codes": "sage, impa"
+  },
+  {
+    "name": "Sage Irene",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_irene.png",
+    "codes": "sage, irene"
+  },
+  {
+    "name": "Sage Rosso",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_rosso.png",
+    "codes": "sage, rosso"
+  }
+]
