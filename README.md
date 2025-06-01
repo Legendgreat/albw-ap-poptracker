@@ -4,6 +4,8 @@
 
 This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking items and checks in The Legend of Zelda: A Link Between Worlds Randomizer runs.
 
+
+
 ## Description
 
 
@@ -13,6 +15,8 @@ Doing my own runs I noticed a lack of an up-to-date autotracker for this game. T
 That said, please share any issues with the pack you might come across. If you do, please make an issue on the GitHub repo.
 
 The tracker's logic is based on [z17-randomizer](https://github.com/rickfay/z17-randomizer) made by RickWithAnH.
+
+
 
 ## Getting Started
 
@@ -187,6 +191,8 @@ Checks requiring the Bee Boost glitch are hidden by default given the trick's ex
 
 This setting toggles the visibility of the Maiamai checks.
 
+
+
 ### Hot Keys
 
 [](https://github.com/rickfay/ALBW-Randomizer-Tracker/tree/master#hot-keys)
@@ -202,11 +208,15 @@ You can use these in any PopTracker package, including this one.
 |F11|Ctrl + H|Toggle visibility of cleared and inaccessible map locations.|
 |Ctrl + P|n/a|Toggle between mixed and split colors for map locations.|
 
+
+
 ## Help
 
 
 
 I'll fill this up once I have some feedback.
+
+
 
 ## Authors
 
@@ -214,6 +224,8 @@ I'll fill this up once I have some feedback.
 Author: [Legend](https://github.com/Legendgreat)
 
 Discord: legendgreat
+
+
 
 ## Version History
 
@@ -223,11 +235,15 @@ Discord: legendgreat
     - Initial Release
     - Changes from arborelia's version include refactoring of the location files, adding proper tracking for locations, tracking dungeon keys and items, and minor adjustments to the layouts, as well as merging it with the latest version of RickWithAnH's tracker.
 
+
+
 ## License
 
 
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+
 
 ## Acknowledgments
 
