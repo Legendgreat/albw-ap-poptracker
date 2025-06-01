@@ -212,6 +212,7 @@ I'll fill this up once I have some feedback.
 
 
 Author: [Legend](https://github.com/Legendgreat)
+
 Discord: legendgreat
 
 ## Version History
