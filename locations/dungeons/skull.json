@@ -19,7 +19,7 @@
           {
             "name": "Chest",
             "capture_item": true,
-            "hosted_item": "sw_chest_01",
+            "hosted_item": "sw_b1_south_chest",
             "access_rules": ["$lampless"]
           }
         ]
@@ -36,7 +36,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sw_chest_03",
+            "hosted_item": "sw_b1_gibdo_room_lower",
             "access_rules": ["$lampless"]
           }
         ]
@@ -53,7 +53,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sw_chest_02",
+            "hosted_item": "sw_b1_gibdo_room_hole",
             "access_rules": ["$sw_small_keys|1, $lampless"]
           }
         ]
@@ -70,7 +70,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sw_chest_04",
+            "hosted_item": "sw_b1_grate_room",
             "access_rules": [
               "$sw_small_keys|1, $lampless, progression_enemies",
               "$sw_small_keys|1, $lampless, bombs",
@@ -91,7 +91,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sw_chest_05",
+            "hosted_item": "sw_b2_moving_platform_room",
             "access_rules": [
               "$sw_small_keys|2, $lampless, merge, bombs",
               "$sw_small_keys|2, $lampless, merge, hammer",
@@ -117,7 +117,7 @@
             "chest_unopened_img": "images/chest_big_unopened.png",
             "chest_opened_img": "images/chest_big_opened.png",
             "capture_item": true,
-            "hosted_item": "sw_chest_08",
+            "hosted_item": "sw_b1_big_chest_eyes",
             "access_rules": [
               "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
               "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
@@ -139,7 +139,7 @@
             "name": "Chest",
             "chest_unopened_img": "images/chest_big_unopened.png",
             "chest_opened_img": "images/chest_big_opened.png",
-            "hosted_item": "sw_chest_07",
+            "hosted_item": "sw_b1_big_chest_upper",
             "access_rules": [
               "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
               "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
@@ -164,7 +164,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sw_chest_06",
+            "hosted_item": "sw_outdoor_chest",
             "access_rules": [
               "{csmc}",
               "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
@@ -186,7 +186,7 @@
           {
             "name": "Heart Container",
             //"capture_item": true,
-            "hosted_item": "sw_chest_09",
+            "hosted_item": "sw_knucklemaster",
             "access_rules": [
               "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
               "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster"
@@ -360,22 +360,22 @@
           {
             "name": "(B1) South Chest",
             "capture_item": true,
-            "hosted_item": "sw_chest_01",
+            "hosted_item": "sw_b1_south_chest",
             "access_rules": ["$lampless"]
           },
           {
             "name": "(B1) Gibdo Room (Lower)",
-            "hosted_item": "sw_chest_03",
+            "hosted_item": "sw_b1_gibdo_room_lower",
             "access_rules": ["$lampless"]
           },
           {
             "name": "(B1) Gibdo Room (Hole)",
-            "hosted_item": "sw_chest_02",
+            "hosted_item": "sw_b1_gibdo_room_hole",
             "access_rules": ["$sw_small_keys|1, $lampless"]
           },
           {
             "name": "(B1) Grate Room",
-            "hosted_item": "sw_chest_04",
+            "hosted_item": "sw_b1_grate_room",
             "access_rules": [
               "$sw_small_keys|1, $lampless, progression_enemies",
               "$sw_small_keys|1, $lampless, bombs",
@@ -384,7 +384,7 @@
           },
           {
             "name": "(B2) Moving Platform Room",
-            "hosted_item": "sw_chest_05",
+            "hosted_item": "sw_b2_moving_platform_room",
             "access_rules": [
               "$sw_small_keys|2, $lampless, merge, bombs",
               "$sw_small_keys|2, $lampless, merge, hammer",
@@ -395,7 +395,7 @@
           },
           {
             "name": "Outdoor Chest",
-            "hosted_item": "sw_chest_06",
+            "hosted_item": "sw_outdoor_chest",
             "access_rules": [
               "{csmc}",
               "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
@@ -407,7 +407,7 @@
             "chest_unopened_img": "images/chest_big_unopened.png",
             "chest_opened_img": "images/chest_big_opened.png",
             "capture_item": true,
-            "hosted_item": "sw_chest_08",
+            "hosted_item": "sw_b1_big_chest_eyes",
             "access_rules": [
               "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
               "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
@@ -417,7 +417,7 @@
             "name": "(B1) Big Chest (Upper)",
             "chest_unopened_img": "images/chest_big_unopened.png",
             "chest_opened_img": "images/chest_big_opened.png",
-            "hosted_item": "sw_chest_07",
+            "hosted_item": "sw_b1_big_chest_upper",
             "access_rules": [
               "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
               "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
@@ -426,7 +426,7 @@
           {
             "name": "Knucklemaster",
             //"capture_item": true,
-            "hosted_item": "sw_chest_09",
+            "hosted_item": "sw_knucklemaster",
             "access_rules": [
               "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
               "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster"

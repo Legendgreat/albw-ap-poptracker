@@ -23,7 +23,7 @@
           {
             "name": "Chest",
             //"capture_item": true,
-            "hosted_item": "sp_chest_01"
+            "hosted_item": "sp_b1_waterfall_room"
           }
         ]
       },
@@ -40,7 +40,7 @@
           {
             "name": "Chest",
             //"capture_item": true,
-            "hosted_item": "sp_chest_02"
+            "hosted_item": "sp_b1_raft_room_pillar"
           }
         ]
       },
@@ -56,7 +56,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sp_chest_03"
+            "hosted_item": "sp_b1_center"
           }
         ]
       },
@@ -72,7 +72,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sp_chest_04"
+            "hosted_item": "sp_b1_raft_room_right"
           }
         ]
       },
@@ -88,7 +88,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sp_chest_05"
+            "hosted_item": "sp_b1_raft_room_left"
           }
         ]
       },
@@ -104,7 +104,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "sp_chest_06"
+            "hosted_item": "sp_b1_gyorm"
           }
         ]
       },
@@ -131,7 +131,7 @@
               "[], $sp_small_keys|1, [not_nice_mode], irod, $progression_enemies_floor"
             ],
             "capture_item": true,
-            "hosted_item": "sp_chest_07"
+            "hosted_item": "sp_b1_big_chest_secret"
           }
         ]
       },
@@ -157,7 +157,7 @@
               "[glitched], boots",
               "[advanced], [not_nice_mode], irod"
             ],
-            "hosted_item": "sp_chest_08"
+            "hosted_item": "sp_1f_big_chest_fire"
           }
         ]
       },
@@ -179,7 +179,7 @@
               "[], merge, boots, $sp_small_keys|1",
               "[advanced], [not_nice_mode], irod"
             ],
-            "hosted_item": "sp_chest_09"
+            "hosted_item": "sp_1f_west_room"
           }
         ]
       },
@@ -201,7 +201,7 @@
               "[], merge, boots, $sp_small_keys|1",
               "[advanced], [not_nice_mode], irod"
             ],
-            "hosted_item": "sp_chest_10"
+            "hosted_item": "sp_1f_east_room"
           }
         ]
       },
@@ -223,7 +223,7 @@
               "[], merge, boots, $sp_small_keys|1",
               "[advanced], [not_nice_mode], irod"
             ],
-            "hosted_item": "sp_chest_11"
+            "hosted_item": "sp_1f_water_puzzle"
           }
         ]
       },
@@ -256,7 +256,7 @@
               {
                 "name": "Heart Container",
                 //"capture_item": true,
-                "hosted_item": "sp_chest_12"
+                "hosted_item": "sp_arrghus"
               }
             ]
           },
@@ -338,28 +338,28 @@
           {
             "name": "(B1) Waterfall Room",
             //"capture_item": true,
-            "hosted_item": "sp_chest_01"
+            "hosted_item": "sp_b1_waterfall_room"
           },
           {
             "name": "(B1) Center",
-            "hosted_item": "sp_chest_03"
+            "hosted_item": "sp_b1_center"
           },
           {
             "name": "(B1) Raft Room (Left)",
-            "hosted_item": "sp_chest_05"
+            "hosted_item": "sp_b1_raft_room_left"
           },
           {
             "name": "(B1) Gyorm",
-            "hosted_item": "sp_chest_06"
+            "hosted_item": "sp_b1_gyorm"
           },
           {
             "name": "(B1) Raft Room (Right)",
-            "hosted_item": "sp_chest_04"
+            "hosted_item": "sp_b1_raft_room_right"
           },
           {
             "name": "(B1) Raft Room (Pillar)",
             //"capture_item": true,
-            "hosted_item": "sp_chest_02"
+            "hosted_item": "sp_b1_raft_room_pillar"
           },
           {
             "name": "(B1) Big Chest (Secret)",
@@ -374,7 +374,7 @@
               "[], $sp_small_keys|1, [not_nice_mode], irod, $progression_enemies_floor"
             ],
             "capture_item": true,
-            "hosted_item": "sp_chest_07"
+            "hosted_item": "sp_b1_big_chest_secret"
           },
           {
             "name": "(1F) Water Puzzle",
@@ -384,7 +384,7 @@
               "[], merge, boots, $sp_small_keys|1",
               "[advanced], [not_nice_mode], irod"
             ],
-            "hosted_item": "sp_chest_11"
+            "hosted_item": "sp_1f_water_puzzle"
           },
           {
             "name": "(1F) West Room",
@@ -394,7 +394,7 @@
               "[], merge, boots, $sp_small_keys|1",
               "[advanced], [not_nice_mode], irod"
             ],
-            "hosted_item": "sp_chest_09"
+            "hosted_item": "sp_1f_west_room"
           },
           {
             "name": "(1F) East Room",
@@ -404,7 +404,7 @@
               "[], merge, boots, $sp_small_keys|1",
               "[advanced], [not_nice_mode], irod"
             ],
-            "hosted_item": "sp_chest_10"
+            "hosted_item": "sp_1f_east_room"
           },
           {
             "name": "(1F) Big Chest (Fire)",
@@ -418,7 +418,7 @@
               "[glitched], boots",
               "[advanced], [not_nice_mode], irod"
             ],
-            "hosted_item": "sp_chest_08"
+            "hosted_item": "sp_1f_big_chest_fire"
           },
           {
             "name": "Arrghus",
@@ -436,7 +436,7 @@
               "[], merge, progression_enemies, $attack, $sp_small_keys|3, $sp_big_key"
             ],
             //"capture_item": true,
-            "hosted_item": "sp_chest_12"
+            "hosted_item": "sp_arrghus"
           },
           {
             "name": "Pendant of Power",

@@ -22,7 +22,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "th_chest_01"
+            "hosted_item": "tt_b1_grate_chest"
           }
         ]
       },
@@ -44,7 +44,7 @@
               "[glitched], boots",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_02"
+            "hosted_item": "tt_b1_jail_cell"
           }
         ]
       },
@@ -60,7 +60,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "th_chest_03",
+            "hosted_item": "tt_b2_grate_chest_fall",
             "access_rules": [
               "$thB1DoorOpen",
               "[advanced], $adv_th_statue_clip",
@@ -86,7 +86,7 @@
               "[advanced], $switch",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_04"
+            "hosted_item": "tt_b2_jail_cell"
           }
         ]
       },
@@ -116,7 +116,7 @@
               "[advanced], $adv_th_statue_clip, trod"
             ],
             "capture_item": true,
-            "hosted_item": "th_chest_05"
+            "hosted_item": "tt_b2_eyegores"
           }
         ]
       },
@@ -132,7 +132,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "th_chest_06",
+            "hosted_item": "tt_b2_switch_puzzle_room",
             "access_rules": [
               "$thB1B2DoorsOpen",
               "[advanced], $adv_th_statue_clip",
@@ -162,7 +162,7 @@
               "[advanced], $adv_th_statue_clip, trod",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_07"
+            "hosted_item": "tt_b3_underwater"
           }
         ]
       },
@@ -179,7 +179,7 @@
           {
             "name": "Chest",
             "capture_item": true,
-            "hosted_item": "th_chest_08",
+            "hosted_item": "tt_b3_big_chest_hidden",
             "access_rules": [
               "$thEscapeEquipment, $attack",
               "[advanced], $adv_th_statue_clip, trod",
@@ -207,7 +207,7 @@
               "[advanced], $adv_th_statue_clip, trod",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_09"
+            "hosted_item": "tt_b1_behind_wall"
           }
         ]
       },
@@ -229,7 +229,7 @@
               "[advanced], $adv_th_statue_clip, trod",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_10"
+            "hosted_item": "tt_b1_big_chest_entrance"
           }
         ]
       },
@@ -252,7 +252,7 @@
               "[hell], $tt_big_key, $tt_small_key, $hell_th_statue_clip, trod, $attack"
             ],
             //"capture_item": true,
-            "hosted_item": "th_chest_11"
+            "hosted_item": "tt_stalblind"
           }
         ]
       },
@@ -381,7 +381,7 @@
         "sections": [
           {
             "name": "(B1) Grate Chest",
-            "hosted_item": "th_chest_01"
+            "hosted_item": "tt_b1_grate_chest"
           },
           {
             "name": "(B1) Jail Cell",
@@ -391,11 +391,11 @@
               "[glitched], boots",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_02"
+            "hosted_item": "tt_b1_jail_cell"
           },
           {
             "name": "(B2) Grate Chest (Fall)",
-            "hosted_item": "th_chest_03",
+            "hosted_item": "tt_b2_grate_chest_fall",
             "access_rules": [
               "$thB1DoorOpen",
               "[advanced], $adv_th_statue_clip",
@@ -409,7 +409,7 @@
               "[advanced], $switch",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_04"
+            "hosted_item": "tt_b2_jail_cell"
           },
           {
             "name": "(B2) Eyegores",
@@ -427,11 +427,11 @@
               "[advanced], $adv_th_statue_clip, trod"
             ],
             "capture_item": true,
-            "hosted_item": "th_chest_05"
+            "hosted_item": "tt_b2_eyegores"
           },
           {
             "name": "(B2) Switch Puzzle Room",
-            "hosted_item": "th_chest_06",
+            "hosted_item": "tt_b2_switch_puzzle_room",
             "access_rules": [
               "$thB1B2DoorsOpen",
               "[advanced], $adv_th_statue_clip",
@@ -449,12 +449,12 @@
               "[advanced], $adv_th_statue_clip, trod",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_07"
+            "hosted_item": "tt_b3_underwater"
           },
           {
             "name": "(B3) Big Chest (Hidden)",
             "capture_item": true,
-            "hosted_item": "th_chest_08",
+            "hosted_item": "tt_b3_big_chest_hidden",
             "access_rules": [
               "$thEscapeEquipment, $attack",
               "[advanced], $adv_th_statue_clip, trod",
@@ -470,7 +470,7 @@
               "[advanced], $adv_th_statue_clip, trod",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_09"
+            "hosted_item": "tt_b1_behind_wall"
           },
           {
             "name": "(B1) Big Chest (Entrance)",
@@ -480,7 +480,7 @@
               "[advanced], $adv_th_statue_clip, trod",
               "[hell], $hell_th_statue_clip, trod"
             ],
-            "hosted_item": "th_chest_10"
+            "hosted_item": "tt_b1_big_chest_entrance"
           },
           {
             "name": "Stalblind",
@@ -491,7 +491,7 @@
               "[hell], $tt_big_key, $tt_small_key, $hell_th_statue_clip, trod, $attack"
             ],
             //"capture_item": true,
-            "hosted_item": "th_chest_11"
+            "hosted_item": "tt_stalblind"
           },
           {
             "name": "Pendant of Power",

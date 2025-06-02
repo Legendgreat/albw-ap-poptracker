@@ -24,7 +24,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "toh_chest_01",
+            "hosted_item": "th_1f_outside",
             "access_rules": ["merge", "[advanced], fsword, bombs, trod"]
           }
         ]
@@ -41,7 +41,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "toh_chest_02",
+            "hosted_item": "toh_cheth_1f_centerst_02",
             "access_rules": ["merge", "[advanced], fsword, bombs"]
           }
         ]
@@ -59,7 +59,7 @@
           {
             "name": "Chest",
             //"capture_item": true,
-            "hosted_item": "toh_chest_03",
+            "hosted_item": "th_3f_platform",
             "access_rules": ["merge", "[advanced], fsword, bombs"]
           }
         ]
@@ -76,7 +76,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "toh_chest_04",
+            "hosted_item": "th_5f_red_blue_switches",
             "access_rules": [
               "merge, $th_small_keys|1",
               "[advanced], merge, bombs, trod",
@@ -98,7 +98,7 @@
           {
             "name": "Chest",
             //"capture_item": true,
-            "hosted_item": "toh_chest_05",
+            "hosted_item": "th_6f_left_mole",
             "access_rules": [
               "merge, $th_small_keys|1",
               "[advanced], merge, bombs, trod",
@@ -119,7 +119,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "toh_chest_06",
+            "hosted_item": "th_6f_right_mole",
             "access_rules": [
               "merge, $th_small_keys|1",
               "[advanced], merge, bombs, trod",
@@ -140,7 +140,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "toh_chest_07",
+            "hosted_item": "th_7f_outside_ledge",
             "access_rules": [
               "merge, $th_small_keys|2",
               "[advanced], merge, bombs, trod",
@@ -162,7 +162,7 @@
           {
             "name": "Chest",
             "capture_item": true,
-            "hosted_item": "toh_chest_08",
+            "hosted_item": "th_8f_fairy_room",
             "access_rules": [
               "merge, $th_small_keys|2",
               "[advanced], merge, bombs, trod",
@@ -185,7 +185,7 @@
             "name": "Chest",
             "chest_unopened_img": "images/chest_big_unopened.png",
             "chest_opened_img": "images/chest_big_opened.png",
-            "hosted_item": "toh_chest_09",
+            "hosted_item": "th_11f_big_chest",
             "access_rules": [
               "merge, $th_small_keys|2",
               "[advanced], merge, bombs, trod",
@@ -207,7 +207,7 @@
           {
             "name": "Heart Container",
             //"capture_item": true,
-            "hosted_item": "toh_chest_10",
+            "hosted_item": "th_moldorm",
             "access_rules": [
               "merge, $th_small_keys|2, $th_big_key",
               "[advanced], merge, bombs, trod, $th_big_key",
@@ -342,23 +342,23 @@
         "sections": [
           {
             "name": "(1F) Outside",
-            "hosted_item": "toh_chest_01",
+            "hosted_item": "th_1f_outside",
             "access_rules": ["merge", "[advanced], fsword, bombs, trod"]
           },
           {
             "name": "(1F) Center",
-            "hosted_item": "toh_chest_02",
+            "hosted_item": "th_1f_center",
             "access_rules": ["merge", "[advanced], fsword, bombs"]
           },
           {
             "name": "(3F) Platform",
             //"capture_item": true,
-            "hosted_item": "toh_chest_03",
+            "hosted_item": "th_3f_platform",
             "access_rules": ["merge", "[advanced], fsword, bombs"]
           },
           {
             "name": "(5F) Red/Blue Switches",
-            "hosted_item": "toh_chest_04",
+            "hosted_item": "th_5f_red_blue_switches",
             "access_rules": [
               "merge, $th_small_keys|1",
               "[advanced], merge, bombs, trod",
@@ -368,7 +368,7 @@
           {
             "name": "(6F) Left Mole",
             //"capture_item": true,
-            "hosted_item": "toh_chest_05",
+            "hosted_item": "th_6f_left_mole",
             "access_rules": [
               "merge, $th_small_keys|1",
               "[advanced], merge, bombs, trod",
@@ -377,7 +377,7 @@
           },
           {
             "name": "(6F) Right Mole",
-            "hosted_item": "toh_chest_06",
+            "hosted_item": "th_6f_right_mole",
             "access_rules": [
               "merge, $th_small_keys|1",
               "[advanced], merge, bombs, trod",
@@ -386,7 +386,7 @@
           },
           {
             "name": "(7F) Outside (Ledge)",
-            "hosted_item": "toh_chest_07",
+            "hosted_item": "th_7f_outside_ledge",
             "access_rules": [
               "merge, $th_small_keys|2",
               "[advanced], merge, bombs, trod",
@@ -396,7 +396,7 @@
           {
             "name": "(8F) Fairy Room",
             "capture_item": true,
-            "hosted_item": "toh_chest_08",
+            "hosted_item": "th_8f_fairy_room",
             "access_rules": [
               "merge, $th_small_keys|2",
               "[advanced], merge, bombs, trod",
@@ -407,7 +407,7 @@
             "name": "(11F) Big Chest",
             "chest_unopened_img": "images/chest_big_unopened.png",
             "chest_opened_img": "images/chest_big_opened.png",
-            "hosted_item": "toh_chest_09",
+            "hosted_item": "th_11f_big_chest",
             "access_rules": [
               "merge, $th_small_keys|2",
               "[advanced], merge, bombs, trod",
@@ -417,7 +417,7 @@
           {
             "name": "Moldorm",
             //"capture_item": true,
-            "hosted_item": "toh_chest_10",
+            "hosted_item": "th_moldorm",
             "access_rules": [
               "merge, $th_small_keys|2, $th_big_key",
               "[advanced], merge, bombs, trod, $th_big_key",

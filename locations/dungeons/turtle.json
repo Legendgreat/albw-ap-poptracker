@@ -17,7 +17,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "tr_chest_01",
+            "hosted_item": "tr_1f_center",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -38,7 +38,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "tr_chest_02",
+            "hosted_item": "tr_1f_defeat_flamolas",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -60,7 +60,7 @@
           {
             "name": "Chest",
             //"capture_item": true,
-            "hosted_item": "tr_chest_03",
+            "hosted_item": "tr_1f_northeast_ledge",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -81,7 +81,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "tr_chest_04",
+            "hosted_item": "tr_1f_grate_chest",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -102,7 +102,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "tr_chest_05",
+            "hosted_item": "tr_1f_southeast_chest",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -124,7 +124,7 @@
           {
             "name": "Chest",
             //"capture_item": true,
-            "hosted_item": "tr_chest_06",
+            "hosted_item": "tr_1f_northwest_room",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -157,7 +157,7 @@
               "[hell], $hell_enterTR"
             ],
             //"capture_item": true,
-            "hosted_item": "tr_chest_07"
+            "hosted_item": "tr_left_balcony"
           }
         ]
       },
@@ -173,7 +173,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "tr_chest_08",
+            "hosted_item": "tr_b1_grate_chest_small",
             "access_rules": [
               "$enterTR, $tr_small_keys|1",
               "[advanced], $advanced_enterTR, $tr_small_keys|1",
@@ -194,7 +194,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "tr_chest_09",
+            "hosted_item": "tr_b1_big_chest_top",
             "access_rules": [
               "$enterTR, $shielded_switch",
               "[hard], $enterTR",
@@ -217,7 +217,7 @@
           {
             "name": "Chest",
             "capture_item": true,
-            "hosted_item": "tr_chest_10",
+            "hosted_item": "tr_b1_big_chest_center",
             "access_rules": [
               "$enterTR, $shielded_switch",
               "[hard], $enterTR",
@@ -240,7 +240,7 @@
           {
             "name": "Chest",
             //"capture_item": true,
-            "hosted_item": "tr_chest_11",
+            "hosted_item": "tr_b1_northeast_room",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -261,7 +261,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "tr_chest_12",
+            "hosted_item": "tr_b1_platform",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -289,7 +289,7 @@
               "[hell], $hell_enterTR, trod, bombs"
             ],
             //"capture_item": true,
-            "hosted_item": "tr_chest_13"
+            "hosted_item": "tr_grinexx"
           }
         ]
       },
@@ -428,7 +428,7 @@
         "sections": [
           {
             "name": "(1F) Southeast Chest",
-            "hosted_item": "tr_chest_05",
+            "hosted_item": "tr_1f_southeast_chest",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -437,7 +437,7 @@
           },
           {
             "name": "(1F) Center",
-            "hosted_item": "tr_chest_01",
+            "hosted_item": "tr_1f_center",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -446,7 +446,7 @@
           },
           {
             "name": "(1F) Defeat Flamolas",
-            "hosted_item": "tr_chest_02",
+            "hosted_item": "tr_1f_defeat_flamolas",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -462,12 +462,12 @@
               "[hell], $hell_enterTR"
             ],
             //"capture_item": true,
-            "hosted_item": "tr_chest_07"
+            "hosted_item": "tr_left_balcony"
           },
           {
             "name": "(1F) Northwest Room",
             //"capture_item": true,
-            "hosted_item": "tr_chest_06",
+            "hosted_item": "tr_1f_northwest_room",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -477,7 +477,7 @@
           {
             "name": "(1F) Northeast Ledge",
             //"capture_item": true,
-            "hosted_item": "tr_chest_03",
+            "hosted_item": "tr_1f_northeast_ledge",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -486,7 +486,7 @@
           },
           {
             "name": "(1F) Grate Chest",
-            "hosted_item": "tr_chest_04",
+            "hosted_item": "tr_1f_grate_chest",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -496,7 +496,7 @@
           {
             "name": "(B1) Northeast Room",
             //"capture_item": true,
-            "hosted_item": "tr_chest_11",
+            "hosted_item": "tr_b1_northeast_room",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -505,7 +505,7 @@
           },
           {
             "name": "(B1) Grate Chest (Small)",
-            "hosted_item": "tr_chest_08",
+            "hosted_item": "tr_b1_grate_chest_small",
             "access_rules": [
               "$enterTR, $tr_small_keys|1",
               "[advanced], $advanced_enterTR, $tr_small_keys|1",
@@ -514,7 +514,7 @@
           },
           {
             "name": "(B1) Big Chest (Top)",
-            "hosted_item": "tr_chest_09",
+            "hosted_item": "tr_b1_big_chest_top",
             "access_rules": [
               "$enterTR, $shielded_switch",
               "[hard], $enterTR",
@@ -525,7 +525,7 @@
           {
             "name": "(B1) Big Chest (Center)",
             "capture_item": true,
-            "hosted_item": "tr_chest_10",
+            "hosted_item": "tr_b1_big_chest_center",
             "access_rules": [
               "$enterTR, $shielded_switch",
               "[hard], $enterTR",
@@ -535,7 +535,7 @@
           },
           {
             "name": "(B1) Platform",
-            "hosted_item": "tr_chest_12",
+            "hosted_item": "tr_b1_platform",
             "access_rules": [
               "$enterTR",
               "[advanced], $advanced_enterTR",
@@ -551,7 +551,7 @@
               "[hell], $hell_enterTR, trod, bombs"
             ],
             //"capture_item": true,
-            "hosted_item": "tr_chest_13"
+            "hosted_item": "tr_grinexx"
           },
           {
             "name": "Pendant of Power",

@@ -29,7 +29,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_01",
+            "hosted_item": "ep_1f_merge_chest",
             "access_rules": ["merge"]
           }
         ]
@@ -46,7 +46,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_02",
+            "hosted_item": "ep_1f_left_door_chest",
             "access_rules": [
               "{csmc}",
               "bow",
@@ -72,7 +72,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_03",
+            "hosted_item": "ep_1f_popo_room",
             "access_rules": ["$attack"]
           }
         ]
@@ -89,7 +89,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_04",
+            "hosted_item": "ep_1f_secret_room",
             "access_rules": ["$attack"]
           }
         ]
@@ -106,7 +106,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_05",
+            "hosted_item": "ep_1f_switch_room",
             "access_rules": [
               "{csmc}",
               "bow",
@@ -132,7 +132,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_06",
+            "hosted_item": "ep_2f_ball_room",
             "access_rules": ["$ep_small_keys|1, $attack"]
           }
         ]
@@ -149,7 +149,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_07",
+            "hosted_item": "ep_2f_defeat_popos",
             "access_rules": ["$ep_small_keys|1, $attack"]
           }
         ]
@@ -166,7 +166,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_08",
+            "hosted_item": "ep_2f_switch_room",
             "access_rules": [
               "$ep_small_keys|1, bow",
               "$ep_small_keys|1, bombs",
@@ -192,7 +192,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_09",
+            "hosted_item": "ep_2f_big_chest",
             "access_rules": [
               "$ep_small_keys|2, $attack",
               "[advanced], $ep_small_keys|1, trod"
@@ -212,7 +212,7 @@
         "sections": [
           {
             "name": "Yuga Rewards",
-            "hosted_item": "ep_chest_10_11",
+            "hosted_item": "ep_yuga",
             "access_rules": ["$yuga_eastern"]
           }
         ]
@@ -229,7 +229,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ep_chest_12",
+            "hosted_item": "ep_3f_escape_chest",
             "access_rules": ["$yuga_eastern, merge"]
           }
         ]
@@ -247,7 +247,7 @@
           {
             "name": "Chest",
             "capture_item": true,
-            "hosted_item": "ep_chest_13",
+            "hosted_item": "ep_1f_escape_chest",
             "access_rules": ["$yuga_eastern, merge"]
           }
         ]
@@ -330,12 +330,12 @@
         "sections": [
           {
             "name": "(1F) Merge Chest",
-            "hosted_item": "ep_chest_01",
+            "hosted_item": "ep_1f_merge_chest",
             "access_rules": ["merge"]
           },
           {
             "name": "(1F) Left Door Chest",
-            "hosted_item": "ep_chest_02",
+            "hosted_item": "ep_1f_left_door_chest",
             "access_rules": [
               "{csmc}",
               "bow",
@@ -349,17 +349,17 @@
           },
           {
             "name": "(1F) Popo Room",
-            "hosted_item": "ep_chest_03",
+            "hosted_item": "ep_1f_popo_room",
             "access_rules": ["$attack"]
           },
           {
             "name": "(1F) Secret Room",
-            "hosted_item": "ep_chest_04",
+            "hosted_item": "ep_1f_secret_room",
             "access_rules": ["$attack"]
           },
           {
             "name": "(1F) Switch Room",
-            "hosted_item": "ep_chest_05",
+            "hosted_item": "ep_1f_switch_room",
             "access_rules": [
               "{csmc}",
               "bow",
@@ -373,17 +373,17 @@
           },
           {
             "name": "(2F) Ball Room",
-            "hosted_item": "ep_chest_06",
+            "hosted_item": "ep_2f_ball_room",
             "access_rules": ["$ep_small_keys|1, $attack"]
           },
           {
             "name": "(2F) Defeat Popos",
-            "hosted_item": "ep_chest_07",
+            "hosted_item": "ep_2f_defeat_popos",
             "access_rules": ["$ep_small_keys|1, $attack"]
           },
           {
             "name": "(2F) Switch Room",
-            "hosted_item": "ep_chest_08",
+            "hosted_item": "ep_2f_switch_room",
             "access_rules": [
               "$ep_small_keys|1, bow",
               "$ep_small_keys|1, bombs",
@@ -397,7 +397,7 @@
           },
           {
             "name": "(2F) Big Chest",
-            "hosted_item": "ep_chest_09",
+            "hosted_item": "ep_2f_big_chest",
             "access_rules": [
               "$ep_small_keys|2, $attack",
               "[advanced], $ep_small_keys|1, trod"
@@ -405,18 +405,18 @@
           },
           {
             "name": "Yuga",
-            "hosted_item": "ep_chest_10_11",
+            "hosted_item": "ep_yuga",
             "access_rules": ["$yuga_eastern"]
           },
           {
             "name": "(3F) Escape Chest",
-            "hosted_item": "ep_chest_12",
+            "hosted_item": "ep_3f_escape_chest",
             "access_rules": ["$yuga_eastern, merge"]
           },
           {
             "name": "(1F) Escape Chest",
             "capture_item": true,
-            "hosted_item": "ep_chest_13",
+            "hosted_item": "ep_1f_escape_chest",
             "access_rules": ["$yuga_eastern, merge"]
           },
 

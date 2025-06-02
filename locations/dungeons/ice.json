@@ -22,7 +22,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ir_chest_01"
+            "hosted_item": "ir_1f_hidden_chest"
           }
         ]
       },
@@ -40,7 +40,7 @@
             "name": "Chest",
             "access_rules": ["$ir_small_keys|1", "[advanced], boots, trod"],
             //"capture_item": true,
-            "hosted_item": "ir_chest_02"
+            "hosted_item": "ir_b1_narrow_ledge"
           }
         ]
       },
@@ -57,7 +57,7 @@
           {
             "name": "Chest",
             "access_rules": ["$ir_small_keys|1", "[advanced], boots, trod"],
-            "hosted_item": "ir_chest_03"
+            "hosted_item": "ir_b1_east_chest"
           }
         ]
       },
@@ -74,7 +74,7 @@
           {
             "name": "Chest",
             "access_rules": ["$ir_small_keys|2", "[advanced], boots, trod"],
-            "hosted_item": "ir_chest_04"
+            "hosted_item": "ir_b1_upper_chest"
           }
         ]
       },
@@ -91,7 +91,7 @@
           {
             "name": "Chest",
             //"capture_item": true,
-            "hosted_item": "ir_chest_05"
+            "hosted_item": "ir_b2_ice_pillar"
           }
         ]
       },
@@ -108,7 +108,7 @@
           {
             "name": "Chest",
             "capture_item": true,
-            "hosted_item": "ir_chest_06",
+            "hosted_item": "ir_b2_long_merge_chest",
             "access_rules": [
               "{csmc, $ir_small_keys|1}",
               "$ir_small_keys|2, $switch, scroll",
@@ -129,7 +129,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ir_chest_07"
+            "hosted_item": "ir_b3_grate_chest_left"
           }
         ]
       },
@@ -145,7 +145,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ir_chest_08"
+            "hosted_item": "ir_b3_grate_chest_right"
           }
         ]
       },
@@ -161,7 +161,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ir_chest_09",
+            "hosted_item": "ir_b3_big_chest_puzzle",
             "access_rules": ["$ir_small_keys|2, $switch", "[advanced], boots"]
           }
         ]
@@ -178,7 +178,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ir_chest_10",
+            "hosted_item": "ir_b4_switches",
             "access_rules": [
               "$ir_small_keys|2, progression_enemies",
               "$ir_small_keys|2, bombs",
@@ -205,7 +205,7 @@
           {
             "name": "Chest",
             "access_rules": ["$ir_small_keys|2", "[advanced], boots"],
-            "hosted_item": "ir_chest_11"
+            "hosted_item": "ir_b4_southwest_chest_fall"
           }
         ]
       },
@@ -227,7 +227,7 @@
               "[advanced], boots"
             ],
             "capture_item": true,
-            "hosted_item": "ir_chest_12"
+            "hosted_item": "ir_b4_southeast_chest_fall"
           }
         ]
       },
@@ -244,7 +244,7 @@
           {
             "name": "Chest",
             "access_rules": ["$ir_small_keys|2", "[advanced], boots"],
-            "hosted_item": "ir_chest_13"
+            "hosted_item": "ir_b4_narrow_platform"
           }
         ]
       },
@@ -260,7 +260,7 @@
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "ir_chest_14"
+            "hosted_item": "ir_b5_big_chest"
           }
         ]
       },
@@ -281,7 +281,7 @@
               "$ir_small_keys|3, $ir_big_key",
               "[advanced], boots"
             ],
-            "hosted_item": "ir_chest_15"
+            "hosted_item": "ir_dharkstare"
           }
         ]
       },
@@ -400,44 +400,44 @@
         "sections": [
           {
             "name": "(1F) Hidden Chest",
-            "hosted_item": "ir_chest_01"
+            "hosted_item": "ir_1f_hidden_chest"
           },
           {
             "name": "(B2) Ice Pillar",
             //"capture_item": true,
-            "hosted_item": "ir_chest_05"
+            "hosted_item": "ir_b2_ice_pillar"
           },
           {
             "name": "(B3) Grate Chest (Left)",
-            "hosted_item": "ir_chest_07"
+            "hosted_item": "ir_b3_grate_chest_left"
           },
           {
             "name": "(B3) Grate Chest (Right)",
-            "hosted_item": "ir_chest_08"
+            "hosted_item": "ir_b3_grate_chest_right"
           },
           {
             "name": "(B5) Big Chest",
-            "hosted_item": "ir_chest_14"
+            "hosted_item": "ir_b5_big_chest"
           },
           {
             "name": "(B1) East Chest",
             "access_rules": ["$ir_small_keys|1", "[advanced], boots, trod"],
-            "hosted_item": "ir_chest_03"
+            "hosted_item": "ir_b1_east_chest"
           },
           {
             "name": "(B1) Narrow Ledge",
             "access_rules": ["$ir_small_keys|1", "[advanced], boots, trod"],
             //"capture_item": true,
-            "hosted_item": "ir_chest_02"
+            "hosted_item": "ir_b1_narrow_ledge"
           },
           {
             "name": "(B1) Upper Chest",
             "access_rules": ["$ir_small_keys|2", "[advanced], boots, trod"],
-            "hosted_item": "ir_chest_04"
+            "hosted_item": "ir_b1_upper_chest"
           },
           {
             "name": "(B4) Switches",
-            "hosted_item": "ir_chest_10",
+            "hosted_item": "ir_b4_switches",
             "access_rules": [
               "$ir_small_keys|2, progression_enemies",
               "$ir_small_keys|2, bombs",
@@ -452,17 +452,17 @@
           {
             "name": "(B4) Southwest Chest (Fall)",
             "access_rules": ["$ir_small_keys|2", "[advanced], boots"],
-            "hosted_item": "ir_chest_11"
+            "hosted_item": "ir_b4_southwest_chest_fall"
           },
           {
             "name": "(B4) Narrow Platform",
             "access_rules": ["$ir_small_keys|2", "[advanced], boots"],
-            "hosted_item": "ir_chest_13"
+            "hosted_item": "ir_b4_narrow_platform"
           },
           {
             "name": "(B2) Long Merge Chest",
             "capture_item": true,
-            "hosted_item": "ir_chest_06",
+            "hosted_item": "ir_b2_long_merge_chest",
             "access_rules": [
               "{csmc, $ir_small_keys|1}",
               "$ir_small_keys|2, $switch, scroll",
@@ -471,7 +471,7 @@
           },
           {
             "name": "(B3) Big Chest (Puzzle)",
-            "hosted_item": "ir_chest_09",
+            "hosted_item": "ir_b3_big_chest_puzzle",
             "access_rules": ["$ir_small_keys|2, $switch", "[advanced], boots"]
           },
           {
@@ -482,7 +482,7 @@
               "[advanced], boots"
             ],
             "capture_item": true,
-            "hosted_item": "ir_chest_12"
+            "hosted_item": "ir_b4_southeast_chest_fall"
           },
           {
             "name": "Dharkstare",
@@ -491,7 +491,7 @@
               "$ir_small_keys|3, $ir_big_key",
               "[advanced], boots"
             ],
-            "hosted_item": "ir_chest_15"
+            "hosted_item": "ir_dharkstare"
           },
           {
             "name": "Pendant of Power",
