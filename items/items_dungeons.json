@@ -8,72 +8,67 @@
       {
         "img": "images/prizes/unknown.png",
         "inherit_codes": false,
-        "codes": "ep,eastern"
-      },
-      {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "ep,eastern,sage",
-        "secondary_codes": "sage"
+        "codes": "ep, eastern"
       },
       {
         "img": "images/prizes/sage_gulley.png",
         "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "ep,eastern,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "ep, eastern, sage, gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
         "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "ep,eastern,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "ep, eastern,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
         "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "ep,eastern,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "ep,eastern,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
         "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "ep,eastern,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "ep,eastern,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
         "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "ep,eastern,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "ep,eastern,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
         "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "ep,eastern,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "ep,eastern,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
         "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "ep,eastern,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "ep,eastern,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "ep,eastern,pendant",
-        "secondary_codes": "pendant"
+        "codes": "ep,eastern,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,pendant,courage"
       }
     ]
   },
-
   // House of Gales
   {
     "name": "House of Gales Reward",
@@ -86,58 +81,61 @@
         "codes": "hg,gales"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "hg,gales,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "hg,gales,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "hg,gales,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "hg,gales,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "hg,gales,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "hg,gales,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "hg,gales,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "hg,gales,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "hg,gales,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "hg,gales,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "hg,gales,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "hg,gales,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "hg,gales,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "hg,gales,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "hg,gales,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "hg,gales,pendant",
-        "secondary_codes": "pendant"
+        "codes": "hg,gales,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,pendant,courage"
       }
     ]
   },
@@ -154,58 +152,61 @@
         "codes": "th,hera"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "th,hera,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "th,hera,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "th,hera,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "th,hera,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "th,hera,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "th,hera,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "th,hera,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "th,hera,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "th,hera,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "th,hera,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "th,hera,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "th,hera,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "th,hera,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "th,hera,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "th,hera,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "th,hera,pendant",
-        "secondary_codes": "pendant"
+        "codes": "th,hera,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "th,hera,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "th,hera,pendant,courage"
       }
     ]
   },
@@ -222,58 +223,61 @@
         "codes": "pd,dark"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "pd,dark,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "pd,dark,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "pd,dark,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "pd,dark,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "pd,dark,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "pd,dark,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "pd,dark,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "pd,dark,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "pd,dark,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "pd,dark,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "pd,dark,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "pd,dark,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "pd,dark,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "pd,dark,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "pd,dark,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "pd,dark,pendant",
-        "secondary_codes": "pendant"
+        "codes": "pd,dark,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,pendant,courage"
       }
     ]
   },
@@ -290,58 +294,61 @@
         "codes": "sp,swamp"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "sp,swamp,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "sp,swamp,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "sp,swamp,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "sp,swamp,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "sp,swamp,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "sp,swamp,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "sp,swamp,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "sp,swamp,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "sp,swamp,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "sp,swamp,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "sp,swamp,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "sp,swamp,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "sp,swamp,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "sp,swamp,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "sp,swamp,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "sp,swamp,pendant",
-        "secondary_codes": "pendant"
+        "codes": "sp,swamp,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,pendant,courage"
       }
     ]
   },
@@ -358,58 +365,61 @@
         "codes": "sw,skull"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "sw,skull,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "sw,skull,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "sw,skull,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "sw,skull,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "sw,skull,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "sw,skull,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "sw,skull,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "sw,skull,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "sw,skull,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "sw,skull,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "sw,skull,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "sw,skull,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "sw,skull,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "sw,skull,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "sw,skull,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "sw,skull,pendant",
-        "secondary_codes": "pendant"
+        "codes": "sw,skull,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,pendant,courage"
       }
     ]
   },
@@ -426,58 +436,61 @@
         "codes": "tt,thieves"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "tt,thieves,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "tt,thieves,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "tt,thieves,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "tt,thieves,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "tt,thieves,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "tt,thieves,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "tt,thieves,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "tt,thieves,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "tt,thieves,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "tt,thieves,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "tt,thieves,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "tt,thieves,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "tt,thieves,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "tt,thieves,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "tt,thieves,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "tt,thieves,pendant",
-        "secondary_codes": "pendant"
+        "codes": "tt,thieves,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,pendant,courage"
       }
     ]
   },
@@ -494,58 +507,61 @@
         "codes": "tr,turtle"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "tr,turtle,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "tr,turtle,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "tr,turtle,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "tr,turtle,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "tr,turtle,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "tr,turtle,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "tr,turtle,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "tr,turtle,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "tr,turtle,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "tr,turtle,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "tr,turtle,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "tr,turtle,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "tr,turtle,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "tr,turtle,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "tr,turtle,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "tr,turtle,pendant",
-        "secondary_codes": "pendant"
+        "codes": "tr,turtle,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,pendant,courage"
       }
     ]
   },
@@ -562,58 +578,61 @@
         "codes": "dp,desert"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "dp,desert,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "dp,desert,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "dp,desert,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "dp,desert,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "dp,desert,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "dp,desert,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "dp,desert,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "dp,desert,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "dp,desert,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "dp,desert,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "dp,desert,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "dp,desert,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "dp,desert,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "dp,desert,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "dp,desert,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "dp,desert,pendant",
-        "secondary_codes": "pendant"
+        "codes": "dp,desert,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,pendant,courage"
       }
     ]
   },
@@ -630,58 +649,61 @@
         "codes": "ir,ice"
       },
       {
-        "img": "images/prizes/sage_rainbow.png",
-        "inherit_codes": false,
-        "codes": "ir,ice,sage",
-        "secondary_codes": "sage"
-      },
-      {
         "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
         "inherit_codes": false,
-        "codes": "ir,ice,sage,gulley",
-        "secondary_codes": "sage,gulley"
+        "codes": "ir,ice,sage,gulley"
       },
       {
         "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
         "inherit_codes": false,
-        "codes": "ir,ice,sage,oren",
-        "secondary_codes": "sage,oren"
+        "codes": "ir,ice,sage,oren"
       },
       {
         "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
         "inherit_codes": false,
-        "codes": "ir,ice,sage,seres",
-        "secondary_codes": "sage,seres"
+        "codes": "ir,ice,sage,seres"
       },
       {
         "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
         "inherit_codes": false,
-        "codes": "ir,ice,sage,osfala",
-        "secondary_codes": "sage,osfala"
+        "codes": "ir,ice,sage,osfala"
       },
       {
         "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
         "inherit_codes": false,
-        "codes": "ir,ice,sage,impa",
-        "secondary_codes": "sage,impa"
+        "codes": "ir,ice,sage,impa"
       },
       {
         "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
         "inherit_codes": false,
-        "codes": "ir,ice,sage,irene",
-        "secondary_codes": "sage,irene"
+        "codes": "ir,ice,sage,irene"
       },
       {
         "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
         "inherit_codes": false,
-        "codes": "ir,ice,sage,rosso",
-        "secondary_codes": "sage,rosso"
+        "codes": "ir,ice,sage,rosso"
       },
       {
-        "img": "images/prizes/pendant.png",
+        "img": "images/prizes/pendant_power.png",
         "inherit_codes": false,
-        "codes": "ir,ice,pendant",
-        "secondary_codes": "pendant"
+        "codes": "ir,ice,pendant,power"
+      },
+      {
+        "img": "images/prizes/pendant_wisdom.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,pendant,wisdom"
+      },
+      {
+        "img": "images/prizes/pendant_courage.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,pendant,courage"
       }
     ]
   },

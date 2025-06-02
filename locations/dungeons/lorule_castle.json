@@ -14,9 +14,9 @@
         "name": "(1F) Center",
         "map_locations": [
           {
-            "map": "lorule1F",
-            "x": 97,
-            "y": 106
+            "map": "lorule_castle",
+            "x": 987,
+            "y": 633
           }
         ],
         "sections": [
@@ -31,9 +31,9 @@
         "name": "(1F) Ledge",
         "map_locations": [
           {
-            "map": "lorule1F",
-            "x": 115,
-            "y": 106
+            "map": "lorule_castle",
+            "x": 1022,
+            "y": 633
           }
         ],
         "sections": [
@@ -48,9 +48,9 @@
         "name": "(2F) Near Torches",
         "map_locations": [
           {
-            "map": "lorule2F",
-            "x": 133,
-            "y": 108
+            "map": "lorule_castle",
+            "x": 661,
+            "y": 631
           }
         ],
         "sections": [
@@ -65,9 +65,9 @@
         "name": "(2F) Hidden Path",
         "map_locations": [
           {
-            "map": "lorule2F",
-            "x": 133,
-            "y": 140
+            "map": "lorule_castle",
+            "x": 656,
+            "y": 691
           }
         ],
         "sections": [
@@ -82,9 +82,9 @@
         "name": "(2F) Ledge",
         "map_locations": [
           {
-            "map": "lorule2F",
-            "x": 78,
-            "y": 114
+            "map": "lorule_castle",
+            "x": 550,
+            "y": 638
           }
         ],
         "sections": [
@@ -103,9 +103,9 @@
         "name": "(4F) Center",
         "map_locations": [
           {
-            "map": "lorule4F",
-            "x": 97,
-            "y": 105
+            "map": "lorule_castle",
+            "x": 987,
+            "y": 230
           }
         ],
         "sections": [
@@ -123,9 +123,9 @@
         "name": "(4F) Hidden Path",
         "map_locations": [
           {
-            "map": "lorule4F",
-            "x": 97,
-            "y": 125
+            "map": "lorule_castle",
+            "x": 987,
+            "y": 271
           }
         ],
         "sections": [
@@ -146,9 +146,9 @@
         "name": "(3F) Bomb Trial (1)",
         "map_locations": [
           {
-            "map": "lorule3F",
-            "x": 68,
-            "y": 64
+            "map": "lorule_castle",
+            "x": 135,
+            "y": 535
           }
         ],
         "sections": [
@@ -163,9 +163,9 @@
         "name": "(3F) Bomb Trial (2)",
         "map_locations": [
           {
-            "map": "lorule3F",
-            "x": 57,
-            "y": 26
+            "map": "lorule_castle",
+            "x": 108,
+            "y": 463
           }
         ],
         "sections": [
@@ -188,9 +188,9 @@
         "name": "(3F) Tile Trial (1)",
         "map_locations": [
           {
-            "map": "lorule3F",
-            "x": 108,
-            "y": 44
+            "map": "lorule_castle",
+            "x": 212,
+            "y": 500
           }
         ],
         "sections": [
@@ -205,9 +205,9 @@
         "name": "(3F) Tile Trial (2)",
         "map_locations": [
           {
-            "map": "lorule3F",
-            "x": 139,
-            "y": 36
+            "map": "lorule_castle",
+            "x": 277,
+            "y": 482
           }
         ],
         "sections": [
@@ -225,9 +225,9 @@
         "name": "(4F) Lamp Trial",
         "map_locations": [
           {
-            "map": "lorule4F",
-            "x": 65,
-            "y": 35
+            "map": "lorule_castle",
+            "x": 928,
+            "y": 86
           }
         ],
         "sections": [
@@ -239,7 +239,7 @@
               "[advanced], $advanced_lc3F4F"
             ],
             "capture_item": true,
-            "hosted_item": "lc_chest_12"
+            "hosted_item": "lc_4f_lamp_trial"
           }
         ]
       },
@@ -248,9 +248,9 @@
         "name": "(4F) Hookshot Trial (1)",
         "map_locations": [
           {
-            "map": "lorule4F",
-            "x": 140,
-            "y": 47
+            "map": "lorule_castle",
+            "x": 1070,
+            "y": 113
           }
         ],
         "sections": [
@@ -269,9 +269,9 @@
         "name": "(4F) Hookshot Trial (2)",
         "map_locations": [
           {
-            "map": "lorule4F",
-            "x": 110,
-            "y": 58
+            "map": "lorule_castle",
+            "x": 1015,
+            "y": 136
           }
         ],
         "sections": [
@@ -293,9 +293,9 @@
         "name": "Zelda",
         "map_locations": [
           {
-            "map": "throneRoom",
-            "x": 89,
-            "y": 79
+            "map": "lorule_castle",
+            "x": 177,
+            "y": 180
           }
         ],
         "sections": [
@@ -318,10 +318,10 @@
         "color": "#ffdf4f",
         "map_locations": [
           {
-            "map": "throneRoom",
-            "x": 89,
-            "y": 26,
-            "size": 24
+            "map": "lorule_castle",
+            "x": 177,
+            "y": 77,
+            "size": 48
           }
         ],
         "sections": [
@@ -525,9 +525,9 @@
         "y": 863
       },
       {
-        "map": "lorule3F",
-        "x": 96.5,
-        "y": 93
+        "map": "lorule_castle",
+        "x": 191,
+        "y": 600
       }
     ],
     "sections": [

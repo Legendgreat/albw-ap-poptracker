@@ -1,7 +1,7 @@
 if Tracker.ActiveVariantUID == "standard" or Tracker.ActiveVariantUID == "compact" then
-  Tracker:AddLocations("locations/hyrule.json")
-  Tracker:AddLocations("locations/lorule.json")
-  Tracker:AddLocations("locations/death_mountain.json")
+  Tracker:AddLocations("locations/overworld/hyrule.json")
+  Tracker:AddLocations("locations/overworld/lorule.json")
+  Tracker:AddLocations("locations/overworld/death_mountain.json")
 
   Tracker:AddLocations("locations/dungeons/eastern.json")
   Tracker:AddLocations("locations/dungeons/gales.json")
@@ -17,8 +17,8 @@ if Tracker.ActiveVariantUID == "standard" or Tracker.ActiveVariantUID == "compac
   Tracker:AddLocations("locations/dungeons/ice.json")
   Tracker:AddLocations("locations/dungeons/lorule_castle.json")
 
-  Tracker:AddLocations("locations/weather_vanes.json")
-  Tracker:AddLocations("locations/cracks_hyrule.json")
-  Tracker:AddLocations("locations/cracks_lorule.json")
-  Tracker:AddLocations("locations/maiamai.json")
+  Tracker:AddLocations("locations/overworld/weather_vanes.json")
+  Tracker:AddLocations("locations/overworld/cracks_hyrule.json")
+  Tracker:AddLocations("locations/overworld/cracks_lorule.json")
+  Tracker:AddLocations("locations/overworld/maiamai.json")
 end

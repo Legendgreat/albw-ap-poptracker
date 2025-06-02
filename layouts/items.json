@@ -29,16 +29,8 @@
             "net",
             "hint_glasses"
           ],
-          ["bell", "maiamai", "ore", "bottle", "bottle_trade", "foul", "scoot"],
-          [
-            "quake",
-            "great_spin",
-            "wisdom",
-            "power",
-            "courage",
-            "",
-            "bow_of_light"
-          ]
+          ["bell", "maiamai", "ore", "bottle", "milk", "foul", "scoot"],
+          ["quake", "great_spin", "", "", "", "", "bow_of_light"]
         ]
       }
     ]

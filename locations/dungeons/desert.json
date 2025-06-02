@@ -13,9 +13,9 @@
         "name": "(1F) Entrance",
         "map_locations": [
           {
-            "map": "desert1F",
-            "x": 91,
-            "y": 98
+            "map": "desert",
+            "x": 180,
+            "y": 603
           }
         ],
         "sections": [
@@ -30,9 +30,9 @@
         "name": "(1F) Sand Room (North)",
         "map_locations": [
           {
-            "map": "desert1F",
-            "x": 46,
-            "y": 54
+            "map": "desert",
+            "x": 87,
+            "y": 516
           }
         ],
         "sections": [
@@ -47,9 +47,9 @@
         "name": "(1F) Sand Room (South)",
         "map_locations": [
           {
-            "map": "desert1F",
-            "x": 41,
-            "y": 82
+            "map": "desert",
+            "x": 79,
+            "y": 576
           }
         ],
         "sections": [
@@ -64,9 +64,9 @@
         "name": "(1F) Sand Switch Room",
         "map_locations": [
           {
-            "map": "desert1F",
-            "x": 54,
-            "y": 26
+            "map": "desert",
+            "x": 108,
+            "y": 463
           }
         ],
         "sections": [
@@ -81,9 +81,9 @@
         "name": "(1F) Behind Rocks",
         "map_locations": [
           {
-            "map": "desert1F",
-            "x": 54,
-            "y": 136
+            "map": "desert",
+            "x": 105,
+            "y": 684
           }
         ],
         "sections": [
@@ -103,9 +103,9 @@
         "name": "(1F) Big Chest (Behind Wall)",
         "map_locations": [
           {
-            "map": "desert1F",
-            "x": 110,
-            "y": 27
+            "map": "desert",
+            "x": 216,
+            "y": 467
           }
         ],
         "sections": [
@@ -124,15 +124,15 @@
         "name": "(2F) Beamos Room",
         "map_locations": [
           {
-            "map": "desert2F",
-            "x": 98,
-            "y": 61
+            "map": "desert",
+            "x": 591,
+            "y": 146
           }
         ],
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "dp_chest_07",
+            "hosted_item": "dp_2f_beamos_room",
             "access_rules": ["$dp2F", "[advanced], $reverseDP"]
           }
         ]
@@ -141,9 +141,9 @@
         "name": "(2F) Under Rock (Left)",
         "map_locations": [
           {
-            "map": "desert2F",
-            "x": 68,
-            "y": 54
+            "map": "desert",
+            "x": 533,
+            "y": 129
           }
         ],
         "sections": [
@@ -159,9 +159,9 @@
         "name": "(2F) Under Rock (Right)",
         "map_locations": [
           {
-            "map": "desert2F",
-            "x": 113,
-            "y": 54
+            "map": "desert",
+            "x": 623,
+            "y": 131
           }
         ],
         "sections": [
@@ -177,9 +177,9 @@
         "name": "(2F) Big Chest (Puzzle)",
         "map_locations": [
           {
-            "map": "desert2F",
-            "x": 148,
-            "y": 76
+            "map": "desert",
+            "x": 689,
+            "y": 174
           }
         ],
         "sections": [
@@ -194,9 +194,9 @@
         "name": "(2F) Red/Blue Switches",
         "map_locations": [
           {
-            "map": "desert2F",
-            "x": 148,
-            "y": 88
+            "map": "desert",
+            "x": 689,
+            "y": 195
           }
         ],
         "sections": [
@@ -211,9 +211,9 @@
         "name": "(2F) Under Rock (Ball Room)",
         "map_locations": [
           {
-            "map": "desert2F",
-            "x": 148,
-            "y": 33
+            "map": "desert",
+            "x": 689,
+            "y": 85
           }
         ],
         "sections": [
@@ -229,9 +229,9 @@
         "name": "(2F) Leever Room",
         "map_locations": [
           {
-            "map": "desert2F",
-            "x": 45,
-            "y": 89
+            "map": "desert",
+            "x": 487,
+            "y": 195
           }
         ],
         "sections": [
@@ -250,9 +250,9 @@
         "name": "(3F) Behind Falling Sand",
         "map_locations": [
           {
-            "map": "desert3F",
-            "x": 33,
-            "y": 24
+            "map": "desert",
+            "x": 65,
+            "y": 72
           }
         ],
         "sections": [
@@ -271,9 +271,9 @@
         "name": "(3F) Armos Room",
         "map_locations": [
           {
-            "map": "desert3F",
-            "x": 100,
-            "y": 88
+            "map": "desert",
+            "x": 196,
+            "y": 195
           }
         ],
         "sections": [

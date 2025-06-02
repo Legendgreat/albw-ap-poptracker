@@ -16,9 +16,9 @@
         "name": "(1F) Outside",
         "map_locations": [
           {
-            "map": "hera1F",
-            "x": 82,
-            "y": 27
+            "map": "hera",
+            "x": 958,
+            "y": 857
           }
         ],
         "sections": [
@@ -33,15 +33,15 @@
         "name": "(1F) Center",
         "map_locations": [
           {
-            "map": "hera1F",
-            "x": 93,
-            "y": 78
+            "map": "hera",
+            "x": 977,
+            "y": 955
           }
         ],
         "sections": [
           {
             "name": "Chest",
-            "hosted_item": "toh_cheth_1f_centerst_02",
+            "hosted_item": "th_1f_center",
             "access_rules": ["merge", "[advanced], fsword, bombs"]
           }
         ]
@@ -50,9 +50,9 @@
         "name": "(3F) Platform",
         "map_locations": [
           {
-            "map": "hera3F",
-            "x": 93,
-            "y": 83
+            "map": "hera",
+            "x": 183,
+            "y": 971
           }
         ],
         "sections": [
@@ -68,9 +68,9 @@
         "name": "(5F) Red/Blue Switches",
         "map_locations": [
           {
-            "map": "hera5F",
-            "x": 127,
-            "y": 96
+            "map": "hera",
+            "x": 1445,
+            "y": 604
           }
         ],
         "sections": [
@@ -89,9 +89,9 @@
         "name": "(6F) Left Mole",
         "map_locations": [
           {
-            "map": "hera6F",
-            "x": 66,
-            "y": 58
+            "map": "hera",
+            "x": 927,
+            "y": 528
           }
         ],
         "sections": [
@@ -111,9 +111,9 @@
         "name": "(6F) Right Mole",
         "map_locations": [
           {
-            "map": "hera6F",
-            "x": 116,
-            "y": 58
+            "map": "hera",
+            "x": 1027,
+            "y": 528
           }
         ],
         "sections": [
@@ -132,9 +132,9 @@
         "name": "(7F) Outside (Ledge)",
         "map_locations": [
           {
-            "map": "hera7F",
-            "x": 121,
-            "y": 135
+            "map": "hera",
+            "x": 636,
+            "y": 683
           }
         ],
         "sections": [
@@ -153,9 +153,9 @@
         "name": "(8F) Fairy Room",
         "map_locations": [
           {
-            "map": "hera8F",
-            "x": 74,
-            "y": 65
+            "map": "hera",
+            "x": 145,
+            "y": 539
           }
         ],
         "sections": [
@@ -175,9 +175,9 @@
         "name": "(11F) Big Chest",
         "map_locations": [
           {
-            "map": "hera11F",
-            "x": 126,
-            "y": 76
+            "map": "hera",
+            "x": 1043,
+            "y": 170
           }
         ],
         "sections": [
@@ -198,9 +198,9 @@
         "name": "Moldorm",
         "map_locations": [
           {
-            "map": "hera13F",
-            "x": 93,
-            "y": 85
+            "map": "hera",
+            "x": 183,
+            "y": 189
           }
         ],
         "sections": [
@@ -221,9 +221,9 @@
         "access_rules": ["merge", "[advanced], fsword, bombs, trod"],
         "map_locations": [
           {
-            "map": "hera13F",
-            "x": 93,
-            "y": 58,
+            "map": "hera",
+            "x": 183,
+            "y": 139,
             "size": 24
           }
         ],

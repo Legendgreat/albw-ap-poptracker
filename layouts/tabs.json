@@ -5,8 +5,19 @@
       {
         "title": "Overworld",
         "content": {
-          "type": "map",
-          "maps": ["hyrule", "lorule"]
+          "type": "array",
+          "item_h_alignment": "center",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "map",
+              "maps": ["hyrule"]
+            },
+            {
+              "type": "map",
+              "maps": ["lorule"]
+            }
+          ]
         }
       },
       {

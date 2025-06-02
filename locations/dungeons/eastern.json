@@ -21,9 +21,9 @@
         "name": "(1F) Merge Chest",
         "map_locations": [
           {
-            "map": "ep1F",
-            "x": 114,
-            "y": 121
+            "map": "eastern",
+            "x": 224,
+            "y": 662
           }
         ],
         "sections": [
@@ -38,9 +38,9 @@
         "name": "(1F) Left Door Chest",
         "map_locations": [
           {
-            "map": "ep1F",
-            "x": 73,
-            "y": 101
+            "map": "eastern",
+            "x": 143,
+            "y": 618
           }
         ],
         "sections": [
@@ -64,9 +64,9 @@
         "name": "(1F) Popo Room",
         "map_locations": [
           {
-            "map": "ep1F",
-            "x": 45,
-            "y": 48
+            "map": "eastern",
+            "x": 87,
+            "y": 506
           }
         ],
         "sections": [
@@ -81,9 +81,9 @@
         "name": "(1F) Secret Room",
         "map_locations": [
           {
-            "map": "ep1F",
-            "x": 45,
-            "y": 76
+            "map": "eastern",
+            "x": 87,
+            "y": 561
           }
         ],
         "sections": [
@@ -98,9 +98,9 @@
         "name": "(1F) Switch Room",
         "map_locations": [
           {
-            "map": "ep1F",
-            "x": 141,
-            "y": 47
+            "map": "eastern",
+            "x": 277,
+            "y": 508
           }
         ],
         "sections": [
@@ -124,9 +124,9 @@
         "name": "(2F) Ball Room",
         "map_locations": [
           {
-            "map": "ep2F",
-            "x": 48,
-            "y": 65
+            "map": "eastern",
+            "x": 493,
+            "y": 150
           }
         ],
         "sections": [
@@ -141,9 +141,9 @@
         "name": "(2F) Defeat Popos",
         "map_locations": [
           {
-            "map": "ep2F",
-            "x": 128,
-            "y": 45
+            "map": "eastern",
+            "x": 650,
+            "y": 106
           }
         ],
         "sections": [
@@ -158,9 +158,9 @@
         "name": "(2F) Switch Room",
         "map_locations": [
           {
-            "map": "ep2F",
-            "x": 164,
-            "y": 109
+            "map": "eastern",
+            "x": 724,
+            "y": 238
           }
         ],
         "sections": [
@@ -184,9 +184,9 @@
         "name": "(2F) Big Chest",
         "map_locations": [
           {
-            "map": "ep2F",
-            "x": 42,
-            "y": 97.5
+            "map": "eastern",
+            "x": 478,
+            "y": 216
           }
         ],
         "sections": [
@@ -204,9 +204,9 @@
         "name": "Yuga",
         "map_locations": [
           {
-            "map": "ep3F",
-            "x": 88,
-            "y": 76
+            "map": "eastern",
+            "x": 174,
+            "y": 172
           }
         ],
         "sections": [
@@ -221,9 +221,9 @@
         "name": "(3F) Escape Chest",
         "map_locations": [
           {
-            "map": "ep3F",
-            "x": 135,
-            "y": 76
+            "map": "eastern",
+            "x": 261,
+            "y": 172
           }
         ],
         "sections": [
@@ -238,9 +238,9 @@
         "name": "(1F) Escape Chest",
         "map_locations": [
           {
-            "map": "ep1F",
-            "x": 41,
-            "y": 97.5
+            "map": "eastern",
+            "x": 78,
+            "y": 604
           }
         ],
         "sections": [
@@ -318,7 +318,7 @@
         ],
         "map_locations": [
           {
-            "map": "ep1F",
+            "map": "eastern",
             "x": 89,
             "y": 130.5,
             "size": 20

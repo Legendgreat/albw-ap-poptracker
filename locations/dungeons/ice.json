@@ -14,9 +14,9 @@
         "name": "(1F) Hidden Chest",
         "map_locations": [
           {
-            "map": "ice1F",
-            "x": 90,
-            "y": 133
+            "map": "ice",
+            "x": 177,
+            "y": 283
           }
         ],
         "sections": [
@@ -30,9 +30,9 @@
         "name": "(B1) Narrow Ledge",
         "map_locations": [
           {
-            "map": "iceB1",
-            "x": 137,
-            "y": 75
+            "map": "ice",
+            "x": 663,
+            "y": 167
           }
         ],
         "sections": [
@@ -48,9 +48,9 @@
         "name": "(B1) East Chest",
         "map_locations": [
           {
-            "map": "iceB1",
-            "x": 137,
-            "y": 116
+            "map": "ice",
+            "x": 663,
+            "y": 250
           }
         ],
         "sections": [
@@ -65,9 +65,9 @@
         "name": "(B1) Upper Chest",
         "map_locations": [
           {
-            "map": "iceB1",
-            "x": 99,
-            "y": 108
+            "map": "ice",
+            "x": 593,
+            "y": 230
           }
         ],
         "sections": [
@@ -82,9 +82,9 @@
         "name": "(B2) Ice Pillar",
         "map_locations": [
           {
-            "map": "iceB2",
-            "x": 80,
-            "y": 134
+            "map": "ice",
+            "x": 955,
+            "y": 285
           }
         ],
         "sections": [
@@ -99,9 +99,9 @@
         "name": "(B2) Long Merge Chest",
         "map_locations": [
           {
-            "map": "iceB2",
-            "x": 90,
-            "y": 54
+            "map": "ice",
+            "x": 972,
+            "y": 134
           }
         ],
         "sections": [
@@ -121,9 +121,9 @@
         "name": "(B3) Grate Chest (Left)",
         "map_locations": [
           {
-            "map": "iceB3",
-            "x": 85,
-            "y": 142
+            "map": "ice",
+            "x": 1363,
+            "y": 303
           }
         ],
         "sections": [
@@ -137,9 +137,9 @@
         "name": "(B3) Grate Chest (Right)",
         "map_locations": [
           {
-            "map": "iceB3",
-            "x": 95,
-            "y": 142
+            "map": "ice",
+            "x": 1377,
+            "y": 303
           }
         ],
         "sections": [
@@ -153,9 +153,9 @@
         "name": "(B3) Big Chest (Puzzle)",
         "map_locations": [
           {
-            "map": "iceB3",
-            "x": 90,
-            "y": 94
+            "map": "ice",
+            "x": 1375,
+            "y": 208
           }
         ],
         "sections": [
@@ -170,9 +170,9 @@
         "name": "(B4) Switches",
         "map_locations": [
           {
-            "map": "iceB4",
-            "x": 84,
-            "y": 57
+            "map": "ice",
+            "x": 166,
+            "y": 526
           }
         ],
         "sections": [
@@ -196,9 +196,9 @@
         "name": "(B4) Southwest Chest (Fall)",
         "map_locations": [
           {
-            "map": "iceB4",
-            "x": 23,
-            "y": 142
+            "map": "ice",
+            "x": 45,
+            "y": 694
           }
         ],
         "sections": [
@@ -213,9 +213,9 @@
         "name": "(B4) Southeast Chest (Fall)",
         "map_locations": [
           {
-            "map": "iceB4",
-            "x": 122,
-            "y": 136
+            "map": "ice",
+            "x": 240,
+            "y": 682
           }
         ],
         "sections": [
@@ -235,9 +235,9 @@
         "name": "(B4) Narrow Platform",
         "map_locations": [
           {
-            "map": "iceB4",
-            "x": 86,
-            "y": 144
+            "map": "ice",
+            "x": 170,
+            "y": 700
           }
         ],
         "sections": [
@@ -252,9 +252,9 @@
         "name": "(B5) Big Chest",
         "map_locations": [
           {
-            "map": "iceB5",
-            "x": 90,
-            "y": 113
+            "map": "ice",
+            "x": 574,
+            "y": 644
           }
         ],
         "sections": [
@@ -268,9 +268,9 @@
         "name": "Dharkstare",
         "map_locations": [
           {
-            "map": "iceB6",
-            "x": 90,
-            "y": 81
+            "map": "ice",
+            "x": 971,
+            "y": 573
           }
         ],
         "sections": [
@@ -289,9 +289,9 @@
         "name": "Ice Ruins Rewards",
         "map_locations": [
           {
-            "map": "iceB6",
-            "x": 90,
-            "y": 53,
+            "map": "ice",
+            "x": 971,
+            "y": 633,
             "size": 24
           }
         ],

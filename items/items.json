@@ -2,7 +2,6 @@
   {
     "name": "Bee Badge",
     "type": "toggle",
-    "loop": true,
     "img": "images/items/bee_badge.png",
     "codes": "bee_badge, beebadge"
   },
@@ -88,100 +87,32 @@
       }
     ]
   },
-  {
-    "name": "Bottle Trade Items",
-    "type": "progressive",
-    "stages": [
-      {
-        "img": "images/items/bottle_letter.png",
-        "codes": "bottle_trade, bottle_trade_items, bottle_letter, letter, letter_in_a_bottle"
-      },
-      {
-        "img": "images/items/bottle_milk_premium.png",
-        "codes": "bottle_milk_premium, milk, premium_milk, premiummilk"
-      }
-    ]
-  },
+  // {
+  //   "name": "Bottle Trade Items",
+  //   "type": "progressive",
+  //   "stages": [
+  //     {
+  //       "img": "images/items/bottle_letter.png",
+  //       "codes": "bottle_trade, bottle_trade_items, bottle_letter, letter, letter_in_a_bottle"
+  //     },
+  //     {
+  //       "img": "images/items/bottle_milk_premium.png",
+  //       "codes": "bottle_milk_premium, milk, premium_milk, premiummilk"
+  //     }
+  //   ]
+  // },
   //  {
   //    "name": "Letter in a Bottle",
   //    "type": "toggle",
   //    "img": "images/items/bottle_letter.png",
   //    "codes": "bottle_letter, letter, letter_in_a_bottle"
   //  },
-  //  {
-  //    "name": "Premium Milk",
-  //    "type": "toggle",
-  //    "img": "images/items/bottle_milk_premium.png",
-  //    "codes": "bottle_milk_premium, milk, premium_milk, premiummilk"
-  //  },
-  //  {
-  //    "name": "Letter in a Bottle / Premium Milk",
-  //    "type": "progressive",
-  //    "stages": [
-  //      {
-  //        "name": "Letter in a Bottle",
-  //        "img": "images/items/bottle_letter.png",
-  //        "codes": "bottle_letter, letter, letter_in_a_bottle"
-  //      },
-  //      {
-  //        "name": "Premium Milk",
-  //        "img": "images/items/bottle_milk_premium.png",
-  //        "codes": "bottle_milk_premium, milk, premium_milk, premiummilk"
-  //      },
-  //      {
-  //        "name": "Empty Bottle",
-  //        "img": "images/items/bottle.png",
-  //        "codes": "bottle_5, bottle5"
-  //      },
-  //      {
-  //        "name": "Golden Bee",
-  //        "img": "images/items/bottle_bee_golden.png",
-  //        "codes": "golden_bee_5"
-  //      },
-  //      {
-  //        "name": "Bee",
-  //        "img": "images/items/bottle_bee.png",
-  //        "codes": "bottle_5, bottle5, bottle_letter, letter, letter_in_a_bottle, bottle_milk_premium, milk, premium_milk, premiummilk",
-  //        "inherit_codes": false
-  //      },
-  //      {
-  //        "name": "Fairy",
-  //        "img": "images/items/bottle_fairy.png",
-  //      },
-  //      {
-  //        "name": "Red Potion",
-  //        "img": "images/items/bottle_red.png"
-  //      },
-  //      {
-  //        "name": "Blue Potion",
-  //        "img": "images/items/bottle_blue.png"
-  //      },
-  //      {
-  //        "name": "Yellow Potion",
-  //        "img": "images/items/bottle_yellow.png"
-  //      },
-  //      {
-  //        "name": "Purple Potion",
-  //        "img": "images/items/bottle_purple.png"
-  //      },
-  //      {
-  //        "name": "Milk",
-  //        "img": "images/items/bottle_milk.png"
-  //      },
-  //      {
-  //        "name": "Heart",
-  //        "img": "images/items/bottle_heart.png"
-  //      },
-  //      {
-  //        "name": "Apple",
-  //        "img": "images/items/bottle_apple.png"
-  //      },
-  //      {
-  //        "name": "Green Apple",
-  //        "img": "images/items/bottle_apple_green.png"
-  //      }
-  //    ]
-  //  },
+  {
+    "name": "Trade Item",
+    "type": "toggle",
+    "img": "images/items/bottle_letter_milk.png",
+    "codes": "milk, letter"
+  },
   {
     "name": "Bee",
     "type": "toggle",
@@ -335,15 +266,13 @@
   {
     "name": "Great Spin",
     "type": "toggle",
-    "loop": true,
-    "mask_input": true,
     "img": "images/items/great_spin.png",
     "codes": "great_spin"
   },
   {
     "name": "Go Mode",
     "type": "toggle",
-    "img": "images/items/gomode.png",
+    "img": "images/misc/gomode.png",
     "codes": "gomode"
   },
   {
@@ -384,7 +313,6 @@
   {
     "name": "Hint Glasses",
     "type": "toggle",
-    "loop": true,
     "img": "images/items/hint_glasses.png",
     "codes": "hint_glasses, glasses"
   },

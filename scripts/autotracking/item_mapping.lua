@@ -18,8 +18,8 @@ ITEM_MAPPING = {
     [BASE + 14] = {"p_bracelet", "progressive"},
     [BASE + 15] = {"hylianshield", "toggle"},
     [BASE + 16] = {"smooth_gem", "toggle"},
-    -- [BASE + 17] = {"letter", "toggle"},
-    [BASE + 18] = {"premium_milk", "toggle"},
+    [BASE + 17] = {"letter", "toggle"},
+    [BASE + 18] = {"milk", "toggle"},
     [BASE + 19] = {"pouch", "toggle"},
     [BASE + 20] = {"bee_badge", "toggle"},
     [BASE + 21] = {"hint_glasses", "toggle"},
@@ -69,5 +69,5 @@ ITEM_MAPPING = {
     [BASE + 74] = {"tr_big_key", "toggle"},
     [BASE + 75] = {"tr_small_keys", "consumable"},
     [BASE + 76] = {"lc_compass", "toggle"},
-    [BASE + 76] = {"lc_small_keys", "consumable"},
+    [BASE + 77] = {"lc_small_keys", "consumable"},
 }

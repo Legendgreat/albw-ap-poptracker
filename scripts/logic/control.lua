@@ -708,6 +708,20 @@ function can_reach_final_boss()
     return false
 end
 
+function can_finish()
+    local obj = Tracker:FindObjectForCode("gomode")
+    if has("bow_of_light") and can_reach_final_boss() and has("fsword") then
+        obj.Active = true
+        return true
+    elseif has("bow_of_light") and can_reach_final_boss() and has("net") then
+        obj.Active = true
+        return (true_for("swordless") or true_for("hard"))
+    else
+        obj.Active = false
+        return false
+    end
+end
+
 -- Returns only if we can perform Trial's Skip to fight Yuganon, NOT if we can obtain Zelda's check or win the fight
 function can_skip_trials()
     if lc_requirement() and yg_requirement() and hasAll({ "merge", "sword" }) then

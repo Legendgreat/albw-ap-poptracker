@@ -15,9 +15,9 @@
         "name": "(1F) Right Pit",
         "map_locations": [
           {
-            "map": "dark1F",
-            "x": 106,
-            "y": 103
+            "map": "dark",
+            "x": 607,
+            "y": 232
           }
         ],
         "sections": [
@@ -36,9 +36,9 @@
             "name": "(1F) Left Pit",
             "map_locations": [
               {
-                "map": "dark1F",
-                "x": 71,
-                "y": 103
+                "map": "dark",
+                "x": 538,
+                "y": 232
               }
             ],
             "sections": [
@@ -53,9 +53,9 @@
             "name": "(1F) Switch Puzzle",
             "map_locations": [
               {
-                "map": "dark1F",
-                "x": 36,
-                "y": 59
+                "map": "dark",
+                "x": 469,
+                "y": 138
               }
             ],
             "sections": [
@@ -70,9 +70,9 @@
             "name": "(1F) Hidden Room (Upper)",
             "map_locations": [
               {
-                "map": "dark1F",
-                "x": 141,
-                "y": 91
+                "map": "dark",
+                "x": 676,
+                "y": 202
               }
             ],
             "sections": [
@@ -87,9 +87,9 @@
             "name": "(1F) Hidden Room (Lower)",
             "map_locations": [
               {
-                "map": "dark1F",
-                "x": 124,
-                "y": 82
+                "map": "dark",
+                "x": 643,
+                "y": 182
               }
             ],
             "sections": [
@@ -104,9 +104,9 @@
             "name": "(1F) Fall From 2F",
             "map_locations": [
               {
-                "map": "dark1F",
-                "x": 109,
-                "y": 47
+                "map": "dark",
+                "x": 612,
+                "y": 114
               }
             ],
             "sections": [
@@ -126,9 +126,9 @@
             "name": "(2F) Big Chest (Hidden)",
             "map_locations": [
               {
-                "map": "dark2F",
-                "x": 88,
-                "y": 65
+                "map": "dark",
+                "x": 175,
+                "y": 152
               }
             ],
             "sections": [
@@ -149,9 +149,9 @@
             "name": "(2F) Alcove",
             "map_locations": [
               {
-                "map": "dark2F",
-                "x": 119,
-                "y": 98
+                "map": "dark",
+                "x": 235,
+                "y": 215
               }
             ],
             "sections": [
@@ -169,9 +169,9 @@
             "name": "(B1) Fall From 1F",
             "map_locations": [
               {
-                "map": "darkB1",
-                "x": 98,
-                "y": 42
+                "map": "dark",
+                "x": 195,
+                "y": 496
               }
             ],
             "sections": [
@@ -191,9 +191,9 @@
             "name": "(B1) Helmasaur Room (Fall)",
             "map_locations": [
               {
-                "map": "darkB1",
-                "x": 149,
-                "y": 70
+                "map": "dark",
+                "x": 292,
+                "y": 554
               }
             ],
             "sections": [
@@ -211,9 +211,9 @@
             "name": "(B1) Helmasaur Room",
             "map_locations": [
               {
-                "map": "darkB1",
-                "x": 149,
-                "y": 31
+                "map": "dark",
+                "x": 292,
+                "y": 474
               }
             ],
             "sections": [
@@ -229,9 +229,9 @@
             "name": "(B1) Glow-in-the-Dark Maze",
             "map_locations": [
               {
-                "map": "darkB1",
-                "x": 32,
-                "y": 71
+                "map": "dark",
+                "x": 64,
+                "y": 551
               }
             ],
             "sections": [
@@ -246,9 +246,9 @@
             "name": "(B1) Bomb Bowling",
             "map_locations": [
               {
-                "map": "darkB1",
-                "x": 44,
-                "y": 89
+                "map": "dark",
+                "x": 86,
+                "y": 591
               }
             ],
             "sections": [
@@ -268,9 +268,9 @@
             "name": "Gemesaur King",
             "map_locations": [
               {
-                "map": "darkB1",
-                "x": 88,
-                "y": 68
+                "map": "dark",
+                "x": 175,
+                "y": 552
               }
             ],
             "sections": [
@@ -289,9 +289,9 @@
             "name": "Dark Palace",
             "map_locations": [
               {
-                "map": "darkB1",
-                "x": 88,
-                "y": 58,
+                "map": "dark",
+                "x": 377,
+                "y": 387,
                 "size": 20
               }
             ],
@@ -330,7 +330,7 @@
                   "bombs, $fire, $pd_small_keys|4, $pd_big_key",
                   "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
                 ],
-                "visibility_rules": ["label_gulley_pd"]
+                "visibility_rules": ["pd,gulley"]
               },
               {
                 "name": "Oren",

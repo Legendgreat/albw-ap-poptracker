@@ -14,9 +14,9 @@
         "name": "(B1) Grate Chest",
         "map_locations": [
           {
-            "map": "thievesB1",
-            "x": 56,
-            "y": 98
+            "map": "thieves",
+            "x": 111,
+            "y": 214
           }
         ],
         "sections": [
@@ -30,9 +30,9 @@
         "name": "(B1) Jail Cell",
         "map_locations": [
           {
-            "map": "thievesB1",
-            "x": 59,
-            "y": 117
+            "map": "thieves",
+            "x": 116,
+            "y": 256
           }
         ],
         "sections": [
@@ -52,9 +52,9 @@
         "name": "(B2) Grate Chest (Fall)",
         "map_locations": [
           {
-            "map": "thievesB2",
-            "x": 51,
-            "y": 53
+            "map": "thieves",
+            "x": 501,
+            "y": 123
           }
         ],
         "sections": [
@@ -73,9 +73,9 @@
         "name": "(B2) Jail Cell",
         "map_locations": [
           {
-            "map": "thievesB2",
-            "x": 99,
-            "y": 91
+            "map": "thieves",
+            "x": 593,
+            "y": 198
           }
         ],
         "sections": [
@@ -94,9 +94,9 @@
         "name": "(B2) Eyegores",
         "map_locations": [
           {
-            "map": "thievesB2",
-            "x": 80,
-            "y": 32
+            "map": "thieves",
+            "x": 554,
+            "y": 84
           }
         ],
         "sections": [
@@ -124,9 +124,9 @@
         "name": "(B2) Switch Puzzle Room",
         "map_locations": [
           {
-            "map": "thievesB2",
-            "x": 122,
-            "y": 117
+            "map": "thieves",
+            "x": 641,
+            "y": 256
           }
         ],
         "sections": [
@@ -145,9 +145,9 @@
         "name": "(B3) Underwater",
         "map_locations": [
           {
-            "map": "thievesB3",
-            "x": 132,
-            "y": 79
+            "map": "thieves",
+            "x": 261,
+            "y": 569
           }
         ],
         "sections": [
@@ -170,9 +170,9 @@
         "name": "(B3) Big Chest (Hidden)",
         "map_locations": [
           {
-            "map": "thievesB3",
-            "x": 102,
-            "y": 32
+            "map": "thieves",
+            "x": 200,
+            "y": 476
           }
         ],
         "sections": [
@@ -192,9 +192,9 @@
         "name": "(B1) Behind Wall",
         "map_locations": [
           {
-            "map": "thievesB1",
-            "x": 56,
-            "y": 79
+            "map": "thieves",
+            "x": 111,
+            "y": 179
           }
         ],
         "sections": [
@@ -215,9 +215,9 @@
         "name": "(B1) Big Chest (Entrance)",
         "map_locations": [
           {
-            "map": "thievesB1",
-            "x": 81,
-            "y": 75
+            "map": "thieves",
+            "x": 162,
+            "y": 170
           }
         ],
         "sections": [
@@ -237,9 +237,9 @@
         "name": "Stalblind",
         "map_locations": [
           {
-            "map": "thievesB1",
-            "x": 150,
-            "y": 167
+            "map": "thieves",
+            "x": 295,
+            "y": 354
           }
         ],
         "sections": [
@@ -260,9 +260,9 @@
         "name": "Thieves' Hideout Rewards",
         "map_locations": [
           {
-            "map": "thievesB1",
-            "x": 136,
-            "y": 167,
+            "map": "thieves",
+            "x": 325,
+            "y": 354,
             "size": 20
           }
         ],

@@ -14,9 +14,9 @@
         "name": "(B1) Waterfall Room",
         "map_locations": [
           {
-            "map": "swampB1",
-            "x": 126,
-            "y": 65
+            "map": "swamp",
+            "x": 248,
+            "y": 542
           }
         ],
         "sections": [
@@ -31,9 +31,9 @@
         "name": "(B1) Raft Room (Pillar)",
         "map_locations": [
           {
-            "map": "swampB1",
-            "x": 53,
-            "y": 65
+            "map": "swamp",
+            "x": 106,
+            "y": 548
           }
         ],
         "sections": [
@@ -48,9 +48,9 @@
         "name": "(B1) Center",
         "map_locations": [
           {
-            "map": "swampB1",
-            "x": 89,
-            "y": 51
+            "map": "swamp",
+            "x": 176,
+            "y": 515
           }
         ],
         "sections": [
@@ -64,9 +64,9 @@
         "name": "(B1) Raft Room (Right)",
         "map_locations": [
           {
-            "map": "swampB1",
-            "x": 58,
-            "y": 81
+            "map": "swamp",
+            "x": 113,
+            "y": 574
           }
         ],
         "sections": [
@@ -80,9 +80,9 @@
         "name": "(B1) Raft Room (Left)",
         "map_locations": [
           {
-            "map": "swampB1",
-            "x": 32,
-            "y": 80
+            "map": "swamp",
+            "x": 65,
+            "y": 572
           }
         ],
         "sections": [
@@ -96,9 +96,9 @@
         "name": "(B1) Gyorm",
         "map_locations": [
           {
-            "map": "swampB1",
-            "x": 36,
-            "y": 110
+            "map": "swamp",
+            "x": 70,
+            "y": 632
           }
         ],
         "sections": [
@@ -112,9 +112,9 @@
         "name": "(B1) Big Chest (Secret)",
         "map_locations": [
           {
-            "map": "swampB1",
-            "x": 89,
-            "y": 69
+            "map": "swamp",
+            "x": 176,
+            "y": 548
           }
         ],
         "sections": [
@@ -139,9 +139,9 @@
         "name": "(1F) Big Chest (Fire)",
         "map_locations": [
           {
-            "map": "swamp1F",
-            "x": 89,
-            "y": 105
+            "map": "swamp",
+            "x": 573,
+            "y": 230
           }
         ],
         "sections": [
@@ -165,9 +165,9 @@
         "name": "(1F) West Room",
         "map_locations": [
           {
-            "map": "swamp1F",
-            "x": 41,
-            "y": 86
+            "map": "swamp",
+            "x": 478,
+            "y": 189
           }
         ],
         "sections": [
@@ -187,9 +187,9 @@
         "name": "(1F) East Room",
         "map_locations": [
           {
-            "map": "swamp1F",
-            "x": 137,
-            "y": 86
+            "map": "swamp",
+            "x": 671,
+            "y": 189
           }
         ],
         "sections": [
@@ -209,9 +209,9 @@
         "name": "(1F) Water Puzzle",
         "map_locations": [
           {
-            "map": "swamp1F",
-            "x": 54,
-            "y": 144
+            "map": "swamp",
+            "x": 503,
+            "y": 307
           }
         ],
         "sections": [
@@ -247,9 +247,9 @@
             "name": "Arrghus",
             "map_locations": [
               {
-                "map": "swamp1F",
-                "x": 89,
-                "y": 67
+                "map": "swamp",
+                "x": 573,
+                "y": 155
               }
             ],
             "sections": [
@@ -264,9 +264,9 @@
             "name": "Swamp Palace Rewards",
             "map_locations": [
               {
-                "map": "swamp2F",
-                "x": 89,
-                "y": 71,
+                "map": "swamp",
+                "x": 573,
+                "y": 105,
                 "size": 20
               }
             ],

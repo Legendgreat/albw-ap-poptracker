@@ -34,6 +34,7 @@ function onSetReply(key, value, old)
 end
 
 function onClear(slot_data)
+    -- print(string.format("Dumping slot_data:\n%s", dump_table(slot_data)))
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end
@@ -153,9 +154,7 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
-    end
+    can_finish()
 end
 
 -- called when a location gets cleared
@@ -183,6 +182,7 @@ function onLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
+    can_finish()
 end
 
 -- called when a locations is scouted
@@ -194,11 +194,27 @@ function onScout(location_id, location_name, item_id, item_name, item_player)
 end
 
 -- called when a bounce message is received 
-function onBounce(json)
+function onBounce(value)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onBounce: %s", dump_table(json)))
+        print(string.format("called onBounce: %s", dump_table(value)))
     end
-    -- your code goes here
+
+    -- if not value then
+    --     return
+    -- end
+
+    -- local slots = value["slots"]
+
+    -- if not slots or not (slots[1] == Archipelago.PlayerNumber and slots[2] == nil) then
+    --     return
+    -- end
+
+    -- local data = value["data"]
+    -- if not data then
+    --     return
+    -- end
+
+    -- onMap(data)
 end
 
 -- add AP callbacks

@@ -9,9 +9,9 @@
         "name": "(1F) Center",
         "map_locations": [
           {
-            "map": "turtle1F",
-            "x": 89,
-            "y": 95
+            "map": "turtle",
+            "x": 176,
+            "y": 212
           }
         ],
         "sections": [
@@ -30,9 +30,9 @@
         "name": "(1F) Defeat Flamolas",
         "map_locations": [
           {
-            "map": "turtle1F",
-            "x": 67,
-            "y": 85
+            "map": "turtle",
+            "x": 131,
+            "y": 188
           }
         ],
         "sections": [
@@ -51,9 +51,9 @@
         "name": "(1F) Northeast Ledge",
         "map_locations": [
           {
-            "map": "turtle1F",
-            "x": 109,
-            "y": 74
+            "map": "turtle",
+            "x": 214,
+            "y": 167
           }
         ],
         "sections": [
@@ -73,9 +73,9 @@
         "name": "(1F) Grate Chest",
         "map_locations": [
           {
-            "map": "turtle1F",
-            "x": 89,
-            "y": 58
+            "map": "turtle",
+            "x": 175,
+            "y": 137
           }
         ],
         "sections": [
@@ -94,9 +94,9 @@
         "name": "(1F) Southeast Chest",
         "map_locations": [
           {
-            "map": "turtle1F",
-            "x": 120,
-            "y": 133
+            "map": "turtle",
+            "x": 240,
+            "y": 286
           }
         ],
         "sections": [
@@ -115,9 +115,9 @@
         "name": "(1F) Northwest Room",
         "map_locations": [
           {
-            "map": "turtle1F",
-            "x": 52,
-            "y": 54
+            "map": "turtle",
+            "x": 102,
+            "y": 129
           }
         ],
         "sections": [
@@ -137,9 +137,9 @@
         "name": "Left Balcony",
         "map_locations": [
           {
-            "map": "turtle1F",
-            "x": 16,
-            "y": 46
+            "map": "turtle",
+            "x": 32,
+            "y": 107
           },
           {
             "map": "lorule",
@@ -165,9 +165,9 @@
         "name": "(B1) Grate Chest (Small)",
         "map_locations": [
           {
-            "map": "turtleB1",
-            "x": 89,
-            "y": 47
+            "map": "turtle",
+            "x": 572,
+            "y": 114
           }
         ],
         "sections": [
@@ -186,9 +186,9 @@
         "name": "(B1) Big Chest (Top)",
         "map_locations": [
           {
-            "map": "turtleB1",
-            "x": 89,
-            "y": 58
+            "map": "turtle",
+            "x": 573,
+            "y": 135
           }
         ],
         "sections": [
@@ -208,9 +208,9 @@
         "name": "(B1) Big Chest (Center)",
         "map_locations": [
           {
-            "map": "turtleB1",
-            "x": 89,
-            "y": 85
+            "map": "turtle",
+            "x": 573,
+            "y": 187
           }
         ],
         "sections": [
@@ -231,9 +231,9 @@
         "name": "(B1) Northeast Room",
         "map_locations": [
           {
-            "map": "turtleB1",
-            "x": 136,
-            "y": 49
+            "map": "turtle",
+            "x": 665,
+            "y": 117
           }
         ],
         "sections": [
@@ -253,9 +253,9 @@
         "name": "(B1) Platform",
         "map_locations": [
           {
-            "map": "turtleB1",
-            "x": 109,
-            "y": 85
+            "map": "turtle",
+            "x": 615,
+            "y": 187
           }
         ],
         "sections": [
@@ -274,9 +274,9 @@
         "name": "Grinexx",
         "map_locations": [
           {
-            "map": "turtleB2",
-            "x": 78,
-            "y": 92
+            "map": "turtle",
+            "x": 154,
+            "y": 597
           }
         ],
         "sections": [
@@ -297,9 +297,9 @@
         "name": "Turtle Rock Rewards",
         "map_locations": [
           {
-            "map": "turtleB2",
-            "x": 89,
-            "y": 75,
+            "map": "turtle",
+            "x": 174,
+            "y": 597,
             "size": 20
           }
         ],

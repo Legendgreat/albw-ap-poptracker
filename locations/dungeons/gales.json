@@ -17,9 +17,9 @@
         "name": "(1F) Fire Bubbles",
         "map_locations": [
           {
-            "map": "hog1F",
-            "x": 142,
-            "y": 98
+            "map": "gales",
+            "x": 282,
+            "y": 605
           }
         ],
         "sections": [
@@ -34,9 +34,9 @@
         "name": "(1F) Switch Room (may need to die to escape)",
         "map_locations": [
           {
-            "map": "hog1F",
-            "x": 151,
-            "y": 30
+            "map": "gales",
+            "x": 297,
+            "y": 473
           }
         ],
         "sections": [
@@ -50,9 +50,9 @@
         "name": "(1F) Torches",
         "map_locations": [
           {
-            "map": "hog1F",
-            "x": 92,
-            "y": 34
+            "map": "gales",
+            "x": 181,
+            "y": 481
           }
         ],
         "sections": [
@@ -67,9 +67,9 @@
         "name": "(1F) West Room",
         "map_locations": [
           {
-            "map": "hog1F",
-            "x": 46,
-            "y": 84
+            "map": "gales",
+            "x": 91,
+            "y": 580
           }
         ],
         "sections": [
@@ -87,9 +87,9 @@
         "name": "(1F) West Room Secret",
         "map_locations": [
           {
-            "map": "hog1F",
-            "x": 21,
-            "y": 116
+            "map": "gales",
+            "x": 40,
+            "y": 647
           }
         ],
         "sections": [
@@ -107,9 +107,9 @@
         "name": "(2F) Narrow Ledge",
         "map_locations": [
           {
-            "map": "hog2F",
-            "x": 109,
-            "y": 107
+            "map": "gales",
+            "x": 614,
+            "y": 234
           }
         ],
         "sections": [
@@ -131,9 +131,9 @@
         "name": "(2F) Fire Ring",
         "map_locations": [
           {
-            "map": "hog2F",
-            "x": 31,
-            "y": 139
+            "map": "gales",
+            "x": 460,
+            "y": 298
           }
         ],
         "sections": [
@@ -153,9 +153,9 @@
         "name": "(2F) Big Chest",
         "map_locations": [
           {
-            "map": "hog2F",
-            "x": 119,
-            "y": 135
+            "map": "gales",
+            "x": 634,
+            "y": 288
           }
         ],
         "sections": [
@@ -170,9 +170,9 @@
         "name": "(3F) Fire Bubbles",
         "map_locations": [
           {
-            "map": "hog3F",
-            "x": 57,
-            "y": 123
+            "map": "gales",
+            "x": 112,
+            "y": 264
           }
         ],
         "sections": [
@@ -192,9 +192,9 @@
         "name": "(3F) Rat Room",
         "map_locations": [
           {
-            "map": "hog3F",
-            "x": 134,
-            "y": 84
+            "map": "gales",
+            "x": 263,
+            "y": 185
           }
         ],
         "sections": [
@@ -216,9 +216,9 @@
         "name": "Margomill",
         "map_locations": [
           {
-            "map": "hog3F",
-            "x": 92,
-            "y": 42
+            "map": "gales",
+            "x": 182,
+            "y": 102
           }
         ],
         "sections": [
@@ -234,9 +234,9 @@
         "name": "House of Gales Rewards",
         "map_locations": [
           {
-            "map": "hog3F",
-            "x": 92,
-            "y": 28,
+            "map": "gales",
+            "x": 182,
+            "y": 62,
             "size": 20
           }
         ],
