@@ -31,7 +31,6 @@
             },
             {
               "type": "dock",
-              "orientation": "horizontal",
               "content": [
                 {
                   "type": "group",
@@ -76,16 +75,35 @@
           "dock": "bottom",
           "content": [
             {
-              "type": "group",
-              "header": "Items",
+              "type": "dock",
               "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "item_grid"
-              }
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Items",
+                  "dock": "top",
+                  "margin": "0,0,3,0",
+                  "h_alignment": "center",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "item_grid"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Settings",
+                  "dock": "top",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "settings_grid_horizontal"
+                  }
+                }
+              ]
             },
             {
               "type": "group",
@@ -103,18 +121,6 @@
               "content": {
                 "type": "layout",
                 "key": "weather_vane_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Settings",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "settings_grid_horizontal"
               }
             }
           ]

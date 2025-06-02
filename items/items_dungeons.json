@@ -17,6 +17,55 @@
         "secondary_codes": "sage"
       },
       {
+        "img": "images/prizes/sage_gulley.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
+        "inherit_codes": false,
+        "codes": "ep,eastern,sage,rosso",
+        "secondary_codes": "sage,rosso"
+      },
+      {
         "img": "images/prizes/pendant.png",
         "inherit_codes": false,
         "codes": "ep,eastern,pendant",
@@ -41,6 +90,48 @@
         "inherit_codes": false,
         "codes": "hg,gales,sage",
         "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "hg,gales,sage,rosso",
+        "secondary_codes": "sage,rosso"
       },
       {
         "img": "images/prizes/pendant.png",
@@ -69,6 +160,48 @@
         "secondary_codes": "sage"
       },
       {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "th,hera,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "th,hera,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "th,hera,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "th,hera,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "th,hera,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "th,hera,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "th,hera,sage,rosso",
+        "secondary_codes": "sage,rosso"
+      },
+      {
         "img": "images/prizes/pendant.png",
         "inherit_codes": false,
         "codes": "th,hera,pendant",
@@ -95,6 +228,48 @@
         "secondary_codes": "sage"
       },
       {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "pd,dark,sage,rosso",
+        "secondary_codes": "sage,rosso"
+      },
+      {
         "img": "images/prizes/pendant.png",
         "inherit_codes": false,
         "codes": "pd,dark,pendant",
@@ -112,18 +287,60 @@
       {
         "img": "images/prizes/unknown.png",
         "inherit_codes": false,
-        "codes": "ep,swamp"
+        "codes": "sp,swamp"
       },
       {
         "img": "images/prizes/sage_rainbow.png",
         "inherit_codes": false,
-        "codes": "ep,swamp,sage",
+        "codes": "sp,swamp,sage",
         "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "sp,swamp,sage,rosso",
+        "secondary_codes": "sage,rosso"
       },
       {
         "img": "images/prizes/pendant.png",
         "inherit_codes": false,
-        "codes": "ep,swamp,pendant",
+        "codes": "sp,swamp,pendant",
         "secondary_codes": "pendant"
       }
     ]
@@ -145,6 +362,48 @@
         "inherit_codes": false,
         "codes": "sw,skull,sage",
         "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "sw,skull,sage,rosso",
+        "secondary_codes": "sage,rosso"
       },
       {
         "img": "images/prizes/pendant.png",
@@ -173,6 +432,48 @@
         "secondary_codes": "sage"
       },
       {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "tt,thieves,sage,rosso",
+        "secondary_codes": "sage,rosso"
+      },
+      {
         "img": "images/prizes/pendant.png",
         "inherit_codes": false,
         "codes": "tt,thieves,pendant",
@@ -197,6 +498,48 @@
         "inherit_codes": false,
         "codes": "tr,turtle,sage",
         "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "tr,turtle,sage,rosso",
+        "secondary_codes": "sage,rosso"
       },
       {
         "img": "images/prizes/pendant.png",
@@ -225,6 +568,48 @@
         "secondary_codes": "sage"
       },
       {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "dp,desert,sage,rosso",
+        "secondary_codes": "sage,rosso"
+      },
+      {
         "img": "images/prizes/pendant.png",
         "inherit_codes": false,
         "codes": "dp,desert,pendant",
@@ -249,6 +634,48 @@
         "inherit_codes": false,
         "codes": "ir,ice,sage",
         "secondary_codes": "sage"
+      },
+      {
+        "img": "images/prizes/sage_gulley.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,sage,gulley",
+        "secondary_codes": "sage,gulley"
+      },
+      {
+        "img": "images/prizes/sage_oren.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,sage,oren",
+        "secondary_codes": "sage,oren"
+      },
+      {
+        "img": "images/prizes/sage_seres.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,sage,seres",
+        "secondary_codes": "sage,seres"
+      },
+      {
+        "img": "images/prizes/sage_osfala.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,sage,osfala",
+        "secondary_codes": "sage,osfala"
+      },
+      {
+        "img": "images/prizes/sage_impa.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,sage,impa",
+        "secondary_codes": "sage,impa"
+      },
+      {
+        "img": "images/prizes/sage_irene.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,sage,irene",
+        "secondary_codes": "sage,irene"
+      },
+      {
+        "img": "images/prizes/sage_rosso.png",
+        "inherit_codes": false,
+        "codes": "ir,ice,sage,rosso",
+        "secondary_codes": "sage,rosso"
       },
       {
         "img": "images/prizes/pendant.png",
