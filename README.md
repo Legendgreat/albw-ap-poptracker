@@ -225,6 +225,8 @@ If dungeon location checks don't match up with where they should, please let me 
 
 <summary>Older versions</summary>
 
+### 1.0.x
+
 - 1.0.4
   - slightly adjusted layout, added individual sage portraits to the progression, and added guide to README.md
 - 1.0.3
