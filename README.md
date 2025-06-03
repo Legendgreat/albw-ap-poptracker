@@ -186,10 +186,49 @@ Author: [Legend](https://github.com/Legendgreat)
 Discord: legendgreat
 
 ## Version History
-- 1.1.1
-- 1.1.0
+
+<details>
+
+<summary>1.1.1</summary>
+
+</details>
+
+<details>
+
+<summary>1.1.0</summary>
+
+### Bug Fixes
+
+- Tracker should now display properly on resolutions below 1440p
+- Lorule Castle small keys are now auto-tracked properly
+- Osfala rented item is now tracked properly
+
+### Improvements
+
+- All locations are a bit smaller so it's easier to look at
+- Maiamai checks are now diamond shaped so they're easier to distinguish from item checks, they also appear in front instead of behind other checks
+- Dungeon map images are now combined, and have a floor label
+- Bottle for trade quest is now 1 combined letter/milk bottle based on information from RickWithAnH, and should alleviate some confusion around how it's randomized
+- Rainbow sage and rainbow pendant is removed from the dungeon prize tracker, and all pendants are now in there
+- Sages in every dungeon's prize tracker now have numbers next to them to make them easier to distinguish when they are still greyed out (1 = gulley, 2 = oren, etc.)
+- Added a Go! Mode tracker in the Lorule Castle key tracker, where there was previously nothing. May or may not work, untested.
+
+### Remaining issues
+
+- Due to refactor of the dungeon locations, sages and pendants are not properly displayed in dungeons, but still work when toggled in the dungeon item tracker in the bottom dock
+
+If dungeon location checks don't match up with where they should, please let me know. I made sure to test this time but there's a chance I missed something.
+
+</details>
+
+<details>
+
+<summary>Older versions</summary>
+
 - 1.0.4
+  - slightly adjusted layout, added individual sage portraits to the progression, and added guide to README.md
 - 1.0.3
+  - Desert Palace had some weird bugs left, fixed now.
 - 1.0.2
   - Dungeon tracking should be fixed
 - 1.0.1
@@ -198,6 +237,8 @@ Discord: legendgreat
 - 1.0.0
   - Initial Release
   - Changes from arborelia's version include refactoring of the location files, adding proper tracking for locations, tracking dungeon keys and items, and minor adjustments to the layouts, as well as merging it with the latest version of RickWithAnH's tracker.
+
+</details>
 
 ## License
 
