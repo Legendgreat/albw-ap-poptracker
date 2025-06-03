@@ -2,8 +2,8 @@
   "versions": [
     {
       "package_version": "1.1.1",
-      "download_url": "",
-      "sha256": "",
+      "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.1.1/v1.1.1.zip",
+      "sha256": "AFF8A53B11DBB5C53532579D7596A9C51D70B0BF2981C6F31DCF4846802BDACE",
       "changelog": [
         "Master Ore getting auto-tracked properly",
         "Hyrule Castle checks are now auto-tracked properly",
