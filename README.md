@@ -28,31 +28,31 @@ Not all locations are randomized, and thus not auto-trackable. See [Untrackable 
 
 ### Dungeon Prize Explanation
 
-| Name               | Prize                                                                                                                                                                                                                      | Effect / Unlocks                                                                             |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Gulley             | ![Gulley](images/prizes/sage_gulley.png)                     |                                                                                              |
-| Oren               | ![Oren](images/prizes/sage_oren.png)                           | - Queen Oren                                                                                 |
-| Seres              | ![Seres](images/prizes/sage_seres.png)                        |                                                                                              |
-| Osfala             | ![Osfala](images/prizes/sage_osfala.png)                     | - Ravio's Sand Rod Slot Item                                                                 |
-| Impa               | ![Impa](images/prizes/sage_impa.png)                           | - Hyrule Castle Throne Room                                                                  |
-| Irene              | ![Irene](images/prizes/sage_irene.png)                        | - Irene                                                                                      |
-| Rosso              | ![Rosso](images/prizes/sage_rosso.png)                        | - Unlocks Rosso's House's front door <br>- Rosso <br>- Rosso Rocks <br>- Rosso's House Crack |
-| Pendant of Power   | ![Pendant of Power](images/prizes/pendant_power.png)       |                                                                                              |
-| Pendant of Wisdom  | ![Pendant of Wisdom](images/prizes/pendant_wisdom.png)  |                                                                                              |
+| Name               | Prize                                                    | Effect / Unlocks                                                                             |
+| ------------------ | -------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Gulley             | ![Gulley](images/prizes/sage_gulley.png)                 |                                                                                              |
+| Oren               | ![Oren](images/prizes/sage_oren.png)                     | - Queen Oren                                                                                 |
+| Seres              | ![Seres](images/prizes/sage_seres.png)                   |                                                                                              |
+| Osfala             | ![Osfala](images/prizes/sage_osfala.png)                 | - Ravio's Sand Rod Slot Item                                                                 |
+| Impa               | ![Impa](images/prizes/sage_impa.png)                     | - Hyrule Castle Throne Room                                                                  |
+| Irene              | ![Irene](images/prizes/sage_irene.png)                   | - Irene                                                                                      |
+| Rosso              | ![Rosso](images/prizes/sage_rosso.png)                   | - Unlocks Rosso's House's front door <br>- Rosso <br>- Rosso Rocks <br>- Rosso's House Crack |
+| Pendant of Power   | ![Pendant of Power](images/prizes/pendant_power.png)     |                                                                                              |
+| Pendant of Wisdom  | ![Pendant of Wisdom](images/prizes/pendant_wisdom.png)   |                                                                                              |
 | Pendant of Courage | ![Pendant of Courage](images/prizes/pendant_courage.png) | - Wildlife Clearing Stump                                                                    |
 
 #### Sage Portraits
 
 Sage Portraits (sometimes called Paintings) are the primary major collectible of the randomizer.
 
-| Gulley                                                                                                                                                                                                 | Oren                                                                                                                                                                                             | Seres                                                                                                                                                                                               | Osfala                                                                                                                                                                                                 | Impa                                                                                                                                                                                             | Irene                                                                                                                                                                                               | Rosso                                                                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Gulley                                   | Oren                                 | Seres                                  | Osfala                                   | Impa                                 | Irene                                  | Rosso                                  |
+| ---------------------------------------- | ------------------------------------ | -------------------------------------- | ---------------------------------------- | ------------------------------------ | -------------------------------------- | -------------------------------------- |
 | ![Gulley](images/prizes/sage_gulley.png) | ![Oren](images/prizes/sage_oren.png) | ![Seres](images/prizes/sage_seres.png) | ![Osfala](images/prizes/sage_osfala.png) | ![Impa](images/prizes/sage_impa.png) | ![Irene](images/prizes/sage_irene.png) | ![Rosso](images/prizes/sage_rosso.png) |
 
 You can configure how many must be collected with the following settings:
 
-| Setting                                                                                                                                                                                                                 | Range | Default | Specifies Requirement For                                                          |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ------- | ---------------------------------------------------------------------------------- |
+| Setting                                                    | Range | Default | Specifies Requirement For                                                          |
+| ---------------------------------------------------------- | ----- | ------- | ---------------------------------------------------------------------------------- |
 | ![Lorule Castle Requirement](images/prizes/sage_zelda.png) | 0-7   | 7       | - Entering Lorule Castle's Front Door <br>- Spawning Final Boss in the Throne Room |
 
 You can set which dungeon holds which sage by right-clicking on the ?? icons under each dungeon. Currently, sage item collection is not implemented, so you still have to click each collection off manually.
@@ -65,10 +65,10 @@ The Pendants of Power, Wisdom and Courage are needed to reach the Master Sword P
 
 You can configure the `Pedestal` option to configure which Pendants are needed as follows:
 
-| Pendants                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Name    | Description                                                            |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------- |
+| Pendants                                                                                                                                                           | Name    | Description                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | ---------------------------------------------------------------------- |
 | ![Pendant of Wisdom](images/prizes/pendant_wisdom.png)![Pendant of Power](images/prizes/pendant_power.png)![Pendant of Courage](images/prizes/pendant_courage.png) | Normal  | Require all Pendants of Virtue.                                        |
-| ![Pendant of Wisdom](images/prizes/pendant_wisdom.png)![Pendant of Power](images/prizes/pendant_power.png)                                                                                                                                                                                                                           | Vanilla | As in the vanilla game, only require the Pendants of Power and Wisdom. |
+| ![Pendant of Wisdom](images/prizes/pendant_wisdom.png)![Pendant of Power](images/prizes/pendant_power.png)                                                         | Vanilla | As in the vanilla game, only require the Pendants of Power and Wisdom. |
 
 ### Location Color Codes
 
@@ -94,13 +94,13 @@ This tracker follows PopTracker's standard color scheme for its locations:
 
 The randomizer supports five\* Logic Modes, and so does this tracker. You can select the mode matching your seed in the settings panel in the bottom left of the tracker.
 
-| Mode                                                                                                                                                                                                                     | Description                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Normal Logic](images/settings/Normal.png)                   | Standard gameplay, no tricky item use or glitches.                                                                                                                                  |
-| ![Hard Logic](images/settings/Hard.png)                         | Adds tricks that aren't technically glitches.                                                                                                                                       |
-| ![Glitched Logic](images/settings/Glitched.png)             | Includes the above plus "basic", easy-to-learn glitches.                                                                                                                            |
+| Mode                                                    | Description                                                                                                                                                                         |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Normal Logic](images/settings/Normal.png)             | Standard gameplay, no tricky item use or glitches.                                                                                                                                  |
+| ![Hard Logic](images/settings/Hard.png)                 | Adds tricks that aren't technically glitches.                                                                                                                                       |
+| ![Glitched Logic](images/settings/Glitched.png)         | Includes the above plus "basic", easy-to-learn glitches.                                                                                                                            |
 | ![Adv Glitched Logic](images/settings/Adv_Glitched.png) | Includes the above plus "advanced" glitches that may be a challenge to master.                                                                                                      |
-| ![Hell Logic](images/settings/Hell.png)                         | Includes every known RTA-viable glitch, including the insane ones. Note that the Bee Badge is omitted from the item pool in this mode, to preserve the infamous Bee Boosting trick. |
+| ![Hell Logic](images/settings/Hell.png)                 | Includes every known RTA-viable glitch, including the insane ones. Note that the Bee Badge is omitted from the item pool in this mode, to preserve the infamous Bee Boosting trick. |
 
 Raising the Logic Mode to higher difficulties will cause `🟨 Sequence Break` sections to become `🟩 Normal` as they enter logic.
 
@@ -187,15 +187,28 @@ Discord: legendgreat
 
 ## Version History
 
-<details>
+### 1.1.0
 
-<summary>1.1.1</summary>
+### Bug Fixes
 
-</details>
+- Master Ore is now auto-tracked properly
+- Hyrule Castle checks are now auto-tracked properly
+- Changed the Mother Maiamai location on Hyrule Overworld map temporarily, until the diamond shape hover issue is fixed in PopTracker
+- Death Mountain Maiamai locations are now diamond shaped too
+
+### Improvements
+
+- Added automatic pack update notifications
+
+### Remaining issues
+
+- When diamond shape (Maiamai) locations overlap with square shaped ones, the square shape takes prevalence for the mouse hover. [Black Sliver](https://github.com/black-sliver/) is going to fix this in a future PopTracker update.
 
 <details>
 
 <summary>1.1.0</summary>
+
+### 1.1.1
 
 ### Bug Fixes
 
