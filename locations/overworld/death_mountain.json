@@ -116,7 +116,8 @@
             "map": "hyrule",
             "x": 1142,
             "y": 468,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -164,7 +165,8 @@
             "map": "hyrule",
             "x": 1045,
             "y": 245,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -261,7 +263,8 @@
             "map": "hyrule",
             "x": 1910,
             "y": 168,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -342,7 +345,8 @@
             "map": "hyrule",
             "x": 1639,
             "y": 254,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -368,7 +372,8 @@
             "map": "hyrule",
             "x": 1324,
             "y": 390,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -495,7 +500,8 @@
             "map": "lorule",
             "x": 864,
             "y": 303,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -520,7 +526,8 @@
             "map": "lorule",
             "x": 843,
             "y": 111,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -547,7 +554,8 @@
             "map": "lorule",
             "x": 1309,
             "y": 429,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -617,7 +625,8 @@
             "map": "lorule",
             "x": 1723,
             "y": 475,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -643,7 +652,8 @@
             "map": "lorule",
             "x": 1634,
             "y": 256,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
@@ -671,7 +681,8 @@
             "map": "lorule",
             "x": 1880,
             "y": 106,
-            "size": 48
+            "size": 32,
+            "shape": "diamond"
           }
         ],
         "sections": [
