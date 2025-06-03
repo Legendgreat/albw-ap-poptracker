@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.1.2",
+      "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.1.2/v1.1.2.zip",
+      "sha256": "98D0F21C87729590FE32B92AD03D651F46F87B173BA5438A7C108E6FA751E759",
+      "changelog": [
+        "Fixed the versions_url link in manifest.json for automatic updates"
+      ]
+    },
+    {
       "package_version": "1.1.1",
       "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.1.1/v1.1.1.zip",
       "sha256": "AFF8A53B11DBB5C53532579D7596A9C51D70B0BF2981C6F31DCF4846802BDACE",
