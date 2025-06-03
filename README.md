@@ -186,8 +186,16 @@ Author: [Legend](https://github.com/Legendgreat)
 Discord: legendgreat
 
 ## Version History
-
-- 1.0
+- 1.1.1
+- 1.1.0
+- 1.0.4
+- 1.0.3
+- 1.0.2
+  - Dungeon tracking should be fixed
+- 1.0.1
+  - Working autotracking for all locations, items, and dungeon items.
+    Sadly no sages/pendants, or events such as bumping into shady guy until apworld has location codes for those.
+- 1.0.0
   - Initial Release
   - Changes from arborelia's version include refactoring of the location files, adding proper tracking for locations, tracking dungeon keys and items, and minor adjustments to the layouts, as well as merging it with the latest version of RickWithAnH's tracker.
 
