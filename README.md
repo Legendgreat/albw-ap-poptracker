@@ -187,7 +187,11 @@ Discord: legendgreat
 
 ## Version History
 
-### 1.1.0
+### 1.1.2
+
+- Fixed the versions_url link in manifest.json for automatic updates
+
+### 1.1.1
 
 ### Bug Fixes
 
