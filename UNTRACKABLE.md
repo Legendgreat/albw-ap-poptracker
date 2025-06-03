@@ -4,6 +4,9 @@
 
 - Golden Bee (available in tracker purely for location logic, Bee House Bee Badge reward)
 - Scoot and Foul fruit (Scoot available in tracker for logic, Runaway Item Seller)
+- All dungeon prizes (Pendant/Sages)
+- Zelda (Sage)
+- Triforce (Game Ending)
 
 #### Junk items
 
@@ -39,6 +42,10 @@ All weather vanes are untrackable
  - Turtle (bullied)
  - Mysterious Man (Golden Bee)
  - Clear Treacherous Tower
+ - All boss defeat and dungeon clear events
+ - All dungeon related events
+ - Saving Zelda (Sage)
+ - Sacred Realm (Triforce)
 
 #### Store purchases & chest minigames
 
