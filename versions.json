@@ -1,0 +1,15 @@
+{
+  "versions": [
+    {
+      "package_version": "1.1.1",
+      "download_url": "",
+      "sha256": "",
+      "changelog": [
+        "Master Ore getting auto-tracked properly",
+        "Hyrule Castle checks are now auto-tracked properly",
+        "Changed Mother Maiamai's location size until hover prevalence is fixed in PopTracker",
+        "Death Mountain Maiamai locations are now the right shape"
+      ]
+    }
+  ]
+}
