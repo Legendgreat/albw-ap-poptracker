@@ -1,10 +1,11 @@
 ﻿{
   "name": "ALBW Auto PopTracker",
   "game_name": "The Legend of Zelda: A Link Between Worlds",
-  "platform": "3DS",
   "package_version": "1.1.1",
   "package_uid": "albw-ap-poptracker",
   "author": "Legend",
+  "versions_url": "https://raw.githubusercontent.com/legendgreat/albw-ap-poptracker/tree/versions/versions.json",
+  "min_poptracker_version": "0.31.0",
   "variants": {
     "standard": {
       "display_name": "Standard Map Tracker",
