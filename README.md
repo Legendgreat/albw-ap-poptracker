@@ -24,7 +24,7 @@ The tracker's logic is based on [z17-randomizer](https://github.com/rickfay/z17-
 
 ### Quick Side Note
 
-Not all locations are randomized, and thus not auto-trackable. See [Untrackable Items and Locations](https://github.com/Legendgreat/albw-ap-poptracker/UNTRACKABLE.md) for a list of untrackable items and locations.
+Not all locations are randomized, and thus not auto-trackable. See [Untrackable Items and Locations](https://github.com/Legendgreat/albw-ap-poptracker/blob/main/UNTRACKABLE.md) for a list of untrackable items and locations.
 
 ### Dungeon Prize Explanation
 
