@@ -3,7 +3,7 @@
     {
       "package_version": "1.2.1",
       "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.2.1/v1.2.1.zip",
-      "sha256": "2FE7EEF589339F86DDE5FACAAEA90FEAB7239508A9B7D226CDDD6937A4D841DE",
+      "sha256": "0862D14AF27C3FA2F1961337D080884B5A55AA68AD1BC5FB85442305A0A1E323",
       "changelog": [
         "Quake is now tracked if found manually (not initial_crack_state)",
         "Open trials door should now be tracked",
