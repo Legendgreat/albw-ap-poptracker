@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "1.2.0",
+      "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.2.0/v1.2.0.zip",
+      "sha256": "DA7C08F40C588E68BC21C1BA14A9694F3B94C120CDA52F8709CC739EAFF55C86",
+      "changelog": [
+        "Settings are now auto-tracked",
+        "Checks with hard/glitched logic should now properly appear yellow instead of green",
+        "Rupee Rush and Dark Ruins South Wall Maiamai's are now in the right spot"
+      ]
+    },
+    {
       "package_version": "1.1.2",
       "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.1.2/v1.1.2.zip",
       "sha256": "98D0F21C87729590FE32B92AD03D651F46F87B173BA5438A7C108E6FA751E759",
