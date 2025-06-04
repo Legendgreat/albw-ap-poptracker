@@ -58,34 +58,34 @@ end
 -- Returns true if we're using the specified settings, or (true, SequenceBreak) if not
 function true_for(logic)
     if has(logic) then
-        return true
+        return AccessibilityLevel.Normal
     else
-        return true, AccessibilityLevel.SequenceBreak
+        return AccessibilityLevel.SequenceBreak
     end
 end
 
 -- Can the player attack
 function attack()
-    return hasAny({ "fsword", "bow", "bombs", "frod", "irod", "hammer", "boots", "nicetrod", "nicehookshot", "superlamp", "supernet" }) or (has("lamp_net_weapons") and hasAny({"lamp", "net"}))
+    return hasAny({ "fsword", "bow", "bombs", "frod", "irod", "hammer", "boots", "nicetrod", "nicehookshot", "superlamp", "supernet" }) or (has("lamp_net_on") and hasAny({"lamp", "net"}))
 end
 
 -- Same as attack(), minus the bow
 function attack_bowproof()
-    return hasAny({ "fsword", "bombs", "frod", "irod", "hammer", "boots", "nicetrod", "nicehookshot", "superlamp", "supernet" }) or (has("lamp_net_weapons") and hasAny({"lamp", "net"}))
+    return hasAny({ "fsword", "bombs", "frod", "irod", "hammer", "boots", "nicetrod", "nicehookshot", "superlamp", "supernet" }) or (has("lamp_net_on") and hasAny({"lamp", "net"}))
 end
 
 -- Same as attack(), minus the Ice Rod
 function attack_iceproof()
-    return hasAny({ "fsword", "bow", "bombs", "frod", "hammer", "boots", "nicetrod", "nicehookshot", "superlamp", "supernet" }) or (has("lamp_net_weapons") and hasAny({"lamp", "net"}))
+    return hasAny({ "fsword", "bow", "bombs", "frod", "hammer", "boots", "nicetrod", "nicehookshot", "superlamp", "supernet" }) or (has("lamp_net_on") and hasAny({"lamp", "net"}))
 end
 
 -- Return if the player can deal damage to enemies that are immune to fire
 function fire_enemy()
-    return hasAny({ "fsword", "bow", "bombs", "irod", "hammer", "boots", "nicetrod", "nicehookshot", "supernet" })  or hasAll({ "lamp_net_weapons", "net" })
+    return hasAny({ "fsword", "bow", "bombs", "irod", "hammer", "boots", "nicetrod", "nicehookshot", "supernet" }) or hasAll({ "lamp_net_on", "net" })
 end
 
 function progression_enemies_floor()
-    return hasAny({"bombs", "hammer", "progression_enemies"})
+    return hasAny({"bombs", "hammer", "progression_enemies_on"})
 end
 
 -- Return if the player can attack Margomill
@@ -93,25 +93,25 @@ end
 function margomill()
     if hg_big_key() and attack_iceproof() then
         if hg_small_keys(4) then
-            return true
+            return AccessibilityLevel.Normal
         elseif hg_small_keys(2) then
-            return true, AccessibilityLevel.SequenceBreak
+            return AccessibilityLevel.SequenceBreak
         end
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 -- Return if the player can attack Knucklemaster
 -- This is the same as attack(), minus the bow
 function knucklemaster()
     if has("msword") or (has("swordless") and attack_bowproof()) then
-        return true
+        return AccessibilityLevel.Normal
     elseif attack_bowproof() then
-        return true, AccessibilityLevel.SequenceBreak
+        return AccessibilityLevel.SequenceBreak
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 -- Return if the player can stun enemies
@@ -179,7 +179,7 @@ function canExtinguishTorches()
 end
 
 function bawbs()
-    return hasAny({ "progression_enemies", "bombs" })
+    return hasAny({ "progression_enemies_on", "bombs" })
 end
 
 -- Return if Link can hit Crystal Switches
@@ -199,7 +199,7 @@ function lampless()
     --return hasAny({ "lamp", "lampless" })
 
     if has("lamp") then
-        return true
+        return AccessibilityLevel.Normal
     else
         return true_for("lampless")
     end
@@ -243,7 +243,7 @@ function yuga_eastern()
     -- Normal
     if access_ep_boss() then
         if has("bow") then
-            return true
+            return AccessibilityLevel.Normal
         end
     end
 
@@ -273,32 +273,32 @@ function yuga_eastern()
         end
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 function notNiceMode()
-    return not has("nice_mode")
+    return not has("nice_items_on")
 end
 
 -- Can use Cracks
--- Not for Hyrule Castle crack (doesn't need Quake)
+-- Not for Hyrule Castle crack (doesn't need quake_on)
 function crack()
-    return hasAll({ "quake", "merge" })
+    return hasAll({ "quake_on", "merge" })
 end
 
 
 -- Can reach top part of East Lorule Death Mountain, where the Ice Ruins entrance is.
 function loruleDeathEastTop()
-    if hasAll({ "power_glove", "merge", "hookshot", "quake" }) then
+    if hasAll({ "power_glove", "merge", "hookshot", "quake_on" }) then
         return true
     end
 
     if has("bell") then
-        if hasAny({ "wv_death_hyrule", "wv_hera" }) and hasAll({ "merge", "quake", "hookshot" }) then
+        if hasAny({ "wv_death_hyrule", "wv_hera" }) and hasAll({ "merge", "quake_on", "hookshot" }) then
             return true
         end
 
-        if hasAll({ "merge", "quake" }) or has("yuga") then
+        if hasAll({ "merge", "quake_on" }) or has("yuga") then
             if has("wv_ice") or hasAll({ "wv_death_lorule", "merge" }) then
                 return true
             end
@@ -313,7 +313,7 @@ end
 -- Graveyard -> Dark access is possible with glitches
 function darkRuins()
     if crack() or (hasAll({ "yuga", "bell", "wv_dark" }) and (has("merge") or dark_palace())) then
-        return true
+        return AccessibilityLevel.Normal
     elseif hasAll({ "yuga", "bell", "wv_graveyard" }) then
         if boost() and hasAny({ "flippers", "hookshot" }) then
             return true_for("glitched")
@@ -324,7 +324,7 @@ function darkRuins()
         end
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 function dark_palace()
@@ -358,25 +358,25 @@ end
 function hog2F()
     if hg_small_keys(1) then
         if has("merge") and switch() then
-            return true
+            return AccessibilityLevel.Normal
         elseif hasAny({ "bow", "boomerang", "hookshot", "bombs", "irod", "msword" }) or hasAll({ "great_spin", "fsword" }) then
             return true_for("hard")
         end
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 -- Can reach House of Gales 3F (assume TRod)
 function hog3F()
-    if hog2F() and has("merge") then
+    if has("merge") then
         if hg_small_keys(3) and fire_enemy() then
-            return fire_enemy()
+            return hog2F()
         else
             return true_for("glitched")
         end
     else
-        return false
+        return AccessibilityLevel.None
     end
 end
 
@@ -396,7 +396,7 @@ end
 
 -- Can open Thieves' Hideout B2 Door
 function thB2DoorOpen()
-    if thB1DoorOpen() and has("merge") and hasAny({ "progression_enemies", "bombs" }) then
+    if thB1DoorOpen() and has("merge") and hasAny({ "progression_enemies_on", "bombs" }) then
         return true
     elseif (has("merge") or dungeon_escape()) and adv_th_statue_clip() then
         return has("advanced")
@@ -447,16 +447,16 @@ end
 -- Can reach the Thieves' Hideout Escape
 function thEscape()
     if hasAll({ "merge", "flippers" }) and attack() then
-        return true
+        return AccessibilityLevel.Normal
     elseif has("trod") and hasAny({ "bombs", "irod" }) then
         return true_for("advanced")
     else
-        return false
+        return AccessibilityLevel.None
     end
 end
 
 function crack_clip()
-    return has("boomerang") or hasAll({ "not_nice_mode", "hookshot" }) or shieldRodClip()
+    return has("boomerang") or hasAll({ "nice_items_off", "hookshot" }) or shieldRodClip()
 end
 
 -- Return if we can get OoB on the south wall of Misery Mire
@@ -488,7 +488,7 @@ function advanced_misery_mire_oob()
     --            has("merge")
     --                    and ((has("cracksanity")
     --                    and hasAny({ "crack_mire_sw", "crack_mire_middle" }))
-    --                    or (hasAll({ "not_cracksanity", "quake" })
+    --                    or (hasAll({ "not_cracksanity", "quake_on" })
     --                    and (hasAny({ "srod", "scroll" })
     --                    or boost())))))
     --        and (boost()
@@ -510,7 +510,7 @@ function hell_misery_mire_oob()
         return true
     end
 
-    if (access_misery_mire() and hasAll({ "irod", "trod" }) or (has("merge") and (hasAll({ "not_cracksanity", "quake" }) or (has("cracksanity") and hasAny({ "crack_mire_sw", "crack_mire_middle" }))))) and (has("frod") or (has("trod") and crack_clip())) then
+    if (access_misery_mire() and hasAll({ "irod", "trod" }) or (has("merge") and (hasAll({ "not_cracksanity", "quake_on" }) or (has("cracksanity") and hasAny({ "crack_mire_sw", "crack_mire_middle" }))))) and (has("frod") or (has("trod") and crack_clip())) then
         return true
     end
 
@@ -523,7 +523,7 @@ function access_central_lorule()
 end
 
 function warpLorule()
-    return hasAll({ "bell", "merge" }) and ((notCracksanity() and has("quake")) or hasAny({ "crack_hc", "crack_vacant_house", "crack_skull_woods_pillar", "crack_destroyed_house", "crack_lorule_dm_west", "crack_lofi", "crack_rom_lorule", "crack_philosopher", "crack_graveyard_lorule", "crack_waterfall_lorule", "crack_kus_domain", "crack_n-shaped_house", "crack_thieves_town", "crack_dark_ruins_pillar", "crack_dark_ruins_se", "crack_river_lorule", "crack_swamp_pillar_lorule", "crack_lake_lorule", "crack_lorule_hotfoot", "crack_left_lorule_paradox", "crack_right_lorule_paradox", "crack_mire_exit", "crack_mire_north", "crack_mire_pillar_left", "crack_mire_pillar_right", "crack_mire_middle", "crack_mire_sw", "crack_zaganaga", "crack_lc" }))
+    return hasAll({ "bell", "merge" }) and ((notCracksanity() and has("quake_on")) or hasAny({ "crack_hc", "crack_vacant_house", "crack_skull_woods_pillar", "crack_destroyed_house", "crack_lorule_dm_west", "crack_lofi", "crack_rom_lorule", "crack_philosopher", "crack_graveyard_lorule", "crack_waterfall_lorule", "crack_kus_domain", "crack_n-shaped_house", "crack_thieves_town", "crack_dark_ruins_pillar", "crack_dark_ruins_se", "crack_river_lorule", "crack_swamp_pillar_lorule", "crack_lake_lorule", "crack_lorule_hotfoot", "crack_left_lorule_paradox", "crack_right_lorule_paradox", "crack_mire_exit", "crack_mire_north", "crack_mire_pillar_left", "crack_mire_pillar_right", "crack_mire_middle", "crack_mire_sw", "crack_zaganaga", "crack_lc" }))
 end
 
 function claimDesertPrize()
@@ -541,7 +541,7 @@ end
 
 -- Return if we can perform Reverse Desert Palace
 function reverseDP()
-    return hasAll({ "not_cracksanity", "merge", "crack_desert_palace", "quake" })
+    return hasAll({ "not_cracksanity", "merge", "crack_desert_palace", "quake_on" })
             or hasAll({ "cracksanity", "merge", "crack_desert_palace" })
 end
 
@@ -595,11 +595,11 @@ function canEnterLC()
         return true
     end
 
-    if notCracksanity() and hasAll({"merge", "crack_hc", "lc_trials_door"}) then
+    if notCracksanity() and hasAll({"merge", "crack_hc", "lc_trials_door_open"}) then
         return true
     end
 
-    if hasAll({ "cracksanity", "crack_lc", "lc_trials_door", "merge" }) then
+    if hasAll({ "cracksanity", "crack_lc", "lc_trials_door_open", "merge" }) then
         return true
     end
 
@@ -633,13 +633,13 @@ end
 -- Return if we can reach Lorule Castle 2F
 function lc2F()
     if attack() then
-        return true
+        return AccessibilityLevel.Normal
     end
 
-    if notCracksanity() and hasAll({"crack_hc", "lc_trials_door"}) then
-        return true
-    elseif hasAll({"cracksanity", "crack_lc", "lc_trials_door"}) then
-        return true
+    if notCracksanity() and hasAll({"crack_hc", "lc_trials_door_open"}) then
+        return AccessibilityLevel.Normal
+    elseif hasAll({"cracksanity", "crack_lc", "lc_trials_door_open"}) then
+        return AccessibilityLevel.Normal
     end
 
     return true_for("hard")
@@ -650,7 +650,7 @@ function advanced_lc3F4F()
         return true_for("advanced")
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 -- Map the Yuganon requirement from a progressive item to a number
@@ -689,36 +689,31 @@ end
 function can_reach_final_boss()
     if lc_requirement() then
         if has("merge") and (hasAll({"not_cracksanity", "crack_hc"}) or hasAll({"cracksanity", "crack_lc"}))  then
-            return true
+            return AccessibilityLevel.Normal
         end
 
-        if access_central_lorule() and has("lc_trials_door") then
-            return true
+        if access_central_lorule() and has("lc_trials_door_open") then
+            return AccessibilityLevel.Normal
         end
 
-        if advanced_access_central_lorule() and hasAny({"lc_trials_door", "fsword"}) then
+        if advanced_access_central_lorule() and hasAny({"lc_trials_door_open", "fsword"}) then
             return true_for("advanced")
         end
 
-        if hell_access_central_lorule() and hasAny({"lc_trials_door", "fsword"}) then
+        if hell_access_central_lorule() and hasAny({"lc_trials_door_open", "fsword"}) then
             return true_for("hell")
         end
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 function can_finish()
     local obj = Tracker:FindObjectForCode("gomode")
-    if has("bow_of_light") and can_reach_final_boss() and has("fsword") then
+    if has("bow_of_light") and (can_reach_final_boss() == AccessibilityLevel.Normal) and (has("fsword") or (has("net") and has("hard"))) then
         obj.Active = true
-        return true
-    elseif has("bow_of_light") and can_reach_final_boss() and has("net") then
-        obj.Active = true
-        return (true_for("swordless") or true_for("hard"))
     else
         obj.Active = false
-        return false
     end
 end
 
@@ -728,11 +723,11 @@ function can_skip_trials()
         if has("bombs") then
             return true_for("advanced")
         elseif has("niceirod") then
-            return true, AccessibilityLevel.SequenceBreak
+            return AccessibilityLevel.SequenceBreak
         end
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 function maiamaiUpgradeAvailable()
@@ -770,12 +765,12 @@ function motherMaiamaiItemsReceived()
 end
 
 function inspect_crack_lorule()
-    return has("merge") and (hasAll({ "quake", "not_cracksanity" }) or (hasAll({ "cracksanity", "quake" }))
+    return has("merge") and (hasAll({ "quake_on", "not_cracksanity" }) or (hasAll({ "cracksanity", "quake_on" }))
             or (hasAll({ "crack_hc", "cracksanity" }) and hasNone({ "crack_vacant_house", "crack_skull_woods_pillar", "crack_destroyed_house", "crack_lorule_dm_west", "crack_lofi", "crack_rom_lorule", "crack_philosopher", "crack_graveyard_lorule", "crack_waterfall_lorule", "crack_kus_domain", "crack_n-shaped_house", "crack_thieves_town", "crack_dark_ruins_pillar", "crack_dark_ruins_se", "crack_river_lorule", "crack_swamp_pillar_lorule", "crack_lake_lorule", "crack_lorule_hotfoot", "crack_left_lorule_paradox", "crack_right_lorule_paradox", "crack_mire_exit", "crack_mire_north", "crack_mire_pillar_left", "crack_mire_pillar_right", "crack_mire_middle", "crack_mire_sw", "crack_zaganaga", "crack_lc" })))
 end
 
 function inspect_down_crack_lorule()
-    return hasAll({ "merge", "quake" })
+    return hasAll({ "merge", "quake_on" })
 end
 
 -- Small Keysy

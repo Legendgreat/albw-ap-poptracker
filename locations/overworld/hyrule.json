@@ -20,12 +20,12 @@
               {
                 "name": "Chest",
                 "access_rules": [
-                  "{csmc}",
+                  "{csmc_on}",
                   "{hell, boomerang}",
-                  "{hell, not_nice_mode, hookshot}",
+                  "{hell, nice_items_off, hookshot}",
                   "titansmitt",
                   "[hell], boomerang",
-                  "[hell], not_nice_mode, hookshot"
+                  "[hell], nice_items_off, hookshot"
                 ],
                 "item_count": 1
               }
@@ -48,12 +48,12 @@
                 "access_rules": [
                   //"{}",
                   "{glitched, boomerang}",
-                  "{glitched, not_nice_mode, hookshot}",
+                  "{glitched, nice_items_off, hookshot}",
                   "merge",
                   "[glitched], boomerang, $escape",
-                  "[glitched], not_nice_mode, hookshot, $escape",
+                  "[glitched], nice_items_off, hookshot, $escape",
                   "[hell], boomerang",
-                  "[hell], not_nice_mode, hookshot"
+                  "[hell], nice_items_off, hookshot"
                 ],
                 "item_count": 1
               }
@@ -125,8 +125,8 @@
                 "access_rules": [
                   "hammer",
                   "[glitched], boomerang",
-                  "[glitched], not_nice_mode, hookshot",
-                  "[advanced], not_nice_mode, shield, trod"
+                  "[glitched], nice_items_off, hookshot",
+                  "[advanced], nice_items_off, shield, trod"
                 ],
                 "item_count": 1
               }
@@ -228,19 +228,19 @@
               },
               {
                 "name": "Lower Chest",
-                "access_rules": ["lamp", "$lampless, frod"],
+                "access_rules": ["lamp", "^$lampless, frod"],
                 "item_count": 1
               },
               {
                 "name": "Upper Chest",
-                "access_rules": ["lamp", "$lampless, frod"],
+                "access_rules": ["lamp", "^$lampless, frod"],
                 "item_count": 1
               },
               {
                 "name": "Ledge Heart Piece",
                 "chest_unopened_img": "images/junk/heart_piece.png",
                 "chest_opened_img": "images/junk/heart_piece_collected.png",
-                "access_rules": ["lamp, merge", "$lampless, frod, merge"],
+                "access_rules": ["lamp, merge", "^$lampless, frod, merge"],
                 "item_count": 1
               }
             ]
@@ -268,7 +268,7 @@
                 "capture_item": true,
                 "access_rules": [
                   "merge, crack_graveyard",
-                  "not_cracksanity, merge, quake, crack_graveyard_lorule"
+                  "not_cracksanity, merge, quake_on, crack_graveyard_lorule"
                 ],
                 "item_count": 1
               }
@@ -286,7 +286,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": ["{csmc, bombs}", "bombs, merge"],
+                "access_rules": ["{csmc_on, bombs}", "bombs, merge"],
                 "capture_item": true,
                 "item_count": 1
               }
@@ -304,7 +304,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": ["{csmc}", "hammer"],
+                "access_rules": ["{csmc_on}", "hammer"],
                 "item_count": 1
               }
             ]
@@ -322,8 +322,8 @@
               {
                 "name": "Chest",
                 "access_rules": [
-                  "{csmc, flippers}",
-                  "{csmc, hell, $beeBoost}",
+                  "{csmc_on, flippers}",
+                  "{csmc_on, hell, $beeBoost}",
                   "merge"
                 ],
                 "item_count": 1
@@ -431,7 +431,7 @@
                 "name": "Heart Piece reward",
                 "item_count": 1,
                 "access_rules": [
-                  "not_cracksanity, merge, quake, crack_thieves_town",
+                  "not_cracksanity, merge, quake_on, crack_thieves_town",
                   "merge, crack_stylish_woman"
                 ]
               },
@@ -457,7 +457,7 @@
                 "name": "Roof Maiamai under rock",
                 "item_count": 1,
                 //"capture_item": true,
-                "visibility_rules": ["maiamai_map"],
+                "visibility_rules": ["maiamai_mayhem_on"],
                 "access_rules": ["power_glove"]
               },
               {
@@ -538,7 +538,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": ["{csmc}", "merge"],
+                "access_rules": ["{csmc_on}", "merge"],
                 "item_count": 1
               }
             ]
@@ -678,7 +678,6 @@
               {
                 "name": "Tempered Sword reward",
                 "access_rules": ["ore_2"],
-                "capture_item": true,
                 "hosted_item": "blacksmith"
               }
             ]
@@ -926,7 +925,7 @@
                 "sections": [
                   {
                     "name": "Chest",
-                    "access_rules": ["{csmc}", "hookshot"],
+                    "access_rules": ["{csmc_on}", "hookshot"],
                     "item_count": 1
                   }
                 ]
@@ -944,7 +943,7 @@
                   {
                     "name": "Chest",
                     "access_rules": [
-                      "{csmc}",
+                      "{csmc_on}",
                       "merge",
                       "[glitched], trod",
                       "[glitched], frod",
@@ -992,7 +991,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": ["{csmc}", "merge"],
+                "access_rules": ["{csmc_on}", "merge"],
                 "item_count": 1
               }
             ]
@@ -1046,9 +1045,9 @@
               {
                 "name": "Chest",
                 "access_rules": [
-                  "{csmc, titansmitt}",
-                  "{csmc, glitched, fsword, irod}",
-                  "{csmc, advanced, irod}",
+                  "{csmc_on, titansmitt}",
+                  "{csmc_on, glitched, fsword, irod}",
+                  "{csmc_on, advanced, irod}",
                   "titansmitt, flippers, hookshot, boomerang",
                   "[hard], titansmitt, hookshot, flippers, msword",
                   "[hard], titansmitt, hookshot, flippers, bombs",
@@ -1093,8 +1092,8 @@
               {
                 "name": "Chest",
                 "access_rules": [
-                  "{csmc, flippers}",
-                  "{csmc, wv_gales, bell}",
+                  "{csmc_on, flippers}",
+                  "{csmc_on, wv_gales, bell}",
                   "merge"
                 ],
                 "item_count": 1
@@ -1113,7 +1112,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": ["{csmc, trod}", "{csmc, irod}", "bombs"],
+                "access_rules": ["{csmc_on, trod}", "{csmc_on, irod}", "bombs"],
                 "capture_item": true,
                 "item_count": 1
               }

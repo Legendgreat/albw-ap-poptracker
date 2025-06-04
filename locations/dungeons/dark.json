@@ -30,7 +30,7 @@
       },
       {
         "name": "Dark Palace Dark Rooms",
-        "access_rules": ["$lampless"],
+        "access_rules": ["^$lampless"],
         "children": [
           {
             "name": "(1F) Left Pit",
@@ -407,32 +407,32 @@
           },
           {
             "name": "(1F) Left Pit",
-            "access_rules": ["$lampless"],
+            "access_rules": ["^$lampless"],
             //"capture_item": true,
             "hosted_item": "pd_1f_left_pit"
           },
           {
             "name": "(1F) Switch Puzzle",
-            "access_rules": ["$pd_small_keys|1, $lampless"],
+            "access_rules": ["$pd_small_keys|1, ^$lampless"],
             "hosted_item": "pd_1f_switch_puzzle"
           },
           {
             "name": "(1F) Hidden Room (Upper)",
-            "access_rules": ["bombs, $pd_small_keys|1, $lampless"],
+            "access_rules": ["bombs, $pd_small_keys|1, ^$lampless"],
             "hosted_item": "pd_1f_hidden_room_upper"
           },
           {
             "name": "(1F) Hidden Room (Lower)",
-            "access_rules": ["$pd_small_keys|1, $lampless"],
+            "access_rules": ["$pd_small_keys|1, ^$lampless"],
             "hosted_item": "pd_1f_hidden_room_lower"
           },
           {
             "name": "(1F) Fall From 2F",
             "access_rules": [
-              "bombs, $pd_small_keys|4, $lampless",
-              "hammer, $pd_small_keys|4, $lampless",
-              "[], bombs, $pd_small_keys|2, $lampless",
-              "[], hammer, $pd_small_keys|2, $lampless"
+              "bombs, $pd_small_keys|4, ^$lampless",
+              "hammer, $pd_small_keys|4, ^$lampless",
+              "[], bombs, $pd_small_keys|2, ^$lampless",
+              "[], hammer, $pd_small_keys|2, ^$lampless"
             ],
             "hosted_item": "pd_1f_fall_from_2f"
           },
@@ -441,8 +441,8 @@
             "chest_unopened_img": "images/chest_big_unopened.png",
             "chest_opened_img": "images/chest_big_opened.png",
             "access_rules": [
-              "bombs, $pd_small_keys|4, $lampless",
-              "[], bombs, $pd_small_keys|2, $lampless"
+              "bombs, $pd_small_keys|4, ^$lampless",
+              "[], bombs, $pd_small_keys|2, ^$lampless"
             ],
             "capture_item": true,
             "hosted_item": "pd_2f_big_chest_hidden"
@@ -450,8 +450,8 @@
           {
             "name": "(2F) Alcove",
             "access_rules": [
-              "merge, $pd_small_keys|4, $lampless",
-              "[], merge, $pd_small_keys|2, $lampless"
+              "merge, $pd_small_keys|4, ^$lampless",
+              "[], merge, $pd_small_keys|2, ^$lampless"
             ],
             "hosted_item": "pd_2f_alcove"
           },
@@ -460,28 +460,28 @@
             //"capture_item": true,
             "access_rules": [
               //"{}",
-              "bombs, $pd_small_keys|1, $lampless",
-              "hammer, $pd_small_keys|1, $lampless"
+              "bombs, $pd_small_keys|1, ^$lampless",
+              "hammer, $pd_small_keys|1, ^$lampless"
             ],
             "hosted_item": "pd_b1_fall_from_1f"
           },
           {
             "name": "(B1) Helmasaur Room (Fall)",
             "access_rules": [
-              "bombs, $pd_small_keys|1, $lampless",
-              "hammer, $pd_small_keys|1, $lampless"
+              "bombs, $pd_small_keys|1, ^$lampless",
+              "hammer, $pd_small_keys|1, ^$lampless"
             ],
             "hosted_item": "pd_b1_helmasaur_room_fall"
           },
           {
             "name": "(B1) Helmasaur Room",
-            "access_rules": ["$pd_small_keys|1, $lampless"],
+            "access_rules": ["$pd_small_keys|1, ^$lampless"],
             //"capture_item": true,
             "hosted_item": "pd_b1_helmasaur_room"
           },
           {
             "name": "(B1) Glow-in-the-Dark Maze",
-            "access_rules": ["merge, $pd_small_keys|1, $lampless"],
+            "access_rules": ["merge, $pd_small_keys|1, ^$lampless"],
             "hosted_item": "pd_b1_glow_in_the_dark_maze"
           },
           {
@@ -489,16 +489,16 @@
             "chest_unopened_img": "images/chest_big_unopened.png",
             "chest_opened_img": "images/chest_big_opened.png",
             "access_rules": [
-              "bombs, $pd_small_keys|4, $lampless",
-              "[], bombs, $pd_small_keys|2, $lampless"
+              "bombs, $pd_small_keys|4, ^$lampless",
+              "[], bombs, $pd_small_keys|2, ^$lampless"
             ],
             "hosted_item": "pd_b1_bomb_bowling"
           },
           {
             "name": "Gemesaur King",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             //"capture_item": true,
             "hosted_item": "pd_gemesaur_king"
@@ -507,8 +507,8 @@
             "name": "Pendant of Power",
             "hosted_item": "power",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_power_pd"]
           },
@@ -516,8 +516,8 @@
             "name": "Pendant of Wisdom",
             "hosted_item": "wisdom",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_wisdom_pd"]
           },
@@ -525,8 +525,8 @@
             "name": "Pendant of Courage",
             "hosted_item": "courage",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_courage_pd"]
           },
@@ -534,8 +534,8 @@
             "name": "Gulley",
             "hosted_item": "gulley",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_gulley_pd"]
           },
@@ -543,8 +543,8 @@
             "name": "Oren",
             "hosted_item": "oren",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_oren_pd"]
           },
@@ -552,8 +552,8 @@
             "name": "Seres",
             "hosted_item": "seres",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_seres_pd"]
           },
@@ -561,8 +561,8 @@
             "name": "Osfala",
             "hosted_item": "osfala",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_osfala_pd"]
           },
@@ -570,8 +570,8 @@
             "name": "Impa",
             "hosted_item": "impa",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_impa_pd"]
           },
@@ -579,8 +579,8 @@
             "name": "Irene",
             "hosted_item": "irene",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_irene_pd"]
           },
@@ -588,8 +588,8 @@
             "name": "Rosso",
             "hosted_item": "rosso",
             "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, $lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, $lampless"
+              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
+              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
             ],
             "visibility_rules": ["label_rosso_pd"]
           }

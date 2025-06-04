@@ -91,8 +91,8 @@
             "name": "Chest",
             "hosted_item": "dp_1f_behind_rocks",
             "access_rules": [
-              "{csmc, srod, $switch}",
-              "{csmc, advanced, $reverseDP}",
+              "{csmc_on, srod, $switch}",
+              "{csmc_on, advanced, $reverseDP}",
               "srod, $switch, $attack, titansmitt",
               "[advanced], $reverseDP, titansmitt"
             ]
@@ -113,7 +113,7 @@
             "name": "Chest",
             "hosted_item": "dp_1f_big_chest_behind_wall",
             "access_rules": [
-              "{csmc, srod}",
+              "{csmc_on, srod}",
               "$dp_small_keys|1, srod, $switch, $attack",
               "[advanced], $dp_small_keys|1, $reverseDP"
             ]
@@ -322,8 +322,8 @@
             "name": "(1F) Behind Rocks",
             "hosted_item": "dp_1f_behind_rocks",
             "access_rules": [
-              "{csmc, srod, $switch}",
-              "{csmc, advanced, $reverseDP}",
+              "{csmc_on, srod, $switch}",
+              "{csmc_on, advanced, $reverseDP}",
               "srod, $switch, $attack, titansmitt",
               "[advanced], $reverseDP, titansmitt"
             ]
@@ -332,7 +332,7 @@
             "name": "(1F) Big Chest (Behind Wall)",
             "hosted_item": "dp_1f_big_chest_behind",
             "access_rules": [
-              "{csmc, srod}",
+              "{csmc_on, srod}",
               "$dp_small_keys|1, srod, $switch, $attack",
               "[advanced], $dp_small_keys|1, $reverseDP"
             ]
@@ -422,8 +422,8 @@
             "name": "Zaganaga",
             "hosted_item": "dp_zaganaga",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
 
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
@@ -440,8 +440,8 @@
             "name": "Pendant of Power",
             "hosted_item": "power",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -457,8 +457,8 @@
             "name": "Pendant of Wisdom",
             "hosted_item": "wisdom",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -474,8 +474,8 @@
             "name": "Pendant of Courage",
             "hosted_item": "courage",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -491,8 +491,8 @@
             "name": "Gulley",
             "hosted_item": "gulley",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -508,8 +508,8 @@
             "name": "Oren",
             "hosted_item": "oren",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -525,8 +525,8 @@
             "name": "Seres",
             "hosted_item": "seres",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -542,8 +542,8 @@
             "name": "Osfala",
             "hosted_item": "osfala",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -559,8 +559,8 @@
             "name": "Impa",
             "hosted_item": "impa",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -576,8 +576,8 @@
             "name": "Irene",
             "hosted_item": "irene",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",
@@ -593,8 +593,8 @@
             "name": "Rosso",
             "hosted_item": "rosso",
             "access_rules": [
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
-              "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, msword, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, merge, quake_on, srod, titansmitt, $bawbs, [hard], $attack, $switch, $dp_small_keys|5, $dp_big_key",
               "cracksanity, merge, crack_zaganaga, srod, msword",
               "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
               "[advanced], $advanced_misery_mire_oob, boots",

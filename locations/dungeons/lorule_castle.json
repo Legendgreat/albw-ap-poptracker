@@ -23,7 +23,7 @@
           {
             "name": "Chest",
             "hosted_item": "lc_1f_center",
-            "access_rules": ["{csmc}", "$lc2F"]
+            "access_rules": ["{csmc_on}", "^$lc2F"]
           }
         ]
       },
@@ -57,7 +57,7 @@
           {
             "name": "Chest",
             "hosted_item": "lc_2f_near_torches",
-            "access_rules": ["$lc2F"]
+            "access_rules": ["^$lc2F"]
           }
         ]
       },
@@ -73,7 +73,7 @@
         "sections": [
           {
             "name": "Chest",
-            "access_rules": ["$lc2F, $canExtinguishTorches", "$lc2F, [hard]"],
+            "access_rules": ["^$lc2F, $canExtinguishTorches", "^$lc2F, [hard]"],
             "hosted_item": "lc_2f_hidden_path"
           }
         ]
@@ -92,9 +92,9 @@
             "name": "Chest",
             "hosted_item": "lc_2f_ledge",
             "access_rules": [
-              "$lc2F, merge",
-              "[glitched], $lc2F, boots",
-              "[advanced], $lc2F"
+              "^$lc2F, merge",
+              "[glitched], ^$lc2F, boots",
+              "[advanced], ^$lc2F"
             ]
           }
         ]
@@ -113,8 +113,8 @@
             "name": "Chest",
             "hosted_item": "lc_4f_center",
             "access_rules": [
-              "$lc2F, $lc_small_keys|1",
-              "[advanced], $advanced_lc3F4F"
+              "^$lc2F, $lc_small_keys|1",
+              "[advanced], ^$advanced_lc3F4F"
             ]
           }
         ]
@@ -132,9 +132,9 @@
           {
             "name": "Chest",
             "access_rules": [
-              "$lc2F, $lc_small_keys|1, $canExtinguishTorches",
-              "$lc2F, $lc_small_keys|1, [hard]",
-              "[advanced], $advanced_lc3F4F"
+              "^$lc2F, $lc_small_keys|1, $canExtinguishTorches",
+              "^$lc2F, $lc_small_keys|1, [hard]",
+              "[advanced], ^$advanced_lc3F4F"
             ],
             "hosted_item": "lc_4f_hidden_path"
           }
@@ -154,7 +154,7 @@
         "sections": [
           {
             "name": "Chest",
-            "access_rules": ["{csmc}", "bombs", "[glitched], irod"],
+            "access_rules": ["{csmc_on}", "bombs", "[glitched], irod"],
             "hosted_item": "lc_3f_bomb_trial_1"
           }
         ]
@@ -172,7 +172,7 @@
           {
             "name": "Chest",
             "access_rules": [
-              "{csmc}",
+              "{csmc_on}",
               "bombs, merge",
               "[hard], bombs, bow",
               "[], niceirod"
@@ -197,7 +197,7 @@
           {
             "name": "Chest",
             "hosted_item": "lc_3f_tile_trial_1",
-            "access_rules": ["$lc2F"]
+            "access_rules": ["^$lc2F"]
           }
         ]
       },
@@ -215,7 +215,7 @@
             "name": "Chest",
             "hosted_item": "lc_3f_tile_trial_2",
             "capture_item": true,
-            "access_rules": ["$lc2F, merge"]
+            "access_rules": ["^$lc2F, merge"]
           }
         ]
       },
@@ -234,9 +234,9 @@
           {
             "name": "Chest",
             "access_rules": [
-              "$lc2F, $fire, $lc_small_keys|1",
-              "[hard], $lc2F, $lc_small_keys|1",
-              "[advanced], $advanced_lc3F4F"
+              "^$lc2F, $fire, $lc_small_keys|1",
+              "[hard], ^$lc2F, $lc_small_keys|1",
+              "[advanced], ^$advanced_lc3F4F"
             ],
             "capture_item": true,
             "hosted_item": "lc_4f_lamp_trial"
@@ -257,9 +257,9 @@
           {
             "name": "Chest",
             "access_rules": [
-              "$lc2F, hookshot, $lc_small_keys|1",
-              "[advanced], $advanced_lc3F4F, hookshot",
-              "[advanced], $advanced_lc3F4F, irod"
+              "^$lc2F, hookshot, $lc_small_keys|1",
+              "[advanced], ^$advanced_lc3F4F, hookshot",
+              "[advanced], ^$advanced_lc3F4F, irod"
             ],
             "hosted_item": "lc_4f_hookshot_trial_1"
           }
@@ -278,10 +278,10 @@
           {
             "name": "Chest",
             "access_rules": [
-              "$lc2F, hookshot, merge, $lc_small_keys|1",
-              "$lc2F, hookshot, irod, $lc_small_keys|1",
-              "[advanced], $advanced_lc3F4F, hookshot",
-              "[advanced], $advanced_lc3F4F, irod"
+              "^$lc2F, hookshot, merge, $lc_small_keys|1",
+              "^$lc2F, hookshot, irod, $lc_small_keys|1",
+              "[advanced], ^$advanced_lc3F4F, hookshot",
+              "[advanced], ^$advanced_lc3F4F, irod"
             ],
             "capture_item": true,
             "hosted_item": "lc_4f_hookshot_trial_2"
@@ -304,9 +304,9 @@
             "chest_unopened_img": "images/checks/chest_small_unopened.png",
             "chest_opened_img": "images/checks/chest_small_opened.png",
             "access_rules": [
-              "fsword, $can_reach_final_boss",
-              "[swordless], net, $can_reach_final_boss, $attack",
-              "[hard], net, $can_reach_final_boss"
+              "fsword, ^$can_reach_final_boss",
+              "[swordless], net, ^$can_reach_final_boss, $attack",
+              "[hard], net, ^$can_reach_final_boss"
             ],
             "capture_item": true,
             "hosted_item": "lc_zelda"
@@ -328,9 +328,9 @@
           {
             "name": "Triforce",
             "access_rules": [
-              "bow_of_light, fsword, $can_reach_final_boss",
-              "bow_of_light, [swordless], net, $can_reach_final_boss",
-              "bow_of_light, [hard], net, $can_reach_final_boss"
+              "bow_of_light, fsword, ^$can_reach_final_boss",
+              "bow_of_light, [swordless], net, ^$can_reach_final_boss",
+              "bow_of_light, [hard], net, ^$can_reach_final_boss"
             ],
             "hosted_item": "triforce_full"
           }
@@ -349,7 +349,7 @@
           {
             "name": "(1F) Center",
             "hosted_item": "lc_1f_center",
-            "access_rules": ["{csmc}", "$lc2F"]
+            "access_rules": ["{csmc_on}", "^$lc2F"]
           },
           {
             "name": "(1F) Ledge",
@@ -359,48 +359,48 @@
           {
             "name": "(2F) Near Torches",
             "hosted_item": "lc_clc_2f_near_torchesest_03",
-            "access_rules": ["$lc2F"]
+            "access_rules": ["^$lc2F"]
           },
           {
             "name": "(2F) Hidden Path",
-            "access_rules": ["$lc2F, $canExtinguishTorches", "$lc2F, [hard]"],
+            "access_rules": ["^$lc2F, $canExtinguishTorches", "^$lc2F, [hard]"],
             "hosted_item": "lc_2f_hidden_path"
           },
           {
             "name": "(2F) Ledge",
             "hosted_item": "lc_2f_ledge",
             "access_rules": [
-              "$lc2F, merge",
-              "[glitched], $lc2F, boots",
-              "[advanced], $lc2F"
+              "^$lc2F, merge",
+              "[glitched], ^$lc2F, boots",
+              "[advanced], ^$lc2F"
             ]
           },
           {
             "name": "(4F) Center",
             "hosted_item": "lc_4f_center",
             "access_rules": [
-              "$lc2F, $lc_small_keys|1",
-              "[advanced], $advanced_lc3F4F"
+              "^$lc2F, $lc_small_keys|1",
+              "[advanced], ^$advanced_lc3F4F"
             ]
           },
           {
             "name": "(4F) Hidden Path",
             "access_rules": [
-              "$lc2F, $lc_small_keys|1, $canExtinguishTorches",
-              "$lc2F, $lc_small_keys|1, [hard]",
-              "[advanced], $advanced_lc3F4F"
+              "^$lc2F, $lc_small_keys|1, $canExtinguishTorches",
+              "^$lc2F, $lc_small_keys|1, [hard]",
+              "[advanced], ^$advanced_lc3F4F"
             ],
             "hosted_item": "lc_4f_hidden_path"
           },
           {
             "name": "(3F) Bomb Trial (1)",
-            "access_rules": ["{csmc}", "bombs", "[glitched], irod"],
+            "access_rules": ["{csmc_on}", "bombs", "[glitched], irod"],
             "hosted_item": "lc_3f_bomb_trial_1"
           },
           {
             "name": "(3F) Bomb Trial (2)",
             "access_rules": [
-              "{csmc}",
+              "{csmc_on}",
               "bombs, merge",
               "[hard], bombs, bow",
               "[], niceirod"
@@ -411,20 +411,20 @@
           {
             "name": "(3F) Tile Trial (1)",
             "hosted_item": "lc_3f_tile_trial_1",
-            "access_rules": ["$lc2F"]
+            "access_rules": ["^$lc2F"]
           },
           {
             "name": "(3F) Tile Trial (2)",
             "capture_item": true,
             "hosted_item": "lc_3f_tile_trial_2",
-            "access_rules": ["$lc2F, merge"]
+            "access_rules": ["^$lc2F, merge"]
           },
           {
             "name": "(4F) Lamp Trial",
             "access_rules": [
-              "$lc2F, $fire, $lc_small_keys|1",
-              "[hard], $lc2F, $lc_small_keys|1",
-              "[advanced], $advanced_lc3F4F"
+              "^$lc2F, $fire, $lc_small_keys|1",
+              "[hard], ^$lc2F, $lc_small_keys|1",
+              "[advanced], ^$advanced_lc3F4F"
             ],
             "capture_item": true,
             "hosted_item": "lc_4f_lamp_trial"
@@ -432,19 +432,19 @@
           {
             "name": "(4F) Hookshot Trial (1)",
             "access_rules": [
-              "$lc2F, hookshot, $lc_small_keys|1",
-              "[advanced], $advanced_lc3F4F, hookshot",
-              "[advanced], $advanced_lc3F4F, irod"
+              "^$lc2F, hookshot, $lc_small_keys|1",
+              "[advanced], ^$advanced_lc3F4F, hookshot",
+              "[advanced], ^$advanced_lc3F4F, irod"
             ],
             "hosted_item": "lc_4f_hookshot_trial_1"
           },
           {
             "name": "(4F) Hookshot Trial (2)",
             "access_rules": [
-              "$lc2F, hookshot, merge, $lc_small_keys|1",
-              "$lc2F, hookshot, irod, $lc_small_keys|1",
-              "[advanced], $advanced_lc3F4F, hookshot",
-              "[advanced], $advanced_lc3F4F, irod"
+              "^$lc2F, hookshot, merge, $lc_small_keys|1",
+              "^$lc2F, hookshot, irod, $lc_small_keys|1",
+              "[advanced], ^$advanced_lc3F4F, hookshot",
+              "[advanced], ^$advanced_lc3F4F, irod"
             ],
             "capture_item": true,
             "hosted_item": "lc_4f_hookshot_trial_2"
@@ -472,17 +472,17 @@
         "chest_unopened_img": "images/checks/chest_small_unopened.png",
         "chest_opened_img": "images/checks/chest_small_opened.png",
         "access_rules": [
-          "fsword, $can_reach_final_boss",
-          "[swordless], net, $can_reach_final_boss",
-          "[hard], net, $can_reach_final_boss"
+          "fsword, ^$can_reach_final_boss",
+          "[swordless], net, ^$can_reach_final_boss",
+          "[hard], net, ^$can_reach_final_boss"
         ]
       },
       {
         "name": "Triforce",
         "access_rules": [
-          "bow_of_light, fsword, $can_reach_final_boss",
-          "bow_of_light, [swordless], net, $can_reach_final_boss",
-          "bow_of_light, [hard], net, $can_reach_final_boss"
+          "bow_of_light, fsword, ^$can_reach_final_boss",
+          "bow_of_light, [swordless], net, ^$can_reach_final_boss",
+          "bow_of_light, [hard], net, ^$can_reach_final_boss"
         ],
         "hosted_item": "triforce_full"
       }
@@ -510,7 +510,7 @@
         "access_rules": [
           "crack_lc",
           "{$inspect_crack_lorule}",
-          "merge, quake, $lc2F, lc_trials_door"
+          "merge, quake_on, ^$lc2F, lc_trials_door_open"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -536,11 +536,11 @@
         "access_rules": [
           "{not_cracksanity, crack_hc}",
           "{cracksanity, crack_lc}",
-          "$canEnterLC, $lc2F, [$lc_small_keys|5]",
-          "[advanced], $advanced_canEnterLC, $lc2F, [$lc_small_keys|5]",
-          "[hell], $hell_canEnterLC, $lc2F, [$lc_small_keys|5]"
+          "$canEnterLC, ^$lc2F, [$lc_small_keys|5]",
+          "[advanced], $advanced_canEnterLC, ^$lc2F, [$lc_small_keys|5]",
+          "[hell], $hell_canEnterLC, ^$lc2F, [$lc_small_keys|5]"
         ],
-        "hosted_item": "lc_trials_door"
+        "hosted_item": "lc_trials_door_open"
       }
     ]
   }

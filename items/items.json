@@ -871,13 +871,29 @@
     "img": "images/junk/rupee_purple.png",
     "codes": "rupee_purple"
   },
+  // {
+  //   "name": "Quake",
+  //   "type": "toggle",
+  //   "img": "images/items/quake.png",
+  //   "codes": "quake",
+  //   "loop": true,
+  //   "initial_active_state": false
+  // },
   {
     "name": "Quake",
-    "type": "toggle",
-    "img": "images/items/quake.png",
-    "codes": "quake, quake_medallion, earthquake, crack, cracks, fissure, fissures",
-    "loop": true,
-    "initial_active_state": false
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/quake.png",
+        "img_mods": "@disabled",
+        "codes": "quake, quake_off"
+      },
+      {
+        "img": "images/items/quake.png",
+        "codes": "quake, quake_on"
+      }
+    ]
   },
   {
     "name": "Ravio's Shop",

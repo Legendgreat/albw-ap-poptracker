@@ -110,7 +110,7 @@
             "capture_item": true,
             "hosted_item": "ir_b2_long_merge_chest",
             "access_rules": [
-              "{csmc, $ir_small_keys|1}",
+              "{csmc_on, $ir_small_keys|1}",
               "$ir_small_keys|2, $switch, scroll",
               "[advanced], boots"
             ]
@@ -180,11 +180,11 @@
             "name": "Chest",
             "hosted_item": "ir_b4_switches",
             "access_rules": [
-              "$ir_small_keys|2, progression_enemies",
+              "$ir_small_keys|2, progression_enemies_on",
               "$ir_small_keys|2, bombs",
               "$ir_small_keys|2, fsword, greatspin",
               "$ir_small_keys|2, niceirod",
-              "[advanced], boots, progression_enemies",
+              "[advanced], boots, progression_enemies_on",
               "[advanced], boots, bombs",
               "[advanced], boots, fsword, greatspin",
               "[advanced], boots, niceirod"
@@ -439,11 +439,11 @@
             "name": "(B4) Switches",
             "hosted_item": "ir_b4_switches",
             "access_rules": [
-              "$ir_small_keys|2, progression_enemies",
+              "$ir_small_keys|2, progression_enemies_on",
               "$ir_small_keys|2, bombs",
               "$ir_small_keys|2, fsword, greatspin",
               "$ir_small_keys|2, niceirod",
-              "[advanced], boots, progression_enemies",
+              "[advanced], boots, progression_enemies_on",
               "[advanced], boots, bombs",
               "[advanced], boots, fsword, greatspin",
               "[advanced], boots, niceirod"
@@ -464,7 +464,7 @@
             "capture_item": true,
             "hosted_item": "ir_b2_long_merge_chest",
             "access_rules": [
-              "{csmc, $ir_small_keys|1}",
+              "{csmc_on, $ir_small_keys|1}",
               "$ir_small_keys|2, $switch, scroll",
               "[advanced], boots"
             ]

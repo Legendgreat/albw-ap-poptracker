@@ -20,7 +20,7 @@
             "name": "Chest",
             "capture_item": true,
             "hosted_item": "sw_b1_south_chest",
-            "access_rules": ["$lampless"]
+            "access_rules": ["^$lampless"]
           }
         ]
       },
@@ -37,7 +37,7 @@
           {
             "name": "Chest",
             "hosted_item": "sw_b1_gibdo_room_lower",
-            "access_rules": ["$lampless"]
+            "access_rules": ["^$lampless"]
           }
         ]
       },
@@ -54,7 +54,7 @@
           {
             "name": "Chest",
             "hosted_item": "sw_b1_gibdo_room_hole",
-            "access_rules": ["$sw_small_keys|1, $lampless"]
+            "access_rules": ["$sw_small_keys|1, ^$lampless"]
           }
         ]
       },
@@ -72,9 +72,9 @@
             "name": "Chest",
             "hosted_item": "sw_b1_grate_room",
             "access_rules": [
-              "$sw_small_keys|1, $lampless, progression_enemies",
-              "$sw_small_keys|1, $lampless, bombs",
-              "$sw_small_keys|1, $lampless, hammer"
+              "$sw_small_keys|1, ^$lampless, progression_enemies_on",
+              "$sw_small_keys|1, ^$lampless, bombs",
+              "$sw_small_keys|1, ^$lampless, hammer"
             ]
           }
         ]
@@ -93,11 +93,11 @@
             "name": "Chest",
             "hosted_item": "sw_b2_moving_platform_room",
             "access_rules": [
-              "$sw_small_keys|2, $lampless, merge, bombs",
-              "$sw_small_keys|2, $lampless, merge, hammer",
-              "$sw_small_keys|2, $lampless, merge, $attack, progression_enemies",
+              "$sw_small_keys|2, ^$lampless, merge, bombs",
+              "$sw_small_keys|2, ^$lampless, merge, hammer",
+              "$sw_small_keys|2, ^$lampless, merge, $attack, progression_enemies_on",
               // Have hand kill everything
-              "[hell], $sw_small_keys|2, $lampless, merge, progression_enemies"
+              "[hell], $sw_small_keys|2, ^$lampless, merge, progression_enemies_on"
             ]
           }
         ]
@@ -119,8 +119,8 @@
             "capture_item": true,
             "hosted_item": "sw_b1_big_chest_eyes",
             "access_rules": [
-              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
-              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+              "$sw_small_keys|3, ^$lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, ^$lampless, merge, $fire, $progression_enemies_floor"
             ]
           }
         ]
@@ -141,8 +141,8 @@
             "chest_opened_img": "images/chest_big_opened.png",
             "hosted_item": "sw_b1_big_chest_upper",
             "access_rules": [
-              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
-              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+              "$sw_small_keys|3, ^$lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, ^$lampless, merge, $fire, $progression_enemies_floor"
             ]
           }
         ]
@@ -166,9 +166,9 @@
             "name": "Chest",
             "hosted_item": "sw_outdoor_chest",
             "access_rules": [
-              "{csmc}",
-              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
-              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+              "{csmc_on}",
+              "$sw_small_keys|3, ^$lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, ^$lampless, merge, $fire, $progression_enemies_floor"
             ]
           }
         ]
@@ -188,8 +188,8 @@
             //"capture_item": true,
             "hosted_item": "sw_knucklemaster",
             "access_rules": [
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster"
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster"
             ]
           }
         ]
@@ -210,8 +210,8 @@
             "hosted_item": "power",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -224,8 +224,8 @@
             "hosted_item": "wisdom",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -238,8 +238,8 @@
             "hosted_item": "courage",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -252,8 +252,8 @@
             "hosted_item": "gulley",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -266,8 +266,8 @@
             "hosted_item": "oren",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -280,8 +280,8 @@
             "hosted_item": "seres",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -294,8 +294,8 @@
             "hosted_item": "osfala",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -308,8 +308,8 @@
             "hosted_item": "impa",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -322,8 +322,8 @@
             "hosted_item": "irene",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -336,8 +336,8 @@
             "hosted_item": "rosso",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -361,45 +361,45 @@
             "name": "(B1) South Chest",
             "capture_item": true,
             "hosted_item": "sw_b1_south_chest",
-            "access_rules": ["$lampless"]
+            "access_rules": ["^$lampless"]
           },
           {
             "name": "(B1) Gibdo Room (Lower)",
             "hosted_item": "sw_b1_gibdo_room_lower",
-            "access_rules": ["$lampless"]
+            "access_rules": ["^$lampless"]
           },
           {
             "name": "(B1) Gibdo Room (Hole)",
             "hosted_item": "sw_b1_gibdo_room_hole",
-            "access_rules": ["$sw_small_keys|1, $lampless"]
+            "access_rules": ["$sw_small_keys|1, ^$lampless"]
           },
           {
             "name": "(B1) Grate Room",
             "hosted_item": "sw_b1_grate_room",
             "access_rules": [
-              "$sw_small_keys|1, $lampless, progression_enemies",
-              "$sw_small_keys|1, $lampless, bombs",
-              "$sw_small_keys|1, $lampless, hammer"
+              "$sw_small_keys|1, ^$lampless, progression_enemies_on",
+              "$sw_small_keys|1, ^$lampless, bombs",
+              "$sw_small_keys|1, ^$lampless, hammer"
             ]
           },
           {
             "name": "(B2) Moving Platform Room",
             "hosted_item": "sw_b2_moving_platform_room",
             "access_rules": [
-              "$sw_small_keys|2, $lampless, merge, bombs",
-              "$sw_small_keys|2, $lampless, merge, hammer",
-              "$sw_small_keys|2, $lampless, merge, $attack, progression_enemies",
+              "$sw_small_keys|2, ^$lampless, merge, bombs",
+              "$sw_small_keys|2, ^$lampless, merge, hammer",
+              "$sw_small_keys|2, ^$lampless, merge, $attack, progression_enemies_on",
               // Have hand kill everything
-              "[hell], $sw_small_keys|2, $lampless, merge, progression_enemies"
+              "[hell], $sw_small_keys|2, ^$lampless, merge, progression_enemies_on"
             ]
           },
           {
             "name": "Outdoor Chest",
             "hosted_item": "sw_outdoor_chest",
             "access_rules": [
-              "{csmc}",
-              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
-              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+              "{csmc_on}",
+              "$sw_small_keys|3, ^$lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, ^$lampless, merge, $fire, $progression_enemies_floor"
             ]
           },
           {
@@ -409,8 +409,8 @@
             "capture_item": true,
             "hosted_item": "sw_b1_big_chest_eyes",
             "access_rules": [
-              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
-              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+              "$sw_small_keys|3, ^$lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, ^$lampless, merge, $fire, $progression_enemies_floor"
             ]
           },
           {
@@ -419,8 +419,8 @@
             "chest_opened_img": "images/chest_big_opened.png",
             "hosted_item": "sw_b1_big_chest_upper",
             "access_rules": [
-              "$sw_small_keys|3, $lampless, merge, $attack, $fire, $progression_enemies_floor",
-              "[hell], $sw_small_keys|3, $lampless, merge, $fire, $progression_enemies_floor"
+              "$sw_small_keys|3, ^$lampless, merge, $attack, $fire, $progression_enemies_floor",
+              "[hell], $sw_small_keys|3, ^$lampless, merge, $fire, $progression_enemies_floor"
             ]
           },
           {
@@ -428,8 +428,8 @@
             //"capture_item": true,
             "hosted_item": "sw_knucklemaster",
             "access_rules": [
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster"
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster"
             ]
           },
 
@@ -438,8 +438,8 @@
             "hosted_item": "power",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -452,8 +452,8 @@
             "hosted_item": "wisdom",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -466,8 +466,8 @@
             "hosted_item": "courage",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -480,8 +480,8 @@
             "hosted_item": "gulley",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -494,8 +494,8 @@
             "hosted_item": "oren",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, $sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, $sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -508,8 +508,8 @@
             "hosted_item": "seres",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -522,8 +522,8 @@
             "hosted_item": "osfala",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -536,8 +536,8 @@
             "hosted_item": "impa",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -550,8 +550,8 @@
             "hosted_item": "irene",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",
@@ -564,8 +564,8 @@
             "hosted_item": "rosso",
             "access_rules": [
               "{}",
-              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, $knucklemaster",
-              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, $knucklemaster",
+              "$sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, ^$knucklemaster",
+              "$sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, ^$knucklemaster",
               "[glitched], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod, $attack",
               "[glitched], $sw_small_keys|3, sw_big_key, [lampless], merge, $progression_enemies_floor, trod, $attack",
               "[hell], $sw_small_keys|3, sw_big_key, lamp, merge, $progression_enemies_floor, trod",

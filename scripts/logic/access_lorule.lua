@@ -1,7 +1,7 @@
 -- Lorule Castle Area
 function access_central_lorule()
 
-    if notCracksanity() and has("merge") and hasAny({ "quake", "crack_hc" }) then
+    if notCracksanity() and has("merge") and hasAny({ "quake_on", "crack_hc" }) then
         return true
     end
 
@@ -45,7 +45,7 @@ end
 
 -- Dark Ruins
 function access_dark_ruins()
-    if notCracksanity() and hasAll({ "merge", "quake" }) then
+    if notCracksanity() and hasAll({ "merge", "quake_on" }) then
         return true
     end
 
@@ -124,7 +124,7 @@ end
 
 -- Lorule Graveyard
 function access_lorule_graveyard()
-    if notCracksanity() and hasAll({ "merge", "quake" }) and hs_small_key() and attack() then
+    if notCracksanity() and hasAll({ "merge", "quake_on" }) and hs_small_key() and attack() then
         return lampless()
     end
 
@@ -141,7 +141,7 @@ end
 
 -- [Lampless] Lorule Graveyard
 function lampless_access_lorule_graveyard()
-    if notCracksanity() and hasAll({ "merge", "quake", "frod" }) and hs_small_key() then
+    if notCracksanity() and hasAll({ "merge", "quake_on", "frod" }) and hs_small_key() then
         return true
     end
     return false
@@ -149,7 +149,7 @@ end
 
 -- Skull Woods Area
 function access_skull_woods_area()
-    if notCracksanity() and hasAll({ "merge", "quake" }) then
+    if notCracksanity() and hasAll({ "merge", "quake_on" }) then
         return true
     end
 
@@ -169,7 +169,7 @@ function access_turtleWV()
     if weather_vane_lorule("wv_turtle") then
         return true
     end
-    if hasAll({ "not_cracksanity", "flippers", "quake", "merge", }) then
+    if hasAll({ "not_cracksanity", "flippers", "quake_on", "merge", }) then
         return true
     end
     if hasAll({ "cracksanity", "flippers", "irod", "merge" }) and hasAny({ "crack_lake_lorule", "crack_river_lorule", "crack_lorule_hotfoot" }) then
@@ -183,7 +183,7 @@ function advanced_access_turtleWV()
     if access_turtleWV() then
         return true
     end
-    if hasAll({ "not_cracksanity", "merge", "quake" }) and fakeFlippers() then
+    if hasAll({ "not_cracksanity", "merge", "quake_on" }) and fakeFlippers() then
         return true
     end
     if hasAll({ "cracksanity", "merge" }) and has("crack_lorule_hotfoot") and fakeFlippers() then
@@ -200,7 +200,7 @@ function hell_access_turtleWV()
     if advanced_access_turtleWV() then
         return true
     end
-    if notCracksanity() and hasAll({ "merge", "quake" }) and beeFakeFlippers() then
+    if notCracksanity() and hasAll({ "merge", "quake_on" }) and beeFakeFlippers() then
         return true
     end
     if hasAll({ "cracksanity" }) and has("crack_lorule_hotfoot") and beeFakeFlippers() then
@@ -246,7 +246,7 @@ end
 
 -- Misery Mire
 function access_misery_mire()
-    if notCracksanity() and hasAll({ "merge", "quake" }) then
+    if notCracksanity() and hasAll({ "merge", "quake_on" }) then
         return true
     end
 

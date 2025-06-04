@@ -151,7 +151,7 @@
           {
             "name": "Chest",
             "access_rules": [
-              //"{merge, quake}",
+              //"{merge, quake_on}",
               "$enterTR",
               "[advanced], $advanced_enterTR",
               "[hell], $hell_enterTR"
@@ -456,7 +456,7 @@
           {
             "name": "Left Balcony",
             "access_rules": [
-              //"{merge, quake}",
+              //"{merge, quake_on}",
               "$enterTR",
               "[advanced], $advanced_enterTR",
               "[hell], $hell_enterTR"

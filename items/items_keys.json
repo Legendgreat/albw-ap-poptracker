@@ -190,7 +190,6 @@
     "img": "images/checks/chest_small_unopened.png"
   },
 
-
   // Hyrule Sanctuary
   {
     "name": "Hyrule Sanctuary Key",
@@ -445,11 +444,22 @@
   // Lorule Castle
   {
     "name": "Lorule Castle Trials Door",
-    "type": "toggle",
+    "type": "progressive",
     "loop": true,
-    "codes": "lc_trials_door",
-    "img": "images/items/lc_trials_door.png",
-    "disabled_img": "images/items/lc_trials_door_disabled.png"
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/lc_trials_door_disabled.png",
+        "img_mods": "@disabled",
+        "codes": "lc_trials_door, lc_trials_door_closed",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/lc_trials_door.png",
+        "codes": "lc_trials_door, lc_trials_door_open",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Lorule Castle Small Keys",

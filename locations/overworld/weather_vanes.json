@@ -19,7 +19,7 @@
           {
             "name": "Weather Vane",
             "hosted_item": "wv_your_house",
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -38,7 +38,7 @@
           {
             "name": "Weather Vane",
             "hosted_item": "wv_kakariko",
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -69,7 +69,7 @@
               "bell, wv_eastern",
               "[hard], power_glove"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -95,7 +95,7 @@
               "[advanced], $fakeFlippers",
               "[hell], $beeFakeFlippers"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -122,7 +122,7 @@
               "[advanced], $adv_glitched_access_dm_west_top",
               "[hell], $hell_access_dm_west_top"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -141,7 +141,7 @@
           {
             "name": "Death Mountain Weather Vane",
             "hosted_item": "wv_witch",
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -165,7 +165,7 @@
               "$access_dm_west_base",
               "[glitched]"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -187,11 +187,11 @@
             "access_rules": [
               "wv_desert",
               "$access_desert, srod, scroll",
-              "not_cracksanity, merge, quake, srod",
+              "not_cracksanity, merge, quake_on, srod",
               "cracksanity, merge, crack_desert_sw, srod",
               "[glitched], $access_desert"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -210,7 +210,7 @@
           {
             "name": "Weather Vane",
             "hosted_item": "wv_sanctuary",
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -231,7 +231,7 @@
             "name": "Weather Vane",
             "hosted_item": "wv_skull",
             "access_rules": ["$access_skull_woods_area"],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -254,7 +254,7 @@
               "$access_ldm_west",
               "[glitched], $glitched_access_ldm_west"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -278,7 +278,7 @@
               "[glitched], $glitched_access_ldm_east_top",
               "[hell], $hell_access_ldm_east_top"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -302,7 +302,7 @@
               "[advanced], $advanced_access_central_lorule",
               "[hell], $hell_access_central_lorule"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -325,7 +325,7 @@
               "$access_lorule_graveyard",
               "[lampless], $lampless_access_lorule_graveyard"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -349,7 +349,7 @@
               "[advanced], $advanced_access_central_lorule",
               "[hell], $hell_access_central_lorule"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -374,7 +374,7 @@
               "[advanced], $advanced_access_dark_ruins",
               "[hell], $hell_access_dark_ruins"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -398,7 +398,7 @@
               "[advanced], $advanced_access_central_lorule",
               "[hell], $hell_access_central_lorule"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -422,7 +422,7 @@
               "[advanced], $advanced_access_central_lorule",
               "[hell], $hell_access_central_lorule"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -442,7 +442,7 @@
             "name": "Weather Vane",
             "hosted_item": "wv_mire",
             "access_rules": ["$access_misery_mire"],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -466,7 +466,7 @@
               "hookshot, [advanced], $advanced_access_central_lorule",
               "hookshot, [hell], $hell_access_central_lorule"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -490,7 +490,7 @@
               "[advanced], $advanced_access_turtleWV",
               "[hell], $hell_access_turtleWV"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       },
@@ -514,7 +514,7 @@
               "[glitched], $glitched_access_ldm_east_base",
               "[hell], $hell_access_ldm_east_base"
             ],
-            "visibility_rules": ["weathervania"]
+            "visibility_rules": ["wv_shuffle_on"]
           }
         ]
       }

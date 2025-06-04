@@ -48,7 +48,7 @@
             "name": "Chest",
             "hosted_item": "ep_1f_left_door_chest",
             "access_rules": [
-              "{csmc}",
+              "{csmc_on}",
               "bow",
               "hookshot",
               "boomerang",
@@ -108,7 +108,7 @@
             "name": "Chest",
             "hosted_item": "ep_1f_switch_room",
             "access_rules": [
-              "{csmc}",
+              "{csmc_on}",
               "bow",
               "boomerang",
               "hookshot",
@@ -213,7 +213,7 @@
           {
             "name": "Yuga Rewards",
             "hosted_item": "ep_yuga",
-            "access_rules": ["$yuga_eastern"]
+            "access_rules": ["^$yuga_eastern"]
           }
         ]
       },
@@ -230,7 +230,7 @@
           {
             "name": "Chest",
             "hosted_item": "ep_3f_escape_chest",
-            "access_rules": ["$yuga_eastern, merge"]
+            "access_rules": ["^$yuga_eastern, merge"]
           }
         ]
       },
@@ -248,7 +248,7 @@
             "name": "Chest",
             "capture_item": true,
             "hosted_item": "ep_1f_escape_chest",
-            "access_rules": ["$yuga_eastern, merge"]
+            "access_rules": ["^$yuga_eastern, merge"]
           }
         ]
       },
@@ -258,61 +258,61 @@
           {
             "name": "Pendant of Power",
             "hosted_item": "power",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_power_ep"]
           },
           {
             "name": "Pendant of Wisdom",
             "hosted_item": "wisdom",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_wisdom_ep"]
           },
           {
             "name": "Pendant of Courage",
             "hosted_item": "courage",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_courage_ep"]
           },
           {
             "name": "Gulley",
             "hosted_item": "gulley",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_gulley_ep"]
           },
           {
             "name": "Oren",
             "hosted_item": "oren",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_oren_ep"]
           },
           {
             "name": "Seres",
             "hosted_item": "seres",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_seres_ep"]
           },
           {
             "name": "Osfala",
             "hosted_item": "osfala",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_osfala_ep"]
           },
           {
             "name": "Impa",
             "hosted_item": "impa",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_impa_ep"]
           },
           {
             "name": "Irene",
             "hosted_item": "irene",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_irene_ep"]
           },
           {
             "name": "Rosso",
             "hosted_item": "rosso",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_rosso_ep"]
           }
         ],
@@ -337,7 +337,7 @@
             "name": "(1F) Left Door Chest",
             "hosted_item": "ep_1f_left_door_chest",
             "access_rules": [
-              "{csmc}",
+              "{csmc_on}",
               "bow",
               "hookshot",
               "boomerang",
@@ -361,7 +361,7 @@
             "name": "(1F) Switch Room",
             "hosted_item": "ep_1f_switch_room",
             "access_rules": [
-              "{csmc}",
+              "{csmc_on}",
               "bow",
               "boomerang",
               "hookshot",
@@ -406,78 +406,78 @@
           {
             "name": "Yuga",
             "hosted_item": "ep_yuga",
-            "access_rules": ["$yuga_eastern"]
+            "access_rules": ["^$yuga_eastern"]
           },
           {
             "name": "(3F) Escape Chest",
             "hosted_item": "ep_3f_escape_chest",
-            "access_rules": ["$yuga_eastern, merge"]
+            "access_rules": ["^$yuga_eastern, merge"]
           },
           {
             "name": "(1F) Escape Chest",
             "capture_item": true,
             "hosted_item": "ep_1f_escape_chest",
-            "access_rules": ["$yuga_eastern, merge"]
+            "access_rules": ["^$yuga_eastern, merge"]
           },
 
           {
             "name": "Pendant of Power",
             "hosted_item": "power",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_power_ep"]
           },
           {
             "name": "Pendant of Wisdom",
             "hosted_item": "wisdom",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_wisdom_ep"]
           },
           {
             "name": "Pendant of Courage",
             "hosted_item": "courage",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_courage_ep"]
           },
           {
             "name": "Gulley",
             "hosted_item": "gulley",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_gulley_ep"]
           },
           {
             "name": "Oren",
             "hosted_item": "oren",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_oren_ep"]
           },
           {
             "name": "Seres",
             "hosted_item": "seres",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_seres_ep"]
           },
           {
             "name": "Osfala",
             "hosted_item": "osfala",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_osfala_ep"]
           },
           {
             "name": "Impa",
             "hosted_item": "impa",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_impa_ep"]
           },
           {
             "name": "Irene",
             "hosted_item": "irene",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_irene_ep"]
           },
           {
             "name": "Rosso",
             "hosted_item": "rosso",
-            "access_rules": ["$yuga_eastern"],
+            "access_rules": ["^$yuga_eastern"],
             "visibility_rules": ["label_rosso_ep"]
           }
         ],

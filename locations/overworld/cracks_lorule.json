@@ -9,7 +9,7 @@
         "access_rules": [
           "crack_vacant_house",
           "{$inspect_crack_lorule}",
-          "merge, quake, $access_central_lorule"
+          "merge, quake_on, $access_central_lorule"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -32,7 +32,7 @@
         "access_rules": [
           "crack_thieves_town",
           "{$inspect_crack_lorule}",
-          "merge, quake, $access_central_lorule"
+          "merge, quake_on, $access_central_lorule"
         ]
       }
     ],
@@ -54,7 +54,7 @@
         "access_rules": [
           "crack_swamp_pillar_lorule",
           "{$inspect_down_crack_lorule}",
-          "merge, quake, $access_central_lorule"
+          "merge, quake_on, $access_central_lorule"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -77,7 +77,7 @@
         "access_rules": [
           "crack_left_lorule_paradox",
           "{$inspect_down_crack_lorule}",
-          "merge, quake, $access_central_lorule"
+          "merge, quake_on, $access_central_lorule"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -123,9 +123,9 @@
         "access_rules": [
           "crack_skull_woods_pillar",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_n-shaped_house",
-          "merge, quake, crack_destroyed_house",
-          "merge, quake, $warpLorule, wv_skull"
+          "merge, quake_on, crack_n-shaped_house",
+          "merge, quake_on, crack_destroyed_house",
+          "merge, quake_on, $warpLorule, wv_skull"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -148,9 +148,9 @@
         "access_rules": [
           "crack_destroyed_house",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_n-shaped_house",
-          "merge, quake, crack_skull_woods_pillar",
-          "merge, quake, $warpLorule, wv_skull"
+          "merge, quake_on, crack_n-shaped_house",
+          "merge, quake_on, crack_skull_woods_pillar",
+          "merge, quake_on, $warpLorule, wv_skull"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -173,9 +173,9 @@
         "access_rules": [
           "crack_n-shaped_house",
           "{$inspect_down_crack_lorule}",
-          "merge, quake, crack_skull_woods_pillar",
-          "merge, quake, crack_destroyed_house",
-          "merge, quake, $warpLorule, wv_skull"
+          "merge, quake_on, crack_skull_woods_pillar",
+          "merge, quake_on, crack_destroyed_house",
+          "merge, quake_on, $warpLorule, wv_skull"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -199,13 +199,13 @@
         "access_rules": [
           "crack_mire_exit",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_mire_north",
-          "merge, quake, crack_mire_pillar_left, flippers",
-          "merge, quake, crack_mire_pillar_right",
-          "merge, quake, crack_mire_middle",
-          "merge, quake, crack_mire_sw",
-          "merge, quake, $claimDesertPrize",
-          "merge, quake, $warpLorule, wv_mire"
+          "merge, quake_on, crack_mire_north",
+          "merge, quake_on, crack_mire_pillar_left, flippers",
+          "merge, quake_on, crack_mire_pillar_right",
+          "merge, quake_on, crack_mire_middle",
+          "merge, quake_on, crack_mire_sw",
+          "merge, quake_on, $claimDesertPrize",
+          "merge, quake_on, $warpLorule, wv_mire"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -228,13 +228,13 @@
         "access_rules": [
           "crack_mire_pillar_right",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_mire_north",
-          "merge, quake, crack_mire_pillar_left, flippers",
-          "merge, quake, crack_mire_exit",
-          "merge, quake, crack_mire_middle",
-          "merge, quake, crack_mire_sw",
-          "merge, quake, $claimDesertPrize",
-          "merge, quake, $warpLorule, wv_mire"
+          "merge, quake_on, crack_mire_north",
+          "merge, quake_on, crack_mire_pillar_left, flippers",
+          "merge, quake_on, crack_mire_exit",
+          "merge, quake_on, crack_mire_middle",
+          "merge, quake_on, crack_mire_sw",
+          "merge, quake_on, $claimDesertPrize",
+          "merge, quake_on, $warpLorule, wv_mire"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -276,10 +276,10 @@
         "access_rules": [
           "crack_mire_middle",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_mire_sw",
-          "[glitched], merge, quake, irod, trod, $access_misery_mire",
-          "[advanced], merge, quake, nicebombs, $access_misery_mire",
-          "[hell], merge, quake, bombs, $access_misery_mire"
+          "merge, quake_on, crack_mire_sw",
+          "[glitched], merge, quake_on, irod, trod, $access_misery_mire",
+          "[advanced], merge, quake_on, nicebombs, $access_misery_mire",
+          "[hell], merge, quake_on, bombs, $access_misery_mire"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -302,10 +302,10 @@
         "access_rules": [
           "crack_mire_sw",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_mire_middle",
-          "[glitched], merge, quake, irod, trod, $access_misery_mire",
-          "[advanced], merge, quake, nicebombs, $access_misery_mire",
-          "[hell], merge, quake, bombs, $access_misery_mire"
+          "merge, quake_on, crack_mire_middle",
+          "[glitched], merge, quake_on, irod, trod, $access_misery_mire",
+          "[advanced], merge, quake_on, nicebombs, $access_misery_mire",
+          "[hell], merge, quake_on, bombs, $access_misery_mire"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -328,12 +328,12 @@
         "access_rules": [
           "crack_zaganaga",
           "{$inspect_crack_lorule}",
-          "[advanced], merge, quake, $advanced_misery_mire_oob, crack_mire_north",
-          "[advanced], merge, quake, $advanced_misery_mire_oob, crack_mire_pillar_left, flippers",
-          "[advanced], merge, quake, $advanced_misery_mire_oob, crack_mire_pillar_right",
-          "[advanced], merge, quake, $advanced_misery_mire_oob, crack_mire_middle",
-          "[advanced], merge, quake, $advanced_misery_mire_oob, crack_mire_sw",
-          "[advanced], merge, quake, $advanced_misery_mire_oob, crack_mire_exit"
+          "[advanced], merge, quake_on, $advanced_misery_mire_oob, crack_mire_north",
+          "[advanced], merge, quake_on, $advanced_misery_mire_oob, crack_mire_pillar_left, flippers",
+          "[advanced], merge, quake_on, $advanced_misery_mire_oob, crack_mire_pillar_right",
+          "[advanced], merge, quake_on, $advanced_misery_mire_oob, crack_mire_middle",
+          "[advanced], merge, quake_on, $advanced_misery_mire_oob, crack_mire_sw",
+          "[advanced], merge, quake_on, $advanced_misery_mire_oob, crack_mire_exit"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -357,8 +357,8 @@
         "access_rules": [
           "crack_philosopher",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_graveyard_lorule",
-          "merge, quake, $warpLorule, wv_graveyard"
+          "merge, quake_on, crack_graveyard_lorule",
+          "merge, quake_on, $warpLorule, wv_graveyard"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -382,10 +382,10 @@
         "access_rules": [
           "crack_kus_domain",
           "{$inspect_down_crack_lorule}",
-          "merge, quake, crack_dark_ruins_pillar",
-          "merge, quake, crack_dark_ruins_se",
-          "merge, quake, crack_waterfall_lorule, flippers",
-          "merge, quake, $warpLorule, wv_dark"
+          "merge, quake_on, crack_dark_ruins_pillar",
+          "merge, quake_on, crack_dark_ruins_se",
+          "merge, quake_on, crack_waterfall_lorule, flippers",
+          "merge, quake_on, $warpLorule, wv_dark"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -408,10 +408,10 @@
         "access_rules": [
           "crack_dark_ruins_pillar",
           "{$inspect_down_crack_lorule}",
-          "merge, quake, crack_kus_domain",
-          "merge, quake, crack_dark_ruins_se",
-          "merge, quake, crack_waterfall_lorule, flippers",
-          "merge, quake, $warpLorule, wv_dark"
+          "merge, quake_on, crack_kus_domain",
+          "merge, quake_on, crack_dark_ruins_se",
+          "merge, quake_on, crack_waterfall_lorule, flippers",
+          "merge, quake_on, $warpLorule, wv_dark"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -434,10 +434,10 @@
         "access_rules": [
           "crack_dark_ruins_se",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_dark_ruins_pillar, bombs",
-          "merge, quake, crack_kus_domain, bombs",
-          "merge, quake, crack_waterfall_lorule, flippers, bombs",
-          "merge, quake, $warpLorule, wv_dark, bombs"
+          "merge, quake_on, crack_dark_ruins_pillar, bombs",
+          "merge, quake_on, crack_kus_domain, bombs",
+          "merge, quake_on, crack_waterfall_lorule, flippers, bombs",
+          "merge, quake_on, $warpLorule, wv_dark, bombs"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -460,10 +460,10 @@
         "access_rules": [
           "crack_waterfall_lorule",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_dark_ruins_pillar",
-          "merge, quake, crack_dark_ruins_se",
-          "merge, quake, crack_kus_domain",
-          "merge, quake, $warpLorule, wv_dark"
+          "merge, quake_on, crack_dark_ruins_pillar",
+          "merge, quake_on, crack_dark_ruins_se",
+          "merge, quake_on, crack_kus_domain",
+          "merge, quake_on, $warpLorule, wv_dark"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -487,14 +487,14 @@
         "access_rules": [
           "crack_lake_lorule",
           "{$inspect_crack_lorule}",
-          "[glitched], merge, quake, $glitched_access_dark_ruins, $boost",
-          "[advanced], merge, quake, $advanced_access_dark_ruins, $boost",
-          "[hell], merge, quake, $hell_access_dark_ruins, $boost",
-          "merge, quake, crack_river_lorule, flippers",
-          "merge, quake, crack_lorule_hotfoot, flippers",
-          "[advanced], merge, quake, crack_lorule_hotfoot, $fakeFlippers",
-          "[hell], merge, quake, crack_lorule_hotfoot, $beeFakeFlippers",
-          "merge, quake, $warpLorule, wv_turtle, flippers"
+          "[glitched], merge, quake_on, $glitched_access_dark_ruins, $boost",
+          "[advanced], merge, quake_on, $advanced_access_dark_ruins, $boost",
+          "[hell], merge, quake_on, $hell_access_dark_ruins, $boost",
+          "merge, quake_on, crack_river_lorule, flippers",
+          "merge, quake_on, crack_lorule_hotfoot, flippers",
+          "[advanced], merge, quake_on, crack_lorule_hotfoot, $fakeFlippers",
+          "[hell], merge, quake_on, crack_lorule_hotfoot, $beeFakeFlippers",
+          "merge, quake_on, $warpLorule, wv_turtle, flippers"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -517,11 +517,11 @@
         "access_rules": [
           "crack_river_lorule",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_lake_lorule, flippers",
-          "merge, quake, crack_lorule_hotfoot, flippers",
-          "[advanced], merge, quake, crack_lorule_hotfoot, $fakeFlippers",
-          "[hell], merge, quake, crack_lorule_hotfoot, $beeFakeFlippers",
-          "merge, quake, $warpLorule, wv_turtle, flippers"
+          "merge, quake_on, crack_lake_lorule, flippers",
+          "merge, quake_on, crack_lorule_hotfoot, flippers",
+          "[advanced], merge, quake_on, crack_lorule_hotfoot, $fakeFlippers",
+          "[hell], merge, quake_on, crack_lorule_hotfoot, $beeFakeFlippers",
+          "merge, quake_on, $warpLorule, wv_turtle, flippers"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -544,11 +544,11 @@
         "access_rules": [
           "crack_lorule_hotfoot",
           "{$inspect_crack_lorule}",
-          "merge, quake, crack_lake_lorule, flippers",
-          "merge, quake, crack_river_lorule, flippers",
-          "[advanced], merge, quake, crack_lorule_hotfoot, $fakeFlippers",
-          "[hell], merge, quake, crack_lorule_hotfoot, $beeFakeFlippers",
-          "merge, quake, $warpLorule, wv_turtle, flippers"
+          "merge, quake_on, crack_lake_lorule, flippers",
+          "merge, quake_on, crack_river_lorule, flippers",
+          "[advanced], merge, quake_on, crack_lorule_hotfoot, $fakeFlippers",
+          "[hell], merge, quake_on, crack_lorule_hotfoot, $beeFakeFlippers",
+          "merge, quake_on, $warpLorule, wv_turtle, flippers"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -572,8 +572,8 @@
         "access_rules": [
           "crack_lorule_dm_west",
           "{$inspect_crack_lorule}",
-          "merge, quake, $access_ldm_west",
-          "[glitched], merge, quake, $glitched_access_ldm_west"
+          "merge, quake_on, $access_ldm_west",
+          "[glitched], merge, quake_on, $glitched_access_ldm_west"
         ],
         "visibility_rules": ["cracksanity"]
       }
@@ -596,9 +596,9 @@
         "access_rules": [
           "crack_lofi",
           "{cracksanity, $inspect_crack_lorule}",
-          "merge, quake, trod, $access_ldm_east_top",
-          "merge, quake, trod, [glitched], $glitched_access_ldm_east_top",
-          "merge, quake, trod, [hell], $hell_access_ldm_east_top"
+          "merge, quake_on, trod, $access_ldm_east_top",
+          "merge, quake_on, trod, [glitched], $glitched_access_ldm_east_top",
+          "merge, quake_on, trod, [hell], $hell_access_ldm_east_top"
         ]
       }
     ],
@@ -620,9 +620,9 @@
         "access_rules": [
           "crack_rom_lorule",
           "{$inspect_crack_lorule}",
-          "merge, quake, $access_ldm_east_base",
-          "merge, quake, [glitched], $glitched_access_ldm_east_base",
-          "merge, quake, [hell], $hell_access_ldm_east_base"
+          "merge, quake_on, $access_ldm_east_base",
+          "merge, quake_on, [glitched], $glitched_access_ldm_east_base",
+          "merge, quake_on, [hell], $hell_access_ldm_east_base"
         ],
         "visibility_rules": ["cracksanity"]
       }

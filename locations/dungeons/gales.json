@@ -97,7 +97,7 @@
             "name": "Chest",
             "hosted_item": "hg_1f_west_room_secret",
             "access_rules": [
-              "{csmc, $hg_small_keys|1}",
+              "{csmc_on, $hg_small_keys|1}",
               "$hg_small_keys|1, merge"
             ]
           }
@@ -117,11 +117,11 @@
             "name": "Chest",
             //"capture_item": true,
             "access_rules": [
-              //"{$hog2F}",
-              "$hog2F, merge",
-              "$hog2F, boomerang",
-              "$hog2F, hookshot",
-              "[hard], $hog2F"
+              //"{^$hog2F}",
+              "^$hog2F, merge",
+              "^$hog2F, boomerang",
+              "^$hog2F, hookshot",
+              "[hard], ^$hog2F"
             ],
             "hosted_item": "hg_2f_narrow_ledge"
           }
@@ -140,9 +140,9 @@
           {
             "name": "Chest",
             "access_rules": [
-              "$hog2F, merge, $hg_small_keys|3", // should really be 2, but we're defending against bad key use
-              "[glitched], $hog2F, merge, boots", // HoG Skip Skip, boots can reverse defeat mini-boss
-              "[hell], $hog2F, merge" // Awful Armos Boost
+              "^$hog2F, merge, $hg_small_keys|3", // should really be 2, but we're defending against bad key use
+              "[glitched], ^$hog2F, merge, boots", // HoG Skip Skip, boots can reverse defeat mini-boss
+              "[hell], ^$hog2F, merge" // Awful Armos Boost
             ],
             "capture_item": true,
             "hosted_item": "hg_2f_fire_ring"
@@ -162,7 +162,7 @@
           {
             "name": "Chest",
             "hosted_item": "hg_2f_big_chest",
-            "access_rules": ["$hog2F"]
+            "access_rules": ["^$hog2F"]
           }
         ]
       },
@@ -181,9 +181,9 @@
             "capture_item": true,
             "hosted_item": "hg_3f_fire_bubbles",
             "access_rules": [
-              "{csmc, $hog3F, $hg_small_keys|4}",
-              "{glitched, csmc, $hog3F, $hg_small_keys|2}",
-              "$hog3F, $fire"
+              "{csmc_on, ^$hog3F, $hg_small_keys|4}",
+              "{glitched, csmc_on, ^$hog3F, $hg_small_keys|2}",
+              "^$hog3F, $fire"
             ]
           }
         ]
@@ -202,12 +202,12 @@
             "name": "Chest",
             "hosted_item": "hg_3f_rat_room",
             "access_rules": [
-              "{csmc, glitched, $hog2F}",
-              "$hog3F, $hg_small_keys|4",
-              "$hog3F, $hg_small_keys|3, $fire",
-              "[glitched], $hog3F, $fire",
-              "[], $hog3F, merge, $hg_small_keys|2",
-              "[], $hog3F, merge, $fire"
+              "{csmc_on, glitched, ^$hog2F}",
+              "^$hog3F, $hg_small_keys|4",
+              "^$hog3F, $hg_small_keys|3, $fire",
+              "[glitched], ^$hog3F, $fire",
+              "[], ^$hog3F, merge, $hg_small_keys|2",
+              "[], ^$hog3F, merge, $fire"
             ]
           }
         ]
@@ -226,7 +226,7 @@
             "name": "Heart Container",
             //"capture_item": true,
             "hosted_item": "hg_margomill",
-            "access_rules": ["$hog3F, $margomill"]
+            "access_rules": ["^$hog3F, ^$margomill"]
           }
         ]
       },
@@ -244,61 +244,61 @@
           {
             "name": "Pendant of Power",
             "hosted_item": "power",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_power_hg"]
           },
           {
             "name": "Pendant of Wisdom",
             "hosted_item": "wisdom",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_wisdom_hg"]
           },
           {
             "name": "Pendant of Courage",
             "hosted_item": "courage",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_courage_hg"]
           },
           {
             "name": "Gulley",
             "hosted_item": "gulley",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_gulley_hg"]
           },
           {
             "name": "Oren",
             "hosted_item": "oren",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_oren_hg"]
           },
           {
             "name": "Seres",
             "hosted_item": "seres",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_seres_hg"]
           },
           {
             "name": "Osfala",
             "hosted_item": "osfala",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_osfala_hg"]
           },
           {
             "name": "Impa",
             "hosted_item": "impa",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_impa_hg"]
           },
           {
             "name": "Irene",
             "hosted_item": "irene",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_irene_hg"]
           },
           {
             "name": "Rosso",
             "hosted_item": "rosso",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_rosso_hg"]
           }
         ]
@@ -339,7 +339,7 @@
             "name": "(1F) West Room Secret",
             "hosted_item": "hg_1f_west_room_secret",
             "access_rules": [
-              "{csmc, $hg_small_keys|1}",
+              "{csmc_on, $hg_small_keys|1}",
               "$hg_small_keys|1, merge"
             ]
           },
@@ -347,20 +347,20 @@
             "name": "(2F) Narrow Ledge",
             //"capture_item": true,
             "access_rules": [
-              //"{$hog2F}",
-              "$hog2F, merge",
-              "$hog2F, boomerang",
-              "$hog2F, hookshot",
-              "[hard], $hog2F"
+              //"{^$hog2F}",
+              "^$hog2F, merge",
+              "^$hog2F, boomerang",
+              "^$hog2F, hookshot",
+              "[hard], ^$hog2F"
             ],
             "hosted_item": "hg_2f_narrow_ledge"
           },
           {
             "name": "(2F) Fire Ring",
             "access_rules": [
-              "$hog2F, merge, $hg_small_keys|3", // should really be 2, but we're defending against bad key use
-              "[glitched], $hog2F, merge, boots", // HoG Skip Skip, boots can reverse defeat mini-boss
-              "[hell], $hog2F, merge" // Awful Armos Boost
+              "^$hog2F, merge, $hg_small_keys|3", // should really be 2, but we're defending against bad key use
+              "[glitched], ^$hog2F, merge, boots", // HoG Skip Skip, boots can reverse defeat mini-boss
+              "[hell], ^$hog2F, merge" // Awful Armos Boost
             ],
             "capture_item": true,
             "hosted_item": "hg_2f_fire_ring"
@@ -368,94 +368,94 @@
           {
             "name": "(2F) Big Chest",
             "hosted_item": "hg_2f_big_chest",
-            "access_rules": ["$hog2F"]
+            "access_rules": ["^$hog2F"]
           },
           {
             "name": "(3F) Fire Bubbles",
             "capture_item": true,
             "hosted_item": "hg_3f_fire_bubbles",
             "access_rules": [
-              "{csmc, $hog3F, $hg_small_keys|4}",
-              "{glitched, csmc, $hog3F, $hg_small_keys|2}",
-              "$hog3F, $fire"
+              "{csmc_on, ^$hog3F, $hg_small_keys|4}",
+              "{glitched, csmc_on, ^$hog3F, $hg_small_keys|2}",
+              "^$hog3F, $fire"
             ]
           },
           {
             "name": "(3F) Rat Room",
             "hosted_item": "hg_3f_rat_room",
             "access_rules": [
-              "{csmc, glitched, $hog2F}",
-              "$hog3F, $hg_small_keys|4",
-              "$hog3F, $hg_small_keys|3, $fire",
-              "[glitched], $hog3F, $fire",
-              "[], $hog3F, merge, $hg_small_keys|2",
-              "[], $hog3F, merge, $fire"
+              "{csmc_on, glitched, ^$hog2F}",
+              "^$hog3F, $hg_small_keys|4",
+              "^$hog3F, $hg_small_keys|3, $fire",
+              "[glitched], ^$hog3F, $fire",
+              "[], ^$hog3F, merge, $hg_small_keys|2",
+              "[], ^$hog3F, merge, $fire"
             ]
           },
           {
             "name": "Margomill",
             //"capture_item": true,
             "hosted_item": "hg_margomill",
-            "access_rules": ["$hog3F, $margomill"]
+            "access_rules": ["^$hog3F, ^$margomill"]
           },
           {
             "name": "Pendant of Power",
             "hosted_item": "power",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_power_hg"]
           },
           {
             "name": "Pendant of Wisdom",
             "hosted_item": "wisdom",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_wisdom_hg"]
           },
           {
             "name": "Pendant of Courage",
             "hosted_item": "courage",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_courage_hg"]
           },
           {
             "name": "Gulley",
             "hosted_item": "gulley",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_gulley_hg"]
           },
           {
             "name": "Oren",
             "hosted_item": "oren",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_oren_hg"]
           },
           {
             "name": "Seres",
             "hosted_item": "seres",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_seres_hg"]
           },
           {
             "name": "Osfala",
             "hosted_item": "osfala",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_osfala_hg"]
           },
           {
             "name": "Impa",
             "hosted_item": "impa",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_impa_hg"]
           },
           {
             "name": "Irene",
             "hosted_item": "irene",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_irene_hg"]
           },
           {
             "name": "Rosso",
             "hosted_item": "rosso",
-            "access_rules": ["$hog3F, $margomill"],
+            "access_rules": ["^$hog3F, ^$margomill"],
             "visibility_rules": ["label_rosso_hg"]
           }
         ]

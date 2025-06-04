@@ -187,9 +187,56 @@ Discord: legendgreat
 
 ## Version History
 
+<details open>
+
+<summary>1.2.0</summary>
+
+### 1.2.0
+
+### Bug Fixes
+
+- Master Ore is now auto-tracked properly
+- Hyrule Castle checks are now auto-tracked properly
+- Changed the Mother Maiamai location on Hyrule Overworld map temporarily, until the diamond shape hover issue is fixed in PopTracker
+- Death Mountain Maiamai locations are now diamond shaped too
+
+### Improvements
+
+- Added automatic pack update notifications
+
+### Remaining issues
+
+- When diamond shape (Maiamai) locations overlap with square shaped ones, the square shape takes prevalence for the mouse hover. [Black Sliver](https://github.com/black-sliver/) is going to fix this in a future PopTracker update.
+
+</details>
+
+<details>
+
+<summary>Older versions</summary>
+
+<details>
+
+<summary>1.1.2</summary>
+
 ### 1.1.2
 
-- Fixed the versions_url link in manifest.json for automatic updates
+Fixed the versions_url link in manifest.json for automatic updates
+
+</details>
+
+<details>
+
+<summary>1.1.2</summary>
+
+### 1.1.2
+
+Fixed the versions_url link in manifest.json for automatic updates
+
+</details>
+
+<details open>
+
+<summary>1.1.1</summary>
 
 ### 1.1.1
 
@@ -208,11 +255,13 @@ Discord: legendgreat
 
 - When diamond shape (Maiamai) locations overlap with square shaped ones, the square shape takes prevalence for the mouse hover. [Black Sliver](https://github.com/black-sliver/) is going to fix this in a future PopTracker update.
 
+</details>
+
 <details>
 
 <summary>1.1.0</summary>
 
-### 1.1.1
+### 1.1.0
 
 ### Bug Fixes
 
@@ -237,10 +286,6 @@ Discord: legendgreat
 If dungeon location checks don't match up with where they should, please let me know. I made sure to test this time but there's a chance I missed something.
 
 </details>
-
-<details>
-
-<summary>Older versions</summary>
 
 ### 1.0.x
 

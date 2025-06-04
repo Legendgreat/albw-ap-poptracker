@@ -24,8 +24,8 @@
                 "chest_opened_img": "images/junk/heart_piece_collected.png",
                 "access_rules": [
                   "merge",
-                  "[advanced], quake, boomerang",
-                  "[advanced], quake, $notNiceMode, hookshot"
+                  "[advanced], quake_on, boomerang",
+                  "[advanced], quake_on, $notNiceMode, hookshot"
                 ],
                 "item_count": 1
               }
@@ -150,8 +150,8 @@
             "chest_unopened_img": "images/checks/chest_big_unopened.png",
             "chest_opened_img": "images/checks/chest_big_opened.png",
             "access_rules": [
-              "{csmc, $access_lorule_graveyard}",
-              "{csmc, $lampless_access_lorule_graveyard}",
+              "{csmc_on, $access_lorule_graveyard}",
+              "{csmc_on, $lampless_access_lorule_graveyard}",
               "$access_lorule_graveyard, titansmitt, [lamp], $attack, $ls_small_key",
               "$access_lorule_graveyard, titansmitt, [lampless], $attack, $ls_small_key",
               "$lampless_access_lorule_graveyard, titansmitt, [lampless], $attack, $ls_small_key"
@@ -174,7 +174,7 @@
           {
             "name": "Chest",
             "access_rules": [
-              "{csmc, $access_dark_ruins}",
+              "{csmc_on, $access_dark_ruins}",
               "$access_lorule_graveyard",
               "[lampless], $lampless_access_lorule_graveyard"
             ],
@@ -333,7 +333,7 @@
                 "chest_unopened_img": "images/checks/chest_big_unopened.png",
                 "chest_opened_img": "images/checks/chest_big_opened.png",
                 "access_rules": [
-                  "{csmc}",
+                  "{csmc_on}",
                   "boots",
                   "[hard], bombs",
                   "[hard], boomerang",
@@ -358,7 +358,7 @@
             "sections": [
               {
                 "name": "Chest",
-                "access_rules": ["{csmc}", "bombs", "[hard]"],
+                "access_rules": ["{csmc_on}", "bombs", "[hard]"],
                 "item_count": 1
               }
             ]
@@ -427,8 +427,8 @@
               {
                 "name": "Chest",
                 "access_rules": [
-                  "{csmc}",
-                  "not_cracksanity, quake, merge, hookshot",
+                  "{csmc_on}",
+                  "not_cracksanity, quake_on, merge, hookshot",
                   "cracksanity, crack_right_lorule_paradox, merge, hookshot"
                 ],
                 "item_count": 1
@@ -491,7 +491,7 @@
             ]
           },
           {
-            "name": "Great Rupee Fairy",
+            "name": "Great Rupee Fairy (3000 Rupees)",
             "map_locations": [
               {
                 "map": "lorule",
@@ -526,7 +526,7 @@
               {
                 "name": "Chest",
                 "access_rules": [
-                  "{csmc}",
+                  "{csmc_on}",
                   "merge, srod, trod",
                   "[glitched], srod"
                 ],
@@ -559,7 +559,7 @@
             "capture_item": true,
             "access_rules": [
               "merge, crack_mire_north",
-              "not_cracksanity, merge, quake, crack_desert_north",
+              "not_cracksanity, merge, quake_on, crack_desert_north",
               "[advanced], $access_misery_mire, frod, boots"
             ],
             "item_count": 1
@@ -582,7 +582,7 @@
               {
                 "name": "Chest",
                 "access_rules": [
-                  "not_cracksanity, merge, quake",
+                  "not_cracksanity, merge, quake_on",
                   "cracksanity, crack_lake_lorule, merge",
                   "cracksanity, crack_river_lorule, flippers",
                   "cracksanity, crack_lorule_hotfoot, flippers",

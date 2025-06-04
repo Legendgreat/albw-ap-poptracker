@@ -6,27 +6,27 @@
     "stages": [
       {
         "img": "images/settings/Normal.png",
-        "codes": "logic",
+        "codes": "logic_mode, normal",
         "inherit_codes": false
       },
       {
         "img": "images/settings/Hard.png",
-        "codes": "hard",
+        "codes": "logic_mode, hard",
         "inherit_codes": true
       },
       {
         "img": "images/settings/Glitched.png",
-        "codes": "glitched",
+        "codes": "logic_mode, glitched",
         "inherit_codes": true
       },
       {
         "img": "images/settings/Adv_Glitched.png",
-        "codes": "advanced",
+        "codes": "logic_mode, advanced",
         "inherit_codes": true
       },
       {
         "img": "images/settings/Hell.png",
-        "codes": "hell",
+        "codes": "logic_mode, hell",
         "inherit_codes": true
       }
       //      {
@@ -46,168 +46,168 @@
       {
         "img": "images/prizes/sage_zelda.png",
         "img_mods": "overlay|images/numbers/purple_7.png",
-        "codes": "lc_requirement_7"
+        "codes": "lorule_castle_requirement, lc_requirement_7"
       },
       {
         "img": "images/prizes/sage_zelda.png",
         "img_mods": "overlay|images/numbers/purple_6.png",
-        "codes": "lc_requirement_6",
+        "codes": "lorule_castle_requirement, lc_requirement_6",
         "inherit_codes": false
       },
       {
         "img": "images/prizes/sage_zelda.png",
         "img_mods": "overlay|images/numbers/purple_5.png",
-        "codes": "lc_requirement_5",
+        "codes": "lorule_castle_requirement, lc_requirement_5",
         "inherit_codes": false
       },
       {
         "img": "images/prizes/sage_zelda.png",
         "img_mods": "overlay|images/numbers/purple_4.png",
-        "codes": "lc_requirement_4",
+        "codes": "lorule_castle_requirement, lc_requirement_4",
         "inherit_codes": false
       },
       {
         "img": "images/prizes/sage_zelda.png",
         "img_mods": "overlay|images/numbers/purple_3.png",
-        "codes": "lc_requirement_3",
+        "codes": "lorule_castle_requirement, lc_requirement_3",
         "inherit_codes": false
       },
       {
         "img": "images/prizes/sage_zelda.png",
         "img_mods": "overlay|images/numbers/purple_2.png",
-        "codes": "lc_requirement_2",
+        "codes": "lorule_castle_requirement, lc_requirement_2",
         "inherit_codes": false
       },
       {
         "img": "images/prizes/sage_zelda.png",
         "img_mods": "overlay|images/numbers/purple_1.png",
-        "codes": "lc_requirement_1",
+        "codes": "lorule_castle_requirement, lc_requirement_1",
         "inherit_codes": false
       },
       {
         "img": "images/prizes/sage_zelda.png",
         "img_mods": "overlay|images/numbers/purple_0.png,@disabled",
-        "codes": "lc_requirement",
+        "codes": "lorule_castle_requirement, lc_requirement",
         "inherit_codes": false
       }
     ]
   },
-  {
-    "name": "Yuga Ganon Portrait Requirement",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/settings/Yuga_Ganon.png",
-        "img_mods": "overlay|images/settings/7.png",
-        "codes": "yg_requirement_7"
-      },
-      {
-        "img": "images/settings/Yuga_Ganon.png",
-        "img_mods": "overlay|images/settings/6.png",
-        "codes": "yg_requirement_6",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Yuga_Ganon.png",
-        "img_mods": "overlay|images/settings/5.png",
-        "codes": "yg_requirement_5",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Yuga_Ganon.png",
-        "img_mods": "overlay|images/settings/4.png",
-        "codes": "yg_requirement_4",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Yuga_Ganon.png",
-        "img_mods": "overlay|images/settings/3.png",
-        "codes": "yg_requirement_3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Yuga_Ganon.png",
-        "img_mods": "overlay|images/settings/2.png",
-        "codes": "yg_requirement_2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Yuga_Ganon.png",
-        "img_mods": "overlay|images/settings/1.png",
-        "codes": "yg_requirement_1",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Yuga_Ganon.png",
-        "img_mods": "overlay|images/settings/0.png,@disabled",
-        "codes": "yg_requirement",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Maiamai Limit",
-    "type": "progressive",
-    "initial_stage_idx": 5,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "codes": "maiamai_limit"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_1_.png",
-        "codes": "maiamai_limit_10"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_2_.png",
-        "codes": "maiamai_limit_20"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_3_.png",
-        "codes": "maiamai_limit_30"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_4_.png",
-        "codes": "maiamai_limit_40"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_5_.png",
-        "codes": "maiamai_limit_50"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_6_.png",
-        "codes": "maiamai_limit_60"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_7_.png",
-        "codes": "maiamai_limit_70"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_8_.png",
-        "codes": "maiamai_limit_80"
-      },
-      {
-        "img": "images/numbers/maiamai__0.png",
-        "img_mods": "overlay|images/numbers/maiamai_9_.png",
-        "codes": "maiamai_limit_90"
-      },
-      {
-        "img": "images/numbers/maiamai_100.png",
-        "codes": "maiamai_limit_100"
-      }
-    ]
-  },
+  // {
+  //   "name": "Yuga Ganon Portrait Requirement",
+  //   "type": "progressive",
+  //   "loop": true,
+  //   "allow_disabled": false,
+  //   "stages": [
+  //     {
+  //       "img": "images/settings/Yuga_Ganon.png",
+  //       "img_mods": "overlay|images/settings/7.png",
+  //       "codes": "yg_requirement_7"
+  //     },
+  //     {
+  //       "img": "images/settings/Yuga_Ganon.png",
+  //       "img_mods": "overlay|images/settings/6.png",
+  //       "codes": "yg_requirement_6",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Yuga_Ganon.png",
+  //       "img_mods": "overlay|images/settings/5.png",
+  //       "codes": "yg_requirement_5",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Yuga_Ganon.png",
+  //       "img_mods": "overlay|images/settings/4.png",
+  //       "codes": "yg_requirement_4",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Yuga_Ganon.png",
+  //       "img_mods": "overlay|images/settings/3.png",
+  //       "codes": "yg_requirement_3",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Yuga_Ganon.png",
+  //       "img_mods": "overlay|images/settings/2.png",
+  //       "codes": "yg_requirement_2",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Yuga_Ganon.png",
+  //       "img_mods": "overlay|images/settings/1.png",
+  //       "codes": "yg_requirement_1",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Yuga_Ganon.png",
+  //       "img_mods": "overlay|images/settings/0.png,@disabled",
+  //       "codes": "yg_requirement",
+  //       "inherit_codes": false
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": "Maiamai Limit",
+  //   "type": "progressive",
+  //   "initial_stage_idx": 5,
+  //   "allow_disabled": false,
+  //   "stages": [
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "codes": "maiamai_limit, maiamai_limit_0"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_1_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_10"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_2_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_20"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_3_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_30"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_4_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_40"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_5_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_50"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_6_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_60"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_7_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_70"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_8_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_80"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai__0.png",
+  //       "img_mods": "overlay|images/numbers/maiamai_9_.png",
+  //       "codes": "maiamai_limit, maiamai_limit_90"
+  //     },
+  //     {
+  //       "img": "images/numbers/maiamai_100.png",
+  //       "codes": "maiamai_limit, maiamai_limit_100"
+  //     }
+  //   ]
+  // },
   {
     "name": "Master Sword Pedestal Requirement",
     "type": "progressive",
@@ -217,13 +217,13 @@
       {
         "img": "images/settings/Pedestal3.png",
         "img_mods": "overlay|images/display/Normal.png",
-        "codes": "ped_requirement_3",
+        "codes": "pedestal_requirement, ped_requirement_3",
         "inherit_codes": false
       },
       {
         "img": "images/settings/Pedestal2.png",
         "img_mods": "overlay|images/settings/Vanilla.png",
-        "codes": "ped_requirement_2",
+        "codes": "pedestal_requirement, ped_requirement_2",
         "inherit_codes": false
       }
     ]
@@ -237,12 +237,12 @@
       {
         "img": "images/settings/lamp_net_not_weapons.png",
         "img_mods": "@disabled",
-        "codes": "lamp_net_not_weapons",
+        "codes": "lamp_and_net_as_weapons, lamp_net_off",
         "inherit_codes": false
       },
       {
         "img": "images/settings/lamp_net_weapons.png",
-        "codes": "lamp_net_weapons",
+        "codes": "lamp_and_net_as_weapons, lamp_net_on",
         "inherit_codes": false
       }
     ]
@@ -256,13 +256,13 @@
       {
         "img": "images/settings/Nice_Mode.png",
         "img_mods": "@disabled,overlay|images/settings/OFF.png",
-        "codes": "not_nice_mode",
+        "codes": "nice_items, nice_items_off",
         "inherit_codes": false
       },
       {
         "img": "images/settings/Nice_Mode.png",
         "img_mods": "overlay|images/settings/ON.png",
-        "codes": "nice_mode",
+        "codes": "nice_items, nice_items_on",
         "inherit_codes": false
       }
     ]
@@ -276,13 +276,13 @@
       {
         "img": "images/settings/bawb.png",
         "img_mods": "overlay|images/settings/ON.png",
-        "codes": "progression_enemies",
+        "codes": "no_progression_enemies, progression_enemies_on",
         "inherit_codes": false
       },
       {
         "img": "images/settings/bawb.png",
         "img_mods": "@disabled,overlay|images/settings/OFF.png",
-        "codes": "no_progression_enemies",
+        "codes": "no_progression_enemies, progression_enemies_off",
         "inherit_codes": false
       }
     ]
@@ -333,13 +333,13 @@
       {
         "img": "images/settings/lamp.png",
         "img_mods": "overlay|images/settings/Need.png",
-        "codes": "lampful",
+        "codes": "dark_rooms_lampless, lampful",
         "inherit_codes": false
       },
       {
         "img": "images/settings/lamp.png",
         "img_mods": "@disabled,overlay|images/settings/DARK.png",
-        "codes": "lampless",
+        "codes": "dark_rooms_lampless, lampless",
         "inherit_codes": false
       }
     ]
@@ -353,49 +353,49 @@
       {
         "img": "images/settings/cracksanity.png",
         "img_mods": "@disabled,overlay|images/settings/OFF.png",
-        "codes": "not_cracksanity",
+        "codes": "crack_shuffle, not_cracksanity",
         "inherit_codes": false
       },
       {
         "img": "images/settings/cracksanity.png",
         "img_mods": "overlay|images/settings/ON.png",
-        "codes": "cracksanity",
+        "codes": "crack_shuffle, cracksanity",
         "inherit_codes": false
       }
     ]
   },
-  {
-    "name": "Weather Vanes",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/settings/Weather_Vanes.png",
-        "img_mods": "overlay|images/settings/OFF.png,@disabled",
-        "codes": "weather_vanes",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Weather_Vanes.png",
-        "img_mods": "overlay|images/settings/Hyrule.png",
-        //"codes": "wv_hyrule, wv_kakariko, wv_eastern, wv_gales, wv_hera, wv_witch, wv_death_hyrule, wv_desert, wv_sanctuary",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Weather_Vanes.png",
-        "img_mods": "overlay|images/settings/Lorule.png",
-        //"codes": "wv_lorule, wv_skull, wv_treacherous_tower, wv_ice, wv_lorule_castle, wv_graveyard, wv_thieves, wv_dark, wv_blacksmith, wv_vacant_house, wv_mire, wv_swamp, wv_turtle, wv_death_lorule",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Weather_Vanes.png",
-        "img_mods": "overlay|images/settings/ALL.png",
-        //"codes": "wv_all, wv_kakariko, wv_eastern, wv_gales, wv_hera, wv_witch, wv_death_hyrule, wv_desert, wv_sanctuary, wv_skull, wv_treacherous_tower, wv_ice, wv_lorule_castle, wv_graveyard, wv_thieves, wv_dark, wv_blacksmith, wv_vacant_house, wv_mire, wv_swamp, wv_turtle, wv_death_lorule",
-        "inherit_codes": false
-      }
-    ]
-  },
+  // {
+  //   "name": "Weather Vanes",
+  //   "type": "progressive",
+  //   "loop": true,
+  //   "allow_disabled": false,
+  //   "stages": [
+  //     {
+  //       "img": "images/settings/Weather_Vanes.png",
+  //       "img_mods": "overlay|images/settings/OFF.png,@disabled",
+  //       "codes": "weather_vanes",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Weather_Vanes.png",
+  //       "img_mods": "overlay|images/settings/Hyrule.png",
+  //       //"codes": "wv_hyrule, wv_kakariko, wv_eastern, wv_gales, wv_hera, wv_witch, wv_death_hyrule, wv_desert, wv_sanctuary",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Weather_Vanes.png",
+  //       "img_mods": "overlay|images/settings/Lorule.png",
+  //       //"codes": "wv_lorule, wv_skull, wv_treacherous_tower, wv_ice, wv_lorule_castle, wv_graveyard, wv_thieves, wv_dark, wv_blacksmith, wv_vacant_house, wv_mire, wv_swamp, wv_turtle, wv_death_lorule",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/settings/Weather_Vanes.png",
+  //       "img_mods": "overlay|images/settings/ALL.png",
+  //       //"codes": "wv_all, wv_kakariko, wv_eastern, wv_gales, wv_hera, wv_witch, wv_death_hyrule, wv_desert, wv_sanctuary, wv_skull, wv_treacherous_tower, wv_ice, wv_lorule_castle, wv_graveyard, wv_thieves, wv_dark, wv_blacksmith, wv_vacant_house, wv_mire, wv_swamp, wv_turtle, wv_death_lorule",
+  //       "inherit_codes": false
+  //     }
+  //   ]
+  // },
   {
     "name": "Small Keysy",
     "type": "toggle",
@@ -438,56 +438,138 @@
       }
     ]
   },
+  // {
+  //   "name": "Regions",
+  //   "type": "progressive",
+  //   "loop": true,
+  //   "allow_disabled": false,
+  //   "stages": [
+  //     {
+  //       "img": "images/icons/regions_hide.png",
+  //       "codes": "regions_hide",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/icons/regions_show.png",
+  //       "codes": "regions_show",
+  //       "inherit_codes": false
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": "Hyrule Region Map",
+  //   "type": "progressive",
+  //   "loop": true,
+  //   "allow_disabled": false,
+  //   "stages": [
+  //     {
+  //       "img": "images/maps/hyrule.png",
+  //       "codes": "regions_hyrule",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/maps/regions-hyrule.png",
+  //       "codes": "regions_show",
+  //       "inherit_codes": false
+  //     }
+  //   ]
+  // },
+  // {
+  //   "name": "Lorule Region Map",
+  //   "type": "progressive",
+  //   "loop": true,
+  //   "allow_disabled": false,
+  //   "stages": [
+  //     {
+  //       "img": "images/maps/lorule.png",
+  //       "codes": "regions_hide",
+  //       "inherit_codes": false
+  //     },
+  //     {
+  //       "img": "images/maps/regions-lorule.png",
+  //       "codes": "regions_lorule",
+  //       "inherit_codes": false
+  //     }
+  //   ]
+  // },
   {
-    "name": "Regions",
+    "name": "Chest Size Matches Contents",
     "type": "progressive",
-    "loop": true,
     "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
     "stages": [
       {
-        "img": "images/icons/regions_hide.png",
-        "codes": "regions_hide",
+        "img": "images/display/csmc_small.png",
+        "img_mods": "overlay|images/display/Normal.png",
+        "codes": "csmc, csmc_off",
         "inherit_codes": false
       },
       {
-        "img": "images/icons/regions_show.png",
-        "codes": "regions_show",
+        "img": "images/display/csmc_large.png",
+        "img_mods": "overlay|images/display/CSMC.png",
+        "codes": "csmc, csmc_on",
         "inherit_codes": false
       }
     ]
   },
   {
-    "name": "Hyrule Region Map",
+    "name": "Show Minigames",
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
-        "img": "images/maps/hyrule.png",
-        "codes": "regions_hyrule",
+        "img": "images/settings/minigames.png",
+        "img_mods": "overlay|images/display/Show.png",
+        "codes": "minigames, minigames_enabled",
         "inherit_codes": false
       },
       {
-        "img": "images/maps/regions-hyrule.png",
-        "codes": "regions_show",
+        "img": "images/settings/minigames.png",
+        "img_mods": "@disabled,overlay|images/display/Hide.png",
+        "codes": "minigames, minigames_disabled",
         "inherit_codes": false
       }
     ]
   },
   {
-    "name": "Lorule Region Map",
+    "name": "Show Weather Vanes",
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/maps/lorule.png",
-        "codes": "regions_hide",
+        "img": "images/display/wv_all.png",
+        "img_mods": "@disabled,overlay|images/display/Hide.png",
+        "codes": "weather_vanes, wv_shuffle_off",
         "inherit_codes": false
       },
       {
-        "img": "images/maps/regions-lorule.png",
-        "codes": "regions_lorule",
+        "img": "images/display/wv_all.png",
+        "img_mods": "overlay|images/display/Show.png",
+        "codes": "weather_vanes, wv_shuffle_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Show Maiamai",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/display/maiamai_map.png",
+        "img_mods": "@disabled,overlay|images/display/Hide.png",
+        "codes": "maiamai_mayhem, maiamai_mayhem_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/display/maiamai_map.png",
+        "img_mods": "overlay|images/display/Show.png",
+        "codes": "maiamai_mayhem, maiamai_mayhem_on",
         "inherit_codes": false
       }
     ]

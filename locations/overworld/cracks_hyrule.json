@@ -1,7 +1,7 @@
 [
   {
     "name": "Hyrule Cracks",
-    "access_rules": ["{merge, quake}", "merge, quake"],
+    "access_rules": ["{merge, quake_on}", "merge, quake_on"],
     "children": [
       {
         "name": "Your House Crack",
@@ -455,10 +455,10 @@
             "name": "Crack",
             "access_rules": [
               "{}",
-              "$access_desert_palace, [progression_enemies], [srod], [titansmitt], [$switch], [$attack]",
-              "$access_desert_palace, [no_progression_enemies, bombs], [srod], [titansmitt], [$switch], [$attack]",
-              "[glitched], $glitched_access_desert_palace, [progression_enemies], [srod], [titansmitt], [$switch], [$attack]",
-              "[glitched], $glitched_access_desert_palace, [no_progression_enemies, bombs], [srod], [titansmitt], [$switch], [$attack]"
+              "$access_desert_palace, [progression_enemies_on], [srod], [titansmitt], [$switch], [$attack]",
+              "$access_desert_palace, [progression_enemies_off, bombs], [srod], [titansmitt], [$switch], [$attack]",
+              "[glitched], $glitched_access_desert_palace, [progression_enemies_on], [srod], [titansmitt], [$switch], [$attack]",
+              "[glitched], $glitched_access_desert_palace, [progression_enemies_off, bombs], [srod], [titansmitt], [$switch], [$attack]"
             ],
             "visibility_rules": ["cracksanity"]
           }
@@ -498,7 +498,7 @@
         "access_rules": [
           "crack_hc",
           "msword, merge",
-          "swordless, merge, $knucklemaster",
+          "swordless, merge, ^$knucklemaster",
           // Twoga is immune to Bow
           "[], merge, $barrier_skip"
         ]

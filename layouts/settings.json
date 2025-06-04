@@ -23,22 +23,22 @@
                 "item_v_alignment": "center",
                 "rows": [
                   [
-                    "logic",
-                    "lc_requirement",
-                    "ped_requirement_3",
-                    "progression_enemies",
-                    "lampless",
-                    "minigames_enabled",
+                    "logic_mode",
+                    "lorule_castle_requirement",
+                    "pedestal_requirement",
+                    "no_progression_enemies",
+                    "dark_rooms_lampless",
+                    "minigames",
                     "csmc"
                   ],
                   [
-                    "cracksanity",
+                    "crack_shuffle",
                     "keysy",
-                    "lamp_net_not_weapons",
-                    "nice_mode",
+                    "lamp_and_net_as_weapons",
+                    "nice_items",
                     "beeBoost_hide",
-                    "weathervania",
-                    "maiamai_map"
+                    "weather_vanes",
+                    "maiamai_mayhem"
                   ]
                 ]
               }
@@ -75,7 +75,7 @@
                     "logic",
                     "lc_requirement",
                     "ped_requirement_3",
-                    "progression_enemies",
+                    "progression_enemies_on",
                     "lampless",
                     "minigames_enabled",
                     "csmc"
