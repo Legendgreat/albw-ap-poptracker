@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "1.2.1",
+      "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.2.1/v1.2.1.zip",
+      "sha256": "2FE7EEF589339F86DDE5FACAAEA90FEAB7239508A9B7D226CDDD6937A4D841DE",
+      "changelog": [
+        "Quake is now tracked if found manually (not initial_crack_state)",
+        "Open trials door should now be tracked",
+        "Swordless mode is now tracked"
+      ]
+    },
+    {
       "package_version": "1.2.0",
       "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.2.0/v1.2.0.zip",
       "sha256": "DA7C08F40C588E68BC21C1BA14A9694F3B94C120CDA52F8709CC739EAFF55C86",
