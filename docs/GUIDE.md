@@ -21,13 +21,13 @@ Sage Portraits (sometimes called Paintings) are the primary major collectible of
 
 | Gulley                                   | Oren                                 | Seres                                  | Osfala                                   | Impa                                 | Irene                                  | Rosso                                  |
 | ---------------------------------------- | ------------------------------------ | -------------------------------------- | ---------------------------------------- | ------------------------------------ | -------------------------------------- | -------------------------------------- |
-| ![Gulley](images/prizes/sage_gulley.png) | ![Oren](images/prizes/sage_oren.png) | ![Seres](images/prizes/sage_seres.png) | ![Osfala](images/prizes/sage_osfala.png) | ![Impa](images/prizes/sage_impa.png) | ![Irene](images/prizes/sage_irene.png) | ![Rosso](images/prizes/sage_rosso.png) |
+| ![Gulley](/images/prizes/sage_gulley.png) | ![Oren](/images/prizes/sage_oren.png) | ![Seres](/images/prizes/sage_seres.png) | ![Osfala](/images/prizes/sage_osfala.png) | ![Impa](/images/prizes/sage_impa.png) | ![Irene](/images/prizes/sage_irene.png) | ![Rosso](/images/prizes/sage_rosso.png) |
 
 You can configure how many must be collected with the following settings:
 
 | Setting                                                    | Range | Default | Specifies Requirement For                                                          |
 | ---------------------------------------------------------- | ----- | ------- | ---------------------------------------------------------------------------------- |
-| ![Lorule Castle Requirement](images/prizes/sage_zelda.png) | 0-7   | 7       | - Entering Lorule Castle's Front Door <br>- Spawning Final Boss in the Throne Room |
+| ![Lorule Castle Requirement](/images/prizes/sage_zelda.png) | 0-7   | 7       | - Entering Lorule Castle's Front Door <br>- Spawning Final Boss in the Throne Room |
 
 You can set which dungeon holds which sage by right-clicking on the ?? icons under each dungeon. Currently, sage item collection is not implemented, so you still have to click each collection off manually.
 
@@ -41,8 +41,8 @@ You can configure the `Pedestal` option to configure which Pendants are needed a
 
 | Pendants                                                                                                                                                           | Name    | Description                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | ---------------------------------------------------------------------- |
-| ![Pendant of Wisdom](images/prizes/pendant_wisdom.png)![Pendant of Power](images/prizes/pendant_power.png)![Pendant of Courage](images/prizes/pendant_courage.png) | Normal  | Require all Pendants of Virtue.                                        |
-| ![Pendant of Wisdom](images/prizes/pendant_wisdom.png)![Pendant of Power](images/prizes/pendant_power.png)                                                         | Vanilla | As in the vanilla game, only require the Pendants of Power and Wisdom. |
+| ![Pendant of Wisdom](/images/prizes/pendant_wisdom.png)![Pendant of Power](/images/prizes/pendant_power.png)![Pendant of Courage](/images/prizes/pendant_courage.png) | Normal  | Require all Pendants of Virtue.                                        |
+| ![Pendant of Wisdom](/images/prizes/pendant_wisdom.png)![Pendant of Power](/images/prizes/pendant_power.png)                                                         | Vanilla | As in the vanilla game, only require the Pendants of Power and Wisdom. |
 
 ### Location Color Codes
 
@@ -70,11 +70,11 @@ The randomizer supports five\* Logic Modes, and so does this tracker. You can se
 
 | Mode                                                    | Description                                                                                                                                                                         |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Normal Logic](images/settings/Normal.png)             | Standard gameplay, no tricky item use or glitches.                                                                                                                                  |
-| ![Hard Logic](images/settings/Hard.png)                 | Adds tricks that aren't technically glitches.                                                                                                                                       |
-| ![Glitched Logic](images/settings/Glitched.png)         | Includes the above plus "basic", easy-to-learn glitches.                                                                                                                            |
-| ![Adv Glitched Logic](images/settings/Adv_Glitched.png) | Includes the above plus "advanced" glitches that may be a challenge to master.                                                                                                      |
-| ![Hell Logic](images/settings/Hell.png)                 | Includes every known RTA-viable glitch, including the insane ones. Note that the Bee Badge is omitted from the item pool in this mode, to preserve the infamous Bee Boosting trick. |
+| ![Normal Logic](/images/settings/Normal.png)             | Standard gameplay, no tricky item use or glitches.                                                                                                                                  |
+| ![Hard Logic](/images/settings/Hard.png)                 | Adds tricks that aren't technically glitches.                                                                                                                                       |
+| ![Glitched Logic](/images/settings/Glitched.png)         | Includes the above plus "basic", easy-to-learn glitches.                                                                                                                            |
+| ![Adv Glitched Logic](/images/settings/Adv_Glitched.png) | Includes the above plus "advanced" glitches that may be a challenge to master.                                                                                                      |
+| ![Hell Logic](/images/settings/Hell.png)                 | Includes every known RTA-viable glitch, including the insane ones. Note that the Bee Badge is omitted from the item pool in this mode, to preserve the infamous Bee Boosting trick. |
 
 Raising the Logic Mode to higher difficulties will cause `🟨 Sequence Break` sections to become `🟩 Normal` as they enter logic.
 
@@ -82,7 +82,7 @@ Raising the Logic Mode to higher difficulties will cause `🟨 Sequence Break` s
 
 ### Swordless Mode
 
-![Swordless](images/items/fsword.png) ![Swordless](images/items/x_small.png)
+![Swordless](/images/items/fsword.png) ![Swordless](/images/items/x_small.png)
 
 Right-click the base Sword item to tell the tracker you're playing in Swordless Mode, which slightly changes the logic:
 
@@ -91,7 +91,7 @@ Right-click the base Sword item to tell the tracker you're playing in Swordless 
 
 ### Minigames
 
-![Minigames](images/settings/minigames.png)
+![Minigames](/images/settings/minigames.png)
 
 You can tell the tracker whether you've Enabled or Disabled Minigames down in the Settings panel. Disabling Minigames will hide their checks on the tracker.
 
@@ -120,7 +120,7 @@ Similarly, if the Lamp is not required, then those same checks will appear `🟩
 
 ### Display Bee Boost Glitches
 
-![Bee Boost Glitches](images/display/bottle_bee.png)
+![Bee Boost Glitches](/images/display/bottle_bee.png)
 
 Turn this setting on to show `🟨 Sequence Break` checks that require using the Bee Boost glitch.
 
@@ -130,22 +130,22 @@ Checks requiring the Bee Boost glitch are hidden by default given the trick's ex
 
 ### Maiamai Map
 
-![Maiamai Map](images/display/maiamai_map.png)
+![Maiamai Map](/images/display/maiamai_map.png)
 
 This setting toggles the visibility of the Maiamai checks.
 
 ### Weather Vanes
 
-![Weather Vanes](images/display/wv_all.png)
+![Weather Vanes](/images/display/wv_all.png)
 
 This setting toggles the visibility of Weather Vane checks.
 
-![Weather Vanes Hyrule](images/display/wv_hyrule.png) ![Weather Vanes Lorule](images/display/wv_lorule.png)
+![Weather Vanes Hyrule](/images/display/wv_hyrule.png) ![Weather Vanes Lorule](/images/display/wv_lorule.png)
 
 Left clicking on these will mark them as if you cleared the check on the map, and _enable logic for teleporting_ to them if you have the bell. Vice versa, clearing a check on the map will mark the corresponding weather vane in the item tracker.
 
 Alternatively, you can right click on them to mark them as "visited". This won't do anything logically, but it's handy to keep track of which ones you've checked if you are doing a shuffled Weather Vanes run.
 
-![Keysy Settings](images/settings/Keysy_off.png)
+![Keysy Settings](/images/settings/Keysy_off.png)
 
 By left clicking on this, you can enable small keysy. Right click will enable big keysy. Left- _and_ right click will enable both.
