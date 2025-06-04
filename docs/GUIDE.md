@@ -114,7 +114,7 @@ This setting tells the tracker whether the option to skip the Lorule Castle Tria
 
 This setting determines whether the logic considers the Lamp as a necessary item to cross dark rooms.
 
-If the Lamp is needed, then checks the player would be able to obtain if they crossed a dark room with no light source will appear
+If the Lamp is needed, then checks the player would be able to obtain if they crossed a dark room with no light source will appear  
 as `🟨 Sequence Breaks`. This is because the setting puts them out of logic, but they are still technically obtainable as the Lamp is not a hard requirement.
 
 Similarly, if the Lamp is not required, then those same checks will appear `🟩 Normal`, as the setting places them in logic, and the seed may require the player to cross a dark room with no light source.
