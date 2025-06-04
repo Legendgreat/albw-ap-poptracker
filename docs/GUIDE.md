@@ -4,16 +4,16 @@
 
 | Name               | Prize                                                    | Effect / Unlocks                                                                             |
 | ------------------ | -------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Gulley             | ![Gulley](images/prizes/sage_gulley.png)                 |                                                                                              |
-| Oren               | ![Oren](images/prizes/sage_oren.png)                     | - Queen Oren                                                                                 |
-| Seres              | ![Seres](images/prizes/sage_seres.png)                   |                                                                                              |
-| Osfala             | ![Osfala](images/prizes/sage_osfala.png)                 | - Ravio's Sand Rod Slot Item                                                                 |
-| Impa               | ![Impa](images/prizes/sage_impa.png)                     | - Hyrule Castle Throne Room                                                                  |
-| Irene              | ![Irene](images/prizes/sage_irene.png)                   | - Irene                                                                                      |
-| Rosso              | ![Rosso](images/prizes/sage_rosso.png)                   | - Unlocks Rosso's House's front door <br>- Rosso <br>- Rosso Rocks <br>- Rosso's House Crack |
-| Pendant of Power   | ![Pendant of Power](images/prizes/pendant_power.png)     |                                                                                              |
-| Pendant of Wisdom  | ![Pendant of Wisdom](images/prizes/pendant_wisdom.png)   |                                                                                              |
-| Pendant of Courage | ![Pendant of Courage](images/prizes/pendant_courage.png) | - Wildlife Clearing Stump                                                                    |
+| Gulley             | ![Gulley](/images/prizes/sage_gulley.png)                 |                                                                                              |
+| Oren               | ![Oren](/images/prizes/sage_oren.png)                     | - Queen Oren                                                                                 |
+| Seres              | ![Seres](/images/prizes/sage_seres.png)                   |                                                                                              |
+| Osfala             | ![Osfala](/images/prizes/sage_osfala.png)                 | - Ravio's Sand Rod Slot Item                                                                 |
+| Impa               | ![Impa](/images/prizes/sage_impa.png)                     | - Hyrule Castle Throne Room                                                                  |
+| Irene              | ![Irene](/images/prizes/sage_irene.png)                   | - Irene                                                                                      |
+| Rosso              | ![Rosso](/images/prizes/sage_rosso.png)                   | - Unlocks Rosso's House's front door <br>- Rosso <br>- Rosso Rocks <br>- Rosso's House Crack |
+| Pendant of Power   | ![Pendant of Power](/images/prizes/pendant_power.png)     |                                                                                              |
+| Pendant of Wisdom  | ![Pendant of Wisdom](/images/prizes/pendant_wisdom.png)   |                                                                                              |
+| Pendant of Courage | ![Pendant of Courage](/images/prizes/pendant_courage.png) | - Wildlife Clearing Stump                                                                    |
 
 #### Sage Portraits
 
