@@ -104,15 +104,15 @@ SLOT_CODES =
             [4] = 0   -- 4 trials
         }
     },
-    -- open_trials_door =
-    -- {
-    --     code = "minigames",
-    --     mapping = 
-    --     {
-    --         [0] = 0,
-    --         [1] = 1
-    --     }
-    -- },
+    open_trials_door =
+    {
+        code = "lc_trials_door",
+        mapping = 
+        {
+            [0] = 0,
+            [1] = 1
+        }
+    },
     dark_rooms_lampless =
     {
         code = "dark_rooms_lampless",
@@ -147,15 +147,15 @@ SLOT_CODES =
             [5] = 0   -- All
         }
     },
-    -- swordless_mode =
-    -- {
-    --     code = "p_sword",
-    --     mapping = 
-    --     {
-    --         [0] = 1,  -- Swordful
-    --         [1] = 0   -- Swordless
-    --     }
-    -- },
+    swordless_mode =
+    {
+        code = "p_sword",
+        mapping = 
+        {
+            [0] = 1,  -- Swordful
+            [1] = 0   -- Swordless
+        }
+    },
     initial_crack_state =
     {
         code = "quake",

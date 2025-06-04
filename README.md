@@ -8,6 +8,18 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 
 <details open>
 
+<summary>1.2.1</summary>
+
+### 1.2.1
+
+- Quake is now tracked if found manually (not initial_crack_state)
+- Open trials door should now be tracked
+- Swordless mode is now tracked
+
+</details>
+
+<details open>
+
 <summary>1.2.0</summary>
 
 ### 1.2.0
@@ -54,7 +66,7 @@ I will probably focus on the vertical layout of the Standard Tracker next.
 
 </details>
 
-<details open>
+<details>
 
 <summary>1.1.1</summary>
 
