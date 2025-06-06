@@ -1,4 +1,4 @@
-if Tracker.ActiveVariantUID == "standard" or Tracker.ActiveVariantUID == "compact" then
+if Tracker.ActiveVariantUID == "standard" or Tracker.ActiveVariantUID == "map_vertical" then
   Tracker:AddLocations("locations/overworld/hyrule.json")
   Tracker:AddLocations("locations/overworld/lorule.json")
   Tracker:AddLocations("locations/overworld/death_mountain.json")

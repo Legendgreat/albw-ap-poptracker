@@ -79,7 +79,7 @@ SLOT_CODES =
         mapping = 
         {
             [0] = 1,  -- Nice Items Vanilla
-            [1] = 1,  -- Nice Items Shuffled (Junked)
+            [1] = 2,  -- Nice Items Shuffled (Junked)
             [2] = 0   -- Nice Items Off (Junked)
         }
     },

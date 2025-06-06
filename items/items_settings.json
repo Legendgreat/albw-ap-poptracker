@@ -252,17 +252,27 @@
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/settings/Nice_Mode.png",
         "img_mods": "@disabled,overlay|images/settings/OFF.png",
         "codes": "nice_items, nice_items_off",
+        "name": "Nice Items (Off)",
         "inherit_codes": false
       },
       {
         "img": "images/settings/Nice_Mode.png",
-        "img_mods": "overlay|images/settings/ON.png",
+        "img_mods": "overlay|images/settings/Vanilla.png",
         "codes": "nice_items, nice_items_on",
+        "name": "Nice Items (Vanilla)",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Nice_Mode.png",
+        "img_mods": "overlay|images/settings/Shuffled.png",
+        "codes": "nice_items, nice_items_shuffled",
+        "name": "Nice Items (Shuffled)",
         "inherit_codes": false
       }
     ]

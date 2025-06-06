@@ -110,32 +110,6 @@
         ]
       },
       {
-        "name": "Death Mountain Base Rock",
-        "map_locations": [
-          {
-            "map": "hyrule",
-            "x": 1142,
-            "y": 468,
-            "size": 32,
-            "shape": "diamond"
-          }
-        ],
-        "sections": [
-          {
-            "name": "Maiamai",
-            "chest_unopened_img": "images/items/maiamai.png",
-            "chest_opened_img": "images/items/maiamai_opened.png",
-            "item_count": 1,
-            //"capture_item": true,
-            "visibility_rules": ["maiamai_mayhem_on"],
-            "access_rules": [
-              "$access_dm_west_base, power_glove",
-              "[glitched], power_glove"
-            ]
-          }
-        ]
-      },
-      {
         "name": "Donkey Cave Ledge",
         "map_locations": [
           {
@@ -155,35 +129,6 @@
               "[hell], $hell_access_dm_west_top"
             ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Death Mountain West Ledge",
-        "map_locations": [
-          {
-            "map": "hyrule",
-            "x": 1045,
-            "y": 245,
-            "size": 32,
-            "shape": "diamond"
-          }
-        ],
-        "sections": [
-          {
-            "name": "Maiamai",
-            "chest_unopened_img": "images/items/maiamai.png",
-            "chest_opened_img": "images/items/maiamai_opened.png",
-            "item_count": 1,
-            //"capture_item": true,
-            "visibility_rules": ["maiamai_mayhem_on"],
-            "access_rules": [
-              "power_glove, merge",
-              "merge, $access_dm_west_top",
-              "[glitched], merge",
-              "[advanced], merge, $adv_glitched_access_dm_west_top",
-              "[hell], merge, $hell_access_dm_west_top"
-            ]
           }
         ]
       },
@@ -257,33 +202,6 @@
         ]
       },
       {
-        "name": "Outside Hookshot Mini-Dungeon",
-        "map_locations": [
-          {
-            "map": "hyrule",
-            "x": 1910,
-            "y": 168,
-            "size": 32,
-            "shape": "diamond"
-          }
-        ],
-        "sections": [
-          {
-            "name": "Maiamai",
-            "chest_unopened_img": "images/items/maiamai.png",
-            "chest_opened_img": "images/items/maiamai_opened.png",
-            "item_count": 1,
-            //"capture_item": true,
-            "visibility_rules": ["maiamai_mayhem_on"],
-            "access_rules": [
-              "$access_dm_east_top, merge",
-              "[glitched], merge, hookshot",
-              "[advanced], $adv_glitched_access_dm_east_top, merge"
-            ]
-          }
-        ]
-      },
-      {
         "name": "Fire Cave Pillar",
         "map_locations": [
           {
@@ -318,10 +236,10 @@
           {
             "name": "Bottle reward",
             "access_rules": [
-              "$access_dm_east_top, merge, premium_milk",
-              "[glitched], merge, hookshot, premium_milk",
-              "[advanced], $adv_glitched_access_dm_east_top, premium_milk, merge",
-              "[advanced], $adv_glitched_access_dm_east_top, premium_milk, trod, boots"
+              "$access_dm_east_top, merge, milk",
+              "[glitched], merge, hookshot, milk",
+              "[advanced], $adv_glitched_access_dm_east_top, milk, merge",
+              "[advanced], $adv_glitched_access_dm_east_top, milk, trod, boots"
             ],
             "hosted_item": "bottle",
             "item_count": 1
@@ -329,65 +247,12 @@
           {
             "name": "Trash",
             "access_rules": [
-              "$access_dm_east_top, merge, premium_milk",
-              "[glitched], merge, hookshot, premium_milk",
-              "[advanced], $adv_glitched_access_dm_east_top, premium_milk, merge",
-              "[advanced], $adv_glitched_access_dm_east_top, premium_milk, trod, boots"
+              "$access_dm_east_top, merge, milk",
+              "[glitched], merge, hookshot, milk",
+              "[advanced], $adv_glitched_access_dm_east_top, milk, merge",
+              "[advanced], $adv_glitched_access_dm_east_top, milk, trod, boots"
             ],
             "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Fire Cave Ledge",
-        "map_locations": [
-          {
-            "map": "hyrule",
-            "x": 1639,
-            "y": 254,
-            "size": 32,
-            "shape": "diamond"
-          }
-        ],
-        "sections": [
-          {
-            "name": "Maiamai",
-            "chest_unopened_img": "images/items/maiamai.png",
-            "chest_opened_img": "images/items/maiamai_opened.png",
-            "item_count": 1,
-            //"capture_item": true,
-            "visibility_rules": ["maiamai_mayhem_on"],
-            "access_rules": [
-              "$access_dm_east_top, merge, power_glove",
-              "[advanced], $adv_glitched_access_dm_east_top, merge, power_glove",
-              "[advanced], $adv_glitched_access_dm_east_top, power_glove, trod, boots"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Rosso's Ore Mine",
-        "map_locations": [
-          {
-            "map": "hyrule",
-            "x": 1324,
-            "y": 390,
-            "size": 32,
-            "shape": "diamond"
-          }
-        ],
-        "sections": [
-          {
-            "name": "Maiamai",
-            "chest_unopened_img": "images/items/maiamai.png",
-            "chest_opened_img": "images/items/maiamai_opened.png",
-            "item_count": 1,
-            //"capture_item": true,
-            "visibility_rules": ["maiamai_mayhem_on"],
-            "access_rules": [
-              "power_glove, $access_dm_east_bottom",
-              "[advanced], power_glove, $adv_glitched_access_dm_east_bottom"
-            ]
           }
         ]
       },
@@ -494,87 +359,6 @@
         ]
       },
       {
-        "name": "Lorule Mountain W Skull",
-        "map_locations": [
-          {
-            "map": "lorule",
-            "x": 864,
-            "y": 303,
-            "size": 32,
-            "shape": "diamond"
-          }
-        ],
-        "sections": [
-          {
-            "name": "Maiamai",
-            "chest_unopened_img": "images/items/maiamai.png",
-            "chest_opened_img": "images/items/maiamai_opened.png",
-            "item_count": 1,
-            //"capture_item": true,
-            "visibility_rules": ["maiamai_mayhem_on"],
-            "access_rules": [
-              "$access_ldm_west",
-              "[glitched], $glitched_access_ldm_west"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Lorule Mountain W Big Rock",
-        "map_locations": [
-          {
-            "map": "lorule",
-            "x": 843,
-            "y": 111,
-            "size": 32,
-            "shape": "diamond"
-          }
-        ],
-        "sections": [
-          {
-            "name": "Maiamai",
-            "chest_unopened_img": "images/items/maiamai.png",
-            "chest_opened_img": "images/items/maiamai_opened.png",
-            "item_count": 1,
-            //"capture_item": true,
-            "access_rules": [
-              "$access_ldm_west, hammer, titansmitt",
-              "[glitched], $glitched_access_ldm_west, titansmitt, hammer",
-              "[glitched], $glitched_access_ldm_west, titansmitt, nicebombs",
-              "[hell], $glitched_access_ldm_west, titansmitt, bombs"
-            ],
-            "visibility_rules": ["maiamai_mayhem_on"]
-          }
-        ]
-      },
-      {
-        "name": "Lorule Mountain E Big Rock",
-        "map_locations": [
-          {
-            "map": "lorule",
-            "x": 1309,
-            "y": 429,
-            "size": 32,
-            "shape": "diamond"
-          }
-        ],
-        "sections": [
-          {
-            "name": "Maiamai",
-            "chest_unopened_img": "images/items/maiamai.png",
-            "chest_opened_img": "images/items/maiamai_opened.png",
-            "item_count": 1,
-            //"capture_item": true,
-            "access_rules": [
-              "$access_ldm_west, titansmitt",
-              "[glitched], $glitched_access_ldm_west, titansmitt",
-              "[hell], $glitched_access_ldm_west, titansmitt"
-            ],
-            "visibility_rules": ["maiamai_mayhem_on"]
-          }
-        ]
-      },
-      {
         "name": "Behind Ice Gimos",
         "map_locations": [
           {
@@ -617,6 +401,219 @@
             "item_count": 1
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "_Mountain Maiamai",
+    "children": [
+      {
+        "name": "Death Mountain Base Rock",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1142,
+            "y": 468,
+            "size": 32,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiamai",
+            "chest_unopened_img": "images/items/maiamai.png",
+            "chest_opened_img": "images/items/maiamai_opened.png",
+            "item_count": 1,
+            "visibility_rules": ["maiamai_mayhem_on"],
+            "access_rules": [
+              "$access_dm_west_base, power_glove",
+              "[glitched], power_glove"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain West Ledge",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1045,
+            "y": 245,
+            "size": 32,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiamai",
+            "chest_unopened_img": "images/items/maiamai.png",
+            "chest_opened_img": "images/items/maiamai_opened.png",
+            "item_count": 1,
+            "visibility_rules": ["maiamai_mayhem_on"],
+            "access_rules": [
+              "power_glove, merge",
+              "merge, $access_dm_west_top",
+              "[glitched], merge",
+              "[advanced], merge, $adv_glitched_access_dm_west_top",
+              "[hell], merge, $hell_access_dm_west_top"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Outside Hookshot Mini-Dungeon",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1910,
+            "y": 168,
+            "size": 32,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiamai",
+            "chest_unopened_img": "images/items/maiamai.png",
+            "chest_opened_img": "images/items/maiamai_opened.png",
+            "item_count": 1,
+            "visibility_rules": ["maiamai_mayhem_on"],
+            "access_rules": [
+              "$access_dm_east_top, merge",
+              "[glitched], merge, hookshot",
+              "[advanced], $adv_glitched_access_dm_east_top, merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fire Cave Ledge",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1639,
+            "y": 254,
+            "size": 32,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiamai",
+            "chest_unopened_img": "images/items/maiamai.png",
+            "chest_opened_img": "images/items/maiamai_opened.png",
+            "item_count": 1,
+            "visibility_rules": ["maiamai_mayhem_on"],
+            "access_rules": [
+              "$access_dm_east_top, merge, power_glove",
+              "[advanced], $adv_glitched_access_dm_east_top, merge, power_glove",
+              "[advanced], $adv_glitched_access_dm_east_top, power_glove, trod, boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rosso's Ore Mine",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1324,
+            "y": 390,
+            "size": 32,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiamai",
+            "chest_unopened_img": "images/items/maiamai.png",
+            "chest_opened_img": "images/items/maiamai_opened.png",
+            "item_count": 1,
+            "visibility_rules": ["maiamai_mayhem_on"],
+            "access_rules": [
+              "power_glove, $access_dm_east_bottom",
+              "[advanced], power_glove, $adv_glitched_access_dm_east_bottom"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Mountain W Skull",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 864,
+            "y": 303,
+            "size": 32,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiamai",
+            "chest_unopened_img": "images/items/maiamai.png",
+            "chest_opened_img": "images/items/maiamai_opened.png",
+            "item_count": 1,
+            "visibility_rules": ["maiamai_mayhem_on"],
+            "access_rules": [
+              "$access_ldm_west",
+              "[glitched], $glitched_access_ldm_west"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Mountain W Big Rock",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 843,
+            "y": 111,
+            "size": 32,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiamai",
+            "chest_unopened_img": "images/items/maiamai.png",
+            "chest_opened_img": "images/items/maiamai_opened.png",
+            "item_count": 1,
+            "access_rules": [
+              "$access_ldm_west, hammer, titansmitt",
+              "[glitched], $glitched_access_ldm_west, titansmitt, hammer",
+              "[glitched], $glitched_access_ldm_west, titansmitt, nicebombs",
+              "[hell], $glitched_access_ldm_west, titansmitt, bombs"
+            ],
+            "visibility_rules": ["maiamai_mayhem_on"]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Mountain E Big Rock",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1309,
+            "y": 429,
+            "size": 32,
+            "shape": "diamond"
+          }
+        ],
+        "sections": [
+          {
+            "name": "Maiamai",
+            "chest_unopened_img": "images/items/maiamai.png",
+            "chest_opened_img": "images/items/maiamai_opened.png",
+            "item_count": 1,
+            "access_rules": [
+              "$access_ldm_west, titansmitt",
+              "[glitched], $glitched_access_ldm_west, titansmitt",
+              "[hell], $glitched_access_ldm_west, titansmitt"
+            ],
+            "visibility_rules": ["maiamai_mayhem_on"]
+          }
+        ]
       },
       {
         "name": "Lorule Mountain E Wall",
@@ -640,7 +637,6 @@
               "[hell], $hell_access_ldm_east_base, merge"
             ],
             "item_count": 1,
-            //"capture_item": true,
             "visibility_rules": ["maiamai_mayhem_on"]
           }
         ]
@@ -669,7 +665,6 @@
               "[hell], trod, $break_skull, $hell_access_ldm_east_top"
             ],
             "item_count": 1,
-            //"capture_item": true,
             "visibility_rules": ["maiamai_mayhem_on"]
           }
         ]
@@ -696,7 +691,6 @@
               "[glitched], merge, $glitched_access_ldm_east_top",
               "[hell], merge, $hell_access_ldm_east_top"
             ],
-            //"capture_item": true,
             "visibility_rules": ["maiamai_mayhem_on"]
           }
         ]

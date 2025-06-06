@@ -148,19 +148,6 @@ function toggleWeatherVanes(value)
     end
 end
 
-function toggleNiceItems()
-    Tracker:FindObjectForCode("maiamai_bow").Active = true
-    Tracker:FindObjectForCode("maiamai_boomerang").Active = true
-    Tracker:FindObjectForCode("maiamai_hookshot").Active = true
-    Tracker:FindObjectForCode("maiamai_hammer").Active = true
-    Tracker:FindObjectForCode("maiamai_bombs").Active = true
-    Tracker:FindObjectForCode("maiamai_fire_rod").Active = true
-    Tracker:FindObjectForCode("maiamai_ice_rod").Active = true
-    Tracker:FindObjectForCode("maiamai_tornado_rod").Active = true
-    Tracker:FindObjectForCode("maiamai_sand_rod").Active = true
-    Tracker:FindObjectForCode("@Mother Maiamai's Item Upgrades/100 Maiamai").AvailableChestCount = 0
-end
-
 function onClear(slot_data)
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
@@ -175,11 +162,7 @@ function onClear(slot_data)
     end
 
     for key, value in pairs(slot_data) do
-        if key == "nice_items" then
-            if not (value == 0) then
-                toggleNiceItems()
-            end
-        elseif key == "swordless_mode" then
+        if key == "swordless_mode" then
             if value == 1 then
                 local object = Tracker:FindObjectForCode("p_sword")
                 object.CurrentStage = 0

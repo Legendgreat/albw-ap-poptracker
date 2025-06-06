@@ -46,7 +46,6 @@
                 "chest_unopened_img": "images/junk/heart_piece.png",
                 "chest_opened_img": "images/junk/heart_piece_collected.png",
                 "access_rules": [
-                  //"{}",
                   "{glitched, boomerang}",
                   "{glitched, nice_items_off, hookshot}",
                   "merge",
@@ -411,9 +410,9 @@
             "sections": [
               {
                 "name": "Premium Milk reward",
-                "hosted_item": "bottle_milk_premium",
-                "access_rules": ["bottle_letter"],
-                "item_count": 0
+                "hosted_item": "milk",
+                "access_rules": ["letter"],
+                "item_count": 1
               }
             ]
           },

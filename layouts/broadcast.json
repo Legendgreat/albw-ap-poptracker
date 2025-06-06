@@ -11,7 +11,7 @@
         "content": [
           {
             "type": "layout",
-            "key": "item_grid"
+            "key": "item_grid_horizontal"
           }
         ]
       }

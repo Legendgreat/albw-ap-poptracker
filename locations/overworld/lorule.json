@@ -25,7 +25,7 @@
                 "access_rules": [
                   "merge",
                   "[advanced], quake_on, boomerang",
-                  "[advanced], quake_on, $notNiceMode, hookshot"
+                  "[advanced], quake_on, nice_mode_off, hookshot"
                 ],
                 "item_count": 1
               }
@@ -375,18 +375,7 @@
             "sections": [
               {
                 "name": "Rupee reward",
-                "access_rules": [
-                  "label_power_tt, power",
-                  "label_wisdom_tt, wisdom",
-                  "label_courage_tt, courage",
-                  "label_gulley_tt, gulley",
-                  "label_oren_tt, oren",
-                  "label_seres_tt, seres",
-                  "label_osfala_tt, osfala",
-                  "label_impa_tt, impa",
-                  "label_irene_tt, irene",
-                  "label_rosso_tt, rosso"
-                ],
+                "access_rules": ["tt, sage", "tt, pendant"],
                 "capture_item": true,
                 "item_count": 1
               }

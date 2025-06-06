@@ -2,6 +2,7 @@
   {
     "name": "Mother Maiamai's Item Upgrades",
     "always_allow_chest_manipulation": true,
+    "visibility_rules": ["$motherMaiamai"],
     "map_locations": [
       {
         "map": "hyrule",

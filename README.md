@@ -6,7 +6,35 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 
 [](https://github.com/Legendgreat/albw-ap-poptracker/tree/master#version_history)
 
-<details open>
+### 1.3.0
+
+### Layout
+
+- This update has a fresh new item layout, that looks a bit cleaner than the previous versions. Because of the new item layout, and some weird issues with resizing the window, I had to separate the vertical layout from the standard map tracker, so it's now in it's own tracker variant.
+- I have also reintroduced the item tracker, which is now fully functional, including auto-tracking. Same as the map tracker, weather vanes have to be clicked, but dungeon items are auto-tracked.
+
+### Bug Fixes
+
+- Premium Milk and Letter in a Bottle are now both trackable properly. I have made it in a way where you can click either milk or letter, since you aren't able to get both in any given run. (According to RickWithAnH)
+- Thief Girl check is now properly available when having Thieves' Hideout reward item checked (Have to set it to Sage or Pendant, ?? doesn't work)
+- Mother Maiamai checks are now disabled instead of cleared, when nice items are set to shuffled or off (From my experience they are always junked, let me know if I'm wrong)
+- Death Mountain Maiamai should now appear in front of other checks too
+
+### Improvements
+
+- Based on some feedback from the Archipelago Discord, future versions will have a more descriptive .zip file name, and I will be excluding the .git folder
+- Removed most of the unnecessary files and images, bringing the final size of the .zip down to 20% of what it was before
+- Did some minor housekeeping of the code
+
+### Remaining issues
+
+- When diamond shape (Maiamai) locations overlap with square shaped ones, the square shape takes prevalence for the mouse hover. [Black Sliver](https://github.com/black-sliver/) is going to fix this in a future PopTracker update. _This is slated to be in the next release of PopTracker._
+
+### What's next
+
+I'm thinking of adding in a crack tracker, right now the tracker only supports marking the tracker you went in to, and for cracksanity, the crack you come out of. I want to add a fully functional crack tracker where you can mark which crack leads where, with maybe an additional map where lines are drawn between pairs, or hovering one highlights another. I'm not sure if PopTracker supports this yet, but I'll see what I can do with the tools that I have.
+
+<details>
 
 <summary>1.2.1</summary>
 
@@ -18,7 +46,7 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 
 </details>
 
-<details open>
+<details>
 
 <summary>1.2.0</summary>
 
@@ -55,6 +83,10 @@ I will probably focus on the vertical layout of the Standard Tracker next.
 <details>
 
 <summary>Older versions</summary>
+
+<details>
+
+<summary>1.1.x</summary>
 
 <details>
 
@@ -119,7 +151,11 @@ If dungeon location checks don't match up with where they should, please let me 
 
 </details>
 
-### 1.0.x
+</details>
+
+<details>
+
+<summary>1.0.x</summary>
 
 - 1.0.4
   - slightly adjusted layout, added individual sage portraits to the progression, and added guide to README.md
@@ -133,6 +169,8 @@ If dungeon location checks don't match up with where they should, please let me 
 - 1.0.0
   - Initial Release
   - Changes from arborelia's version include refactoring of the location files, adding proper tracking for locations, tracking dungeon keys and items, and minor adjustments to the layouts, as well as merging it with the latest version of RickWithAnH's tracker.
+
+</details>
 
 </details>
 

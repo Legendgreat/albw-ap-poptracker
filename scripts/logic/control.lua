@@ -276,9 +276,9 @@ function yuga_eastern()
     return AccessibilityLevel.None
 end
 
-function notNiceMode()
-    return not has("nice_items_on")
-end
+-- function notNiceMode()
+--     return not has("nice_items_on")
+-- end
 
 -- Can use Cracks
 -- Not for Hyrule Castle crack (doesn't need quake_on)
@@ -754,6 +754,10 @@ function maiamaiUpgradeAvailable()
     else
         return 0
     end
+end
+
+function motherMaiamai()
+    return Tracker:FindObjectForCode("nice_items").CurrentStage == 1
 end
 
 function canUpgradeItem()
