@@ -6,6 +6,18 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 
 [](https://github.com/Legendgreat/albw-ap-poptracker/tree/master#version_history)
 
+### 1.3.1
+
+### Bug Fixes
+
+- All cracks should now be in logic in cracksanity, with merge and quake, and some of the checks were updated for cracksanity as well.
+- Hylian Shield AP item should now properly increment the shield item by two stages
+- Blacksmith check should now work properly
+
+<details>
+
+<summary>1.3.0</summary>
+
 ### 1.3.0
 
 ### Layout
@@ -33,6 +45,8 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 ### What's next
 
 I'm thinking of adding in a crack tracker, right now the tracker only supports marking the tracker you went in to, and for cracksanity, the crack you come out of. I want to add a fully functional crack tracker where you can mark which crack leads where, with maybe an additional map where lines are drawn between pairs, or hovering one highlights another. I'm not sure if PopTracker supports this yet, but I'll see what I can do with the tools that I have.
+
+</details>
 
 <details>
 

@@ -257,7 +257,10 @@
               {
                 "hosted_item": "crack_graveyard",
                 "name": "Ledge Crack",
-                "access_rules": ["crack_graveyard"],
+                "access_rules": [
+                  "{cracksanity, merge, quake_on}",
+                  "crack_graveyard"
+                ],
                 "visibility_rules": ["cracksanity"]
               },
               {
@@ -437,7 +440,7 @@
               {
                 "name": "Crack",
                 "hosted_item": "crack_stylish_woman",
-                "access_rules": ["crack_stylish_woman"],
+                "access_rules": ["{merge, quake_on}", "crack_stylish_woman"],
                 "visibility_rules": ["cracksanity"]
               }
             ]
@@ -779,7 +782,10 @@
             "sections": [
               {
                 "name": "Silver Rupee",
-                "access_rules": ["merge"],
+                "access_rules": [
+                  "not_cracksanity, merge, quake_on",
+                  "cracksanity, crack_left_hyrule_paradox, merge, quake_on"
+                ],
                 "capture_item": true,
                 "item_count": 1
               }

@@ -269,7 +269,7 @@
           {
             "name": "Crack",
             "hosted_item": "crack_hyfi",
-            "access_rules": ["crack_hyfi"],
+            "access_rules": ["{cracksanity, quake_on, merge}", "crack_hyfi"],
             "visibility_rules": ["cracksanity"]
           },
           {

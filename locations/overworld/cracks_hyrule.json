@@ -289,7 +289,8 @@
           {
             "hosted_item": "crack_left_hyrule_paradox",
             "name": "Crack",
-            "visibility_rules": ["cracksanity"]
+            "visibility_rules": ["cracksanity"],
+            "access_rules": ["{cracksanity}"]
           }
         ],
         "map_locations": [
@@ -500,7 +501,8 @@
           "msword, merge",
           "swordless, merge, ^$knucklemaster",
           // Twoga is immune to Bow
-          "[], merge, $barrier_skip"
+          "[], merge, $barrier_skip",
+          "{cracksanity, merge, quake_on}"
         ]
       }
     ]
