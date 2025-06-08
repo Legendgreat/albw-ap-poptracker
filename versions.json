@@ -1,5 +1,15 @@
 {
   "versions": [
+     {
+      "package_version": "1.3.1",
+      "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.3.1/ALBW_AP_PopTracker_v1.3.1.zip",
+      "sha256": "2F9AC75807CDB3ADAD027194E50F4C13F6D1A8EDD13D9AB1B6AACDBEE53608BC",
+      "changelog": [
+        "All cracks should now be in logic in cracksanity, with merge and quake, and some of the checks were updated for cracksanity as well",
+        "Hylian Shield AP item should now properly increment the shield item by two stages",
+        "Blacksmith check should now work properly"
+      ]
+    },
     {
       "package_version": "1.3.0",
       "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.3.0/ALBW_AP_PopTracker_v1.3.0.zip",
