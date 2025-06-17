@@ -1,4 +1,5 @@
 {
+  // Used in both horizontal map trackers
   "dungeon_items_horizontal": {
     "type": "itemgrid",
     "item_margin": "1,0",
@@ -6,7 +7,6 @@
     "margin": "0, 9, 3, 7",
     "rows": [
       [
-        "hs_label",
         "",
         "ep_label",
         "hg_label",
@@ -20,10 +20,9 @@
         "ir_label",
         "lc_label"
       ],
-      ["", "", "", "", "", "", "", "", "", "", "", "", ""],
+      ["hs_label", "", "", "", "", "", "", "", "", "", "", ""],
       [
         "hs_small_key",
-        "",
         "eastern",
         "gales",
         "hera",
@@ -38,7 +37,6 @@
       ],
       [
         "ls_label",
-        "",
         "ep_compass",
         "hg_compass",
         "th_compass",
@@ -52,8 +50,7 @@
         "lc_compass"
       ],
       [
-        "",
-        "",
+        "ls_small_key",
         "ep_small_keys",
         "hg_small_keys",
         "th_small_keys",
@@ -67,7 +64,6 @@
         "lc_small_keys"
       ],
       [
-        "ls_small_key",
         "",
         "ep_big_key",
         "hg_big_key",
@@ -83,6 +79,7 @@
       ]
     ]
   },
+  // Used for vertical full map
   "dungeon_items_vertical": {
     "type": "itemgrid",
     "margin": "17,10,0,10",
@@ -110,6 +107,35 @@
       ]
     ]
   },
+  // Used for vertical compact
+  "dungeon_items_compact": {
+    "type": "itemgrid",
+    "margin": "34,10,0,10",
+    "item_margin": "3,0",
+    "item_size": 28,
+    "rows": [
+      ["", "hs_label", "hs_small_key", "ls_label", "ls_small_key", ""],
+      ["ep_label", "", "eastern", "ep_compass", "ep_small_keys", "ep_big_key"],
+      ["hg_label", "", "gales", "hg_compass", "hg_small_keys", "hg_big_key"],
+      ["th_label", "", "hera", "th_compass", "th_small_keys", "th_big_key"],
+      ["pd_label", "", "dark", "pd_compass", "pd_small_keys", "pd_big_key"],
+      ["sp_label", "", "swamp", "sp_compass", "sp_small_keys", "sp_big_key"],
+      ["sw_label", "", "skull", "sw_compass", "sw_small_keys", "sw_big_key"],
+      ["tt_label", "", "thieves", "tt_compass", "tt_small_key", "tt_big_key"],
+      ["tr_label", "", "turtle", "tr_compass", "tr_small_keys", "tr_big_key"],
+      ["dp_label", "", "desert", "dp_compass", "dp_small_keys", "dp_big_key"],
+      ["ir_label", "", "ice", "ir_compass", "ir_small_keys", "ir_big_key"],
+      [
+        "lc_label",
+        "",
+        "gomode",
+        "lc_compass",
+        "lc_small_keys",
+        "lc_trials_door"
+      ]
+    ]
+  },
+  // Used for item-only tracker
   "dungeon_items_vertical_tall": {
     "type": "itemgrid",
     "margin": "17,10,10,10",

@@ -49,7 +49,7 @@
         "map_locations": [
           {
             "map": "swamp",
-            "x": 176,
+            "x": 174,
             "y": 515
           }
         ],
@@ -113,7 +113,7 @@
         "map_locations": [
           {
             "map": "swamp",
-            "x": 176,
+            "x": 174,
             "y": 548
           }
         ],
@@ -265,61 +265,15 @@
             "map_locations": [
               {
                 "map": "swamp",
-                "x": 573,
-                "y": 105,
-                "size": 20
+                "x": 175,
+                "y": 160,
+                "size": 24
               }
             ],
             "sections": [
               {
-                "name": "Pendant of Power",
-                "hosted_item": "power",
-                "visibility_rules": ["label_power_sp"]
-              },
-              {
-                "name": "Pendant of Wisdom",
-                "hosted_item": "wisdom",
-                "visibility_rules": ["label_wisdom_sp"]
-              },
-              {
-                "name": "Pendant of Courage",
-                "hosted_item": "courage",
-                "visibility_rules": ["label_courage_sp"]
-              },
-              {
-                "name": "Gulley",
-                "hosted_item": "gulley",
-                "visibility_rules": ["label_gulley_sp"]
-              },
-              {
-                "name": "Oren",
-                "hosted_item": "oren",
-                "visibility_rules": ["label_oren_sp"]
-              },
-              {
-                "name": "Seres",
-                "hosted_item": "seres",
-                "visibility_rules": ["label_seres_sp"]
-              },
-              {
-                "name": "Osfala",
-                "hosted_item": "osfala",
-                "visibility_rules": ["label_osfala_sp"]
-              },
-              {
-                "name": "Impa",
-                "hosted_item": "impa",
-                "visibility_rules": ["label_impa_sp"]
-              },
-              {
-                "name": "Irene",
-                "hosted_item": "irene",
-                "visibility_rules": ["label_irene_sp"]
-              },
-              {
-                "name": "Rosso",
-                "hosted_item": "rosso",
-                "visibility_rules": ["label_rosso_sp"]
+                "name": "Reward",
+                "hosted_item": "sp"
               }
             ]
           }
@@ -331,7 +285,8 @@
           {
             "map": "lorule",
             "x": 962,
-            "y": 1808
+            "y": 1808,
+            "size": 80
           }
         ],
         "sections": [
@@ -439,8 +394,8 @@
             "hosted_item": "sp_arrghus"
           },
           {
-            "name": "Pendant of Power",
-            "hosted_item": "power",
+            "name": "Reward",
+            "hosted_item": "sp",
             "access_rules": [
               "merge, bombs, $sp_small_keys|4, $sp_big_key",
               "merge, hammer, $sp_small_keys|4, $sp_big_key",
@@ -453,170 +408,7 @@
               "[], merge, bombs, $sp_small_keys|3, $sp_big_key",
               "[], merge, hammer, $sp_small_keys|3, $sp_big_key",
               "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, $sp_big_key"
-            ],
-            "visibility_rules": ["label_power_sp"]
-          },
-          {
-            "name": "Pendant of Wisdom",
-            "hosted_item": "wisdom",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, $sp_big_key",
-              "merge, hammer, $sp_small_keys|4, $sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, $sp_big_key",
-              "[advanced], [nice_items_off], irod, $sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, $sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, $sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, $sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, $sp_big_key"
-            ],
-            "visibility_rules": ["label_wisdom_sp"]
-          },
-          {
-            "name": "Pendant of Courage",
-            "hosted_item": "courage",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, $sp_big_key",
-              "merge, hammer, $sp_small_keys|4, $sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, $sp_big_key",
-              "[advanced], [nice_items_off], irod, $sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, $sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, $sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, $sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, $sp_big_key"
-            ],
-            "visibility_rules": ["label_courage_sp"]
-          },
-          {
-            "name": "Gulley",
-            "hosted_item": "gulley",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, $sp_big_key",
-              "merge, hammer, $sp_small_keys|4, $sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, $sp_big_key",
-              "[advanced], [nice_items_off], irod, $sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, $sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, $sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, $sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, $sp_big_key"
-            ],
-            "visibility_rules": ["label_gulley_sp"]
-          },
-          {
-            "name": "Oren",
-            "hosted_item": "oren",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, $sp_big_key",
-              "merge, hammer, $sp_small_keys|4, $sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, $sp_big_key",
-              "[advanced], [nice_items_off], irod, $sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, $sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, $sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, $sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, $sp_big_key"
-            ],
-            "visibility_rules": ["label_oren_sp"]
-          },
-          {
-            "name": "Seres",
-            "hosted_item": "seres",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, $sp_big_key",
-              "merge, hammer, $sp_small_keys|4, $sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, $sp_big_key",
-              "[advanced], [nice_items_off], irod, $sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, $sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, $sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, $sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, $sp_big_key"
-            ],
-            "visibility_rules": ["label_seres_sp"]
-          },
-          {
-            "name": "Osfala",
-            "hosted_item": "osfala",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, $sp_big_key",
-              "merge, hammer, $sp_small_keys|4, $sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, $sp_big_key",
-              "[advanced], [nice_items_off], irod, $sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, $sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, $sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, $sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, $sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, $sp_big_key"
-            ],
-            "visibility_rules": ["label_osfala_sp"]
-          },
-          {
-            "name": "Impa",
-            "hosted_item": "impa",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, $sp_big_key",
-              "merge, hammer, $sp_small_keys|4, $sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, $sp_big_key",
-              "[advanced], [nice_items_off], irod, sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, sp_big_key"
-            ],
-            "visibility_rules": ["label_impa_sp"]
-          },
-          {
-            "name": "Irene",
-            "hosted_item": "irene",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, sp_big_key",
-              "merge, hammer, $sp_small_keys|4, sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, sp_big_key",
-              "[advanced], [nice_items_off], irod, sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, sp_big_key"
-            ],
-            "visibility_rules": ["label_irene_sp"]
-          },
-          {
-            "name": "Rosso",
-            "hosted_item": "rosso",
-            "access_rules": [
-              "merge, bombs, $sp_small_keys|4, sp_big_key",
-              "merge, hammer, $sp_small_keys|4, sp_big_key",
-              "merge, progression_enemies_on, $attack, $sp_small_keys|4, sp_big_key",
-              "[advanced], [nice_items_off], irod, sp_big_key",
-              "[advanced], [nice_items_off], irod, trod",
-              "[], merge, boots, bombs, $sp_small_keys|2, sp_big_key",
-              "[], merge, boots, hammer, $sp_small_keys|2, sp_big_key",
-              "[], merge, boots, progression_enemies_on, $attack, $sp_small_keys|2, sp_big_key",
-              "[], merge, bombs, $sp_small_keys|3, sp_big_key",
-              "[], merge, hammer, $sp_small_keys|3, sp_big_key",
-              "[], merge, progression_enemies_on, $attack, $sp_small_keys|3, sp_big_key"
-            ],
-            "visibility_rules": ["label_rosso_sp"]
+            ]
           }
         ]
       }

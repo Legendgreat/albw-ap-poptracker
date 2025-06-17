@@ -1,47 +1,25 @@
 {
-  "settings_grid_horizontal": {
-    "type": "itemgrid",
-    "item_margin": 4,
-    "item_size": 40,
-    "margin": "0, 7",
-    "rows": [
-      ["logic_mode", "lorule_castle_requirement", "pedestal_requirement"],
-      [
-        "no_progression_enemies",
-        "dark_rooms_lampless",
-        "lamp_and_net_as_weapons",
-        "csmc"
-      ],
-      ["beeBoost_hide", "minigames", "weather_vanes", "maiamai_mayhem"],
-      ["crack_shuffle", "keysy", "nice_items"]
-    ]
-  },
-  "settings_grid_vertical": {
-    "type": "itemgrid",
-    "item_margin": 2,
-    "item_size": 32,
-    "h_alignment": "left",
-    "item_h_alignment": "center",
-    "item_v_alignment": "center",
-    "rows": [
-      [
-        "logic_mode",
-        "lorule_castle_requirement",
-        "pedestal_requirement",
-        "no_progression_enemies",
-        "dark_rooms_lampless",
-        "minigames",
-        "csmc"
-      ],
-      [
-        "crack_shuffle",
-        "keysy",
-        "lamp_and_net_as_weapons",
-        "nice_items",
-        "beeBoost_hide",
-        "weather_vanes",
-        "maiamai_mayhem"
-      ]
+  "settings_popup": {
+    "type": "container",
+    "background": "#000",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": 4,
+        "item_size": 48,
+        "margin": "0, 7",
+        "rows": [
+          ["logic_mode", "lorule_castle_requirement", "pedestal_requirement"],
+          [
+            "no_progression_enemies",
+            "dark_rooms_lampless",
+            "lamp_and_net_as_weapons",
+            "csmc"
+          ],
+          ["beeBoost_hide", "minigames", "weather_vanes", "maiamai_mayhem"],
+          ["crack_shuffle", "keysy", "nice_items"]
+        ]
+      }
     ]
   }
 }

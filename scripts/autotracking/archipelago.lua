@@ -149,9 +149,9 @@ function toggleWeatherVanes(value)
 end
 
 function onClear(slot_data)
+    CUR_INDEX = -1
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
-    CUR_INDEX = -1
     Tracker.BulkUpdate = true
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
@@ -169,7 +169,17 @@ function onClear(slot_data)
             end
         elseif key == "weather_vanes" then
             toggleWeatherVanes(value)
+        elseif key == "trials_required" or key == "open_trials_door" then
+            local doorObj = Tracker:FindObjectForCode("lc_trials_door")
+            if key == "trials_required" and value == 0 then
+                doorObj.CurrentStage = 1
+            elseif key == "open_trials_door" and value == 1 then
+                doorObj.CurrentStage = 1
+            else
+                doorObj.CurrentStage = 0
+            end
         end
+        
         if SLOT_CODES[key] then
             Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP and DEBUG_ON_CLEAR then

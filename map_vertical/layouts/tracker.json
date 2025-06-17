@@ -36,15 +36,6 @@
                 "type": "layout",
                 "key": "weather_vanes_horizontal_small"
               }
-            },
-            {
-              "type": "group",
-              "header": "Settings",
-              "dock": "bottom",
-              "content": {
-                "type": "layout",
-                "key": "settings_grid_vertical"
-              }
             }
           ]
         },
@@ -53,7 +44,7 @@
           "content": [
             {
               "type": "layout",
-              "key": "tabbed_maps_vertical"
+              "key": "tabbed_maps"
             }
           ]
         }

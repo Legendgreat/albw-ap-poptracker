@@ -1,5 +1,5 @@
 {
-  "tabbed_maps_horizontal": {
+  "tabbed_maps": {
     "type": "tabbed",
     "tabs": [
       {
@@ -36,7 +36,7 @@
       }
     ]
   },
-  "tabbed_maps_vertical": {
+  "tabbed_maps_compact": {
     "type": "tabbed",
     "tabs": [
       {

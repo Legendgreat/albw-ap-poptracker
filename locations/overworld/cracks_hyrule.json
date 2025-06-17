@@ -485,11 +485,10 @@
         "badge_size": 40
       },
       {
-        "map": "hyrule8F",
-        "x": 83,
-        "y": 33,
-        "size": 24,
-        "badge_size": 16
+        "map": "hyrule_castle",
+        "x": 166,
+        "y": 86,
+        "size": 36
       }
     ],
     "sections": [

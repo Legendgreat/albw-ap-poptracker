@@ -234,18 +234,17 @@
         ],
         "sections": [
           {
-            "name": "Bottle reward",
+            "name": "Letter in a Bottle reward",
             "access_rules": [
               "$access_dm_east_top, merge, milk",
               "[glitched], merge, hookshot, milk",
               "[advanced], $adv_glitched_access_dm_east_top, milk, merge",
               "[advanced], $adv_glitched_access_dm_east_top, milk, trod, boots"
             ],
-            "hosted_item": "bottle",
-            "item_count": 1
+            "hosted_item": "letter_check"
           },
           {
-            "name": "Trash",
+            "name": "Bottle reward",
             "access_rules": [
               "$access_dm_east_top, merge, milk",
               "[glitched], merge, hookshot, milk",
@@ -345,6 +344,7 @@
         "sections": [
           {
             "name": "Chest",
+            "visibility_rules": ["minigames_enabled"],
             "access_rules": [
               "$access_ldm_west, $attack, [bombs]",
               "$access_ldm_west, $attack, [hammer]",

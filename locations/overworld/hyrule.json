@@ -415,6 +415,7 @@
                 "name": "Premium Milk reward",
                 "hosted_item": "milk",
                 "access_rules": ["letter"],
+                "visibility_rules": ["^$noAPConnection"],
                 "item_count": 1
               }
             ]

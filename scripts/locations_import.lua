@@ -1,4 +1,4 @@
-if Tracker.ActiveVariantUID == "standard" or Tracker.ActiveVariantUID == "map_vertical" then
+if string.gsub(Tracker.ActiveVariantUID, "z+_", "") ~= "items_only" then
   Tracker:AddLocations("locations/overworld/hyrule.json")
   Tracker:AddLocations("locations/overworld/lorule.json")
   Tracker:AddLocations("locations/overworld/death_mountain.json")

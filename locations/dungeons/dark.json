@@ -290,101 +290,19 @@
             "map_locations": [
               {
                 "map": "dark",
-                "x": 377,
-                "y": 387,
-                "size": 20
+                "x": 175,
+                "y": 528,
+                "size": 24
               }
             ],
             "sections": [
               {
-                "name": "Pendant of Power",
-                "hosted_item": "power",
+                "name": "Reward",
+                "hosted_item": "pd",
                 "access_rules": [
                   "bombs, $fire, $pd_small_keys|4, $pd_big_key",
                   "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_power_pd"]
-              },
-              {
-                "name": "Pendant of Wisdom",
-                "hosted_item": "wisdom",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_wisdom_pd"]
-              },
-              {
-                "name": "Pendant of Courage",
-                "hosted_item": "courage",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_courage_pd"]
-              },
-              {
-                "name": "Gulley",
-                "hosted_item": "gulley",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["pd,gulley"]
-              },
-              {
-                "name": "Oren",
-                "hosted_item": "oren",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_oren_pd"]
-              },
-              {
-                "name": "Seres",
-                "hosted_item": "seres",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_seres_pd"]
-              },
-              {
-                "name": "Osfala",
-                "hosted_item": "osfala",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_osfala_pd"]
-              },
-              {
-                "name": "Impa",
-                "hosted_item": "impa",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_impa_pd"]
-              },
-              {
-                "name": "Irene",
-                "hosted_item": "irene",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_irene_pd"]
-              },
-              {
-                "name": "Rosso",
-                "hosted_item": "rosso",
-                "access_rules": [
-                  "bombs, $fire, $pd_small_keys|4, $pd_big_key",
-                  "[], bombs, $fire, $pd_small_keys|1, $pd_big_key"
-                ],
-                "visibility_rules": ["label_rosso_pd"]
+                ]
               }
             ]
           }
@@ -396,7 +314,8 @@
           {
             "map": "lorule",
             "x": 1921,
-            "y": 852
+            "y": 852,
+            "size": 80
           }
         ],
         "sections": [
@@ -504,94 +423,12 @@
             "hosted_item": "pd_gemesaur_king"
           },
           {
-            "name": "Pendant of Power",
-            "hosted_item": "power",
+            "name": "Reward",
+            "hosted_item": "pd",
             "access_rules": [
               "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
               "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_power_pd"]
-          },
-          {
-            "name": "Pendant of Wisdom",
-            "hosted_item": "wisdom",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_wisdom_pd"]
-          },
-          {
-            "name": "Pendant of Courage",
-            "hosted_item": "courage",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_courage_pd"]
-          },
-          {
-            "name": "Gulley",
-            "hosted_item": "gulley",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_gulley_pd"]
-          },
-          {
-            "name": "Oren",
-            "hosted_item": "oren",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_oren_pd"]
-          },
-          {
-            "name": "Seres",
-            "hosted_item": "seres",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_seres_pd"]
-          },
-          {
-            "name": "Osfala",
-            "hosted_item": "osfala",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_osfala_pd"]
-          },
-          {
-            "name": "Impa",
-            "hosted_item": "impa",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_impa_pd"]
-          },
-          {
-            "name": "Irene",
-            "hosted_item": "irene",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_irene_pd"]
-          },
-          {
-            "name": "Rosso",
-            "hosted_item": "rosso",
-            "access_rules": [
-              "bombs, $fire, $pd_small_keys|4, $pd_big_key, ^$lampless",
-              "[], bombs, $fire, $pd_small_keys|1, $pd_big_key, ^$lampless"
-            ],
-            "visibility_rules": ["label_rosso_pd"]
+            ]
           }
         ]
       }

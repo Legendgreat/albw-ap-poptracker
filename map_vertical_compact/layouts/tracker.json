@@ -1,0 +1,65 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#737387",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "background": "#99000000",
+          "content": [
+            {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "Items",
+                  "content": {
+                    "type": "array",
+                    "content": [
+                      {
+                        "type": "layout",
+                        "key": "item_grid_compact"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Dungeon",
+                  "content": {
+                    "type": "array",
+                    "margin": "100, 0, 0, 0",
+                    "content": [
+                      {
+                        "type": "layout",
+                        "key": "dungeon_items_compact"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Weather Vanes",
+                  "content": {
+                    "type": "layout",
+                    "key": "weather_vanes_vertical_compact"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": [
+            {
+              "type": "layout",
+              "key": "tabbed_maps_compact"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

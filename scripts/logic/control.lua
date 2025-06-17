@@ -3,6 +3,11 @@ function has(item)
     return Tracker:ProviderCountForCode(item) == 1
 end
 
+-- Returns true if the player doesn't have the given item or setting
+function hasNo(item)
+    return Tracker:ProviderCountForCode(item) == 0
+end
+
 -- Returns true if the player can use any of the given items
 function hasAny(items)
     for _, item in ipairs(items) do
@@ -803,3 +808,7 @@ function tt_big_key() return hasAny({ "keysy_big", "tt_big_key" }) end
 function tr_big_key() return hasAny({ "keysy_big", "tr_big_key" }) end
 function dp_big_key() return hasAny({ "keysy_big", "dp_big_key" }) end
 function ir_big_key() return hasAny({ "keysy_big", "ir_big_key" }) end
+
+function noAPConnection()
+    return AutoTracker:GetConnectionState("AP") < 2
+end

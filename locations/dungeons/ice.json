@@ -291,100 +291,18 @@
           {
             "map": "ice",
             "x": 971,
-            "y": 633,
+            "y": 528,
             "size": 24
           }
         ],
         "sections": [
           {
-            "name": "Pendant of Power",
-            "hosted_item": "power",
+            "name": "Reward",
+            "hosted_item": "ir",
             "access_rules": [
               "$ir_small_keys|3, $ir_big_key",
               "[advanced], boots"
-            ],
-            "visibility_rules": ["label_power_ir"]
-          },
-          {
-            "name": "Pendant of Wisdom",
-            "hosted_item": "wisdom",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_wisdom_ir"]
-          },
-          {
-            "name": "Pendant of Courage",
-            "hosted_item": "courage",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_courage_ir"]
-          },
-          {
-            "name": "Gulley",
-            "hosted_item": "gulley",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_gulley_ir"]
-          },
-          {
-            "name": "Oren",
-            "hosted_item": "oren",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_oren_ir"]
-          },
-          {
-            "name": "Seres",
-            "hosted_item": "seres",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_seres_ir"]
-          },
-          {
-            "name": "Osfala",
-            "hosted_item": "osfala",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_osfala_ir"]
-          },
-          {
-            "name": "Impa",
-            "hosted_item": "impa",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_impa_ir"]
-          },
-          {
-            "name": "Irene",
-            "hosted_item": "irene",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_irene_ir"]
-          },
-          {
-            "name": "Rosso",
-            "hosted_item": "rosso",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_rosso_ir"]
+            ]
           }
         ]
       },
@@ -394,7 +312,8 @@
           {
             "map": "lorule",
             "x": 1880,
-            "y": 156
+            "y": 156,
+            "size": 80
           }
         ],
         "sections": [
@@ -494,94 +413,12 @@
             "hosted_item": "ir_dharkstare"
           },
           {
-            "name": "Pendant of Power",
-            "hosted_item": "power",
+            "name": "Reward",
+            "hosted_item": "ir",
             "access_rules": [
               "$ir_small_keys|3, $ir_big_key",
               "[advanced], boots"
-            ],
-            "visibility_rules": ["label_power_ir"]
-          },
-          {
-            "name": "Pendant of Wisdom",
-            "hosted_item": "wisdom",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_wisdom_ir"]
-          },
-          {
-            "name": "Pendant of Courage",
-            "hosted_item": "courage",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_courage_ir"]
-          },
-          {
-            "name": "Gulley",
-            "hosted_item": "gulley",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_gulley_ir"]
-          },
-          {
-            "name": "Oren",
-            "hosted_item": "oren",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_oren_ir"]
-          },
-          {
-            "name": "Seres",
-            "hosted_item": "seres",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_seres_ir"]
-          },
-          {
-            "name": "Osfala",
-            "hosted_item": "osfala",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_osfala_ir"]
-          },
-          {
-            "name": "Impa",
-            "hosted_item": "impa",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_impa_ir"]
-          },
-          {
-            "name": "Irene",
-            "hosted_item": "irene",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_irene_ir"]
-          },
-          {
-            "name": "Rosso",
-            "hosted_item": "rosso",
-            "access_rules": [
-              "$ir_small_keys|3, $ir_big_key",
-              "[advanced], boots"
-            ],
-            "visibility_rules": ["label_rosso_ir"]
+            ]
           }
         ]
       }

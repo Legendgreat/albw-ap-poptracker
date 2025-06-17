@@ -6,6 +6,40 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 
 [](https://github.com/Legendgreat/albw-ap-poptracker/tree/master#version_history)
 
+### 1.4.0
+
+### Layout
+
+- This update adds compact versions of the map trackers. People were (rightfully) complaining that the original map trackers don't fit on 1080p, so the compact versions are now the default "Map Tracker (orientation)", while the original map trackers are renamed to "Full Map Tracker (orientation)". This compact version will have the compacted maps, as well as a tabbed version of the items.
+  Small note: the horizontal compact variant isn't the most beautiful layout, but with the lack of centering or margins in tabs there's currently not a lot I can do to make it look better. Hopefully in a future PopTracker version I can fix that. For now, making the window as small as possible horizontally minimizes how awful it looks.
+- The settings have been moved to their own settings menu on all variants, which you can find in the top toolbar next to AP.
+
+### Location changes
+
+- The dungeon rewards have been re-introduced to the map. They are now directly linked to the dungeon items you see in the tracker, and are always visible even when set to ??.
+- Dungeon locations on the Overworld maps are now slightly bigger, so they're easier to distinguish.
+
+### Bug Fixes
+
+- Trial door settings should now be tracked properly and show the trial door as active.
+- The premium milk check at the Bouldering Guy now works properly. Due to letter in a bottle and milk bar check being unavailable in the current version of ALBW APWorld, the milk bar check is now disabled when an AP connection is made. This allows z17-randomizer users to still track the milk bar trade route.
+
+### Remaining issues
+
+- When swapping between AP slots or variants, some settings might not get updated properly. CTRL + Shift + R and reconnecting to AP will fix this. I want to fix this issue if possible but I'm not sure how, so I'm deferring this to a later minor release.
+
+<details>
+
+<summary>Older versions</summary>
+
+<details>
+
+<summary>1.3.x</summary>
+
+<details>
+
+<summary>1.3.1</summary>
+
 ### 1.3.1
 
 ### Bug Fixes
@@ -13,6 +47,8 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 - All cracks should now be in logic in cracksanity, with merge and quake, and some of the checks were updated for cracksanity as well.
 - Hylian Shield AP item should now properly increment the shield item by two stages
 - Blacksmith check should now work properly
+
+</details>
 
 <details>
 
@@ -47,6 +83,12 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 I'm thinking of adding in a crack tracker, right now the tracker only supports marking the tracker you went in to, and for cracksanity, the crack you come out of. I want to add a fully functional crack tracker where you can mark which crack leads where, with maybe an additional map where lines are drawn between pairs, or hovering one highlights another. I'm not sure if PopTracker supports this yet, but I'll see what I can do with the tools that I have.
 
 </details>
+
+</details>
+
+<details>
+
+<summary>1.2.x</summary>
 
 <details>
 
@@ -94,9 +136,7 @@ I will probably focus on the vertical layout of the Standard Tracker next.
 
 </details>
 
-<details>
-
-<summary>Older versions</summary>
+</details>
 
 <details>
 

@@ -342,7 +342,8 @@
           {
             "map": "lorule",
             "x": 1024,
-            "y": 934
+            "y": 934,
+            "size": 80
           }
         ],
         "sections": [
@@ -460,15 +461,14 @@
         "map": "lorule",
         "x": 1144,
         "y": 792,
-        "size": 120,
-        "badge_size": 40
+        "size": 80
       }
     ],
     "sections": [
       {
         "name": "Zelda",
         "capture_item": true,
-        "hosted_item": "lc_chest_15",
+        "hosted_item": "lc_zelda",
         "chest_unopened_img": "images/checks/chest_small_unopened.png",
         "chest_opened_img": "images/checks/chest_small_opened.png",
         "access_rules": [

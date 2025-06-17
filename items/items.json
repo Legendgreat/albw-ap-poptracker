@@ -111,28 +111,22 @@
   },
   {
     "name": "Trade Item",
-    "type": "composite_toggle",
-    "codes": "trade",
-    "item_left": "letter",
-    "item_right": "milk",
-    "images": [
+    "type": "progressive",
+    "stages": [
       {
         "img": "images/items/bottle_letter_milk.png",
         "img_mods": "@disabled",
-        "left": false,
-        "right": false
+        "codes": "trade"
       },
       {
         "name": "Letter in a Bottle",
         "img": "images/items/bottle_letter.png",
-        "left": true,
-        "right": false
+        "codes": "trade, letter"
       },
       {
         "name": "Premium Milk",
         "img": "images/items/bottle_milk_premium.png",
-        "left": false,
-        "right": true
+        "codes": "trade, milk"
       }
     ]
   },
@@ -1263,6 +1257,35 @@
         "right": true,
         "img": "images/items/flippers.png",
         "img_mods": "overlay|images/items/smooth_gem_small.png"
+      }
+    ]
+  },
+  // For display only
+  {
+    "name": "Letter in a Bottle",
+    "type": "toggle",
+    "img": "images/items/bottle_letter.png",
+    "codes": "letter_check"
+  },
+  {
+    "name": "Premium Milk",
+    "type": "toggle",
+    "img": "images/items/bottle_milk_premium.png",
+    "codes": "milk_check"
+  },
+  {
+    "name": "Empty Bottle / Golden Bee",
+    "type": "progressive",
+    "stages": [
+      {
+        "name": "Empty Bottle",
+        "img": "images/items/bottle.png",
+        "codes": "bottle, bottles, bottle_empty, empty_bottle"
+      },
+      {
+        "name": "Golden Bee",
+        "img": "images/items/bottle_bee_golden.png",
+        "codes": "golden_bee, goldenbee"
       }
     ]
   }
