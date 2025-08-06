@@ -169,15 +169,8 @@ function onClear(slot_data)
             end
         elseif key == "weather_vanes" then
             toggleWeatherVanes(value)
-        elseif key == "trials_required" or key == "open_trials_door" then
-            local doorObj = Tracker:FindObjectForCode("lc_trials_door")
-            if key == "trials_required" and value == 0 then
-                doorObj.CurrentStage = 1
-            elseif key == "open_trials_door" and value == 1 then
-                doorObj.CurrentStage = 1
-            else
-                doorObj.CurrentStage = 0
-            end
+        elseif (key == "trials_required" and value == 0) or (key == "open_trials_door" and value == 1) then
+            Tracker:FindObjectForCode("lc_trials_door").CurrentStage = 1
         end
         
         if SLOT_CODES[key] then

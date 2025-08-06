@@ -10,8 +10,7 @@
             "map": "hyrule",
             "x": 1049,
             "y": 1377,
-            "size": 48,
-            "badge_size": 72,
+            "size": 32,
             "shape": "trapezoid"
           }
         ],
@@ -30,8 +29,8 @@
             "map": "hyrule",
             "x": 293,
             "y": 978,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -49,8 +48,8 @@
             "map": "hyrule",
             "x": 1990,
             "y": 827,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -80,8 +79,8 @@
             "map": "hyrule",
             "x": 1559,
             "y": 1738,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -106,8 +105,8 @@
             "map": "hyrule",
             "x": 1224,
             "y": 95,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -133,8 +132,8 @@
             "map": "hyrule",
             "x": 1639,
             "y": 700,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -152,8 +151,8 @@
             "map": "hyrule",
             "x": 1027,
             "y": 349,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -176,8 +175,8 @@
             "map": "hyrule",
             "x": 186,
             "y": 1737,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -202,8 +201,8 @@
             "map": "hyrule",
             "x": 918,
             "y": 648,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -222,8 +221,8 @@
             "map": "lorule",
             "x": 424,
             "y": 318,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -242,8 +241,8 @@
             "map": "lorule",
             "x": 1171,
             "y": 131,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -265,8 +264,8 @@
             "map": "lorule",
             "x": 1832,
             "y": 226,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -289,8 +288,8 @@
             "map": "lorule",
             "x": 1005,
             "y": 975,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -313,8 +312,8 @@
             "map": "lorule",
             "x": 1233,
             "y": 683,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -322,7 +321,7 @@
             "name": "Weather Vane",
             "hosted_item": "wv_graveyard",
             "access_rules": [
-              "$access_lorule_graveyard",
+              "^$access_lorule_graveyard",
               "[lampless], $lampless_access_lorule_graveyard"
             ],
             "visibility_rules": ["wv_shuffle_on"]
@@ -336,8 +335,8 @@
             "map": "lorule",
             "x": 139,
             "y": 1035,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -360,8 +359,8 @@
             "map": "lorule",
             "x": 1990,
             "y": 885,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -385,8 +384,8 @@
             "map": "lorule",
             "x": 684,
             "y": 1084,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -409,8 +408,8 @@
             "map": "lorule",
             "x": 1160,
             "y": 1401,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -433,8 +432,8 @@
             "map": "lorule",
             "x": 460,
             "y": 1828,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -453,8 +452,8 @@
             "map": "lorule",
             "x": 938,
             "y": 1849,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -477,8 +476,8 @@
             "map": "lorule",
             "x": 1611,
             "y": 1756,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -501,8 +500,8 @@
             "map": "lorule",
             "x": 1517,
             "y": 383,
-            "size": 48,
-            "badge_size": 72
+            "size": 32,
+            "shape": "trapezoid"
           }
         ],
         "sections": [

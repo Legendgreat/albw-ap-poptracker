@@ -6,6 +6,21 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 
 [](https://github.com/Legendgreat/albw-ap-poptracker/tree/master#version_history)
 
+### 1.4.1
+
+### Location changes
+
+- This update fixes some weird logic around Lorule Graveyard, specifically to do with lamp/firerod related logic.
+- Cracks and Weather Vane locations are now trapezoid shaped. Cracks are slightly bigger than Weather Vanes so they're easier to distinguish.
+
+### Bug Fixes
+
+- Trial door settings logic is fixed, and should now actually be tracked properly.
+
+<details>
+
+<summary>1.4.0</summary>
+
 ### 1.4.0
 
 ### Layout
@@ -27,6 +42,8 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 ### Remaining issues
 
 - When swapping between AP slots or variants, some settings might not get updated properly. CTRL + Shift + R and reconnecting to AP will fix this. I want to fix this issue if possible but I'm not sure how, so I'm deferring this to a later minor release.
+
+</details>
 
 <details>
 

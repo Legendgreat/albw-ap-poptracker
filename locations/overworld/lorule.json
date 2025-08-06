@@ -72,7 +72,7 @@
       {
         "name": "Graveyard",
         "access_rules": [
-          "$access_lorule_graveyard",
+          "^$access_lorule_graveyard",
           "[lampless], $lampless_access_lorule_graveyard"
         ],
         "children": [
@@ -129,7 +129,7 @@
             "access_rules": [
               "crack_graveyard_lorule",
               "{cracksanity, $inspect_crack_lorule}",
-              "bombs, merge, [lamp], $access_lorule_graveyard",
+              "bombs, merge, [lamp], ^$access_lorule_graveyard",
               "bombs, merge, [lampless], $lampless_access_lorule_graveyard"
             ]
           }
@@ -150,10 +150,10 @@
             "chest_unopened_img": "images/checks/chest_big_unopened.png",
             "chest_opened_img": "images/checks/chest_big_opened.png",
             "access_rules": [
-              "{csmc_on, $access_lorule_graveyard}",
+              "{csmc_on, ^$access_lorule_graveyard}",
               "{csmc_on, $lampless_access_lorule_graveyard}",
-              "$access_lorule_graveyard, titansmitt, [lamp], $attack, $ls_small_key",
-              "$access_lorule_graveyard, titansmitt, [lampless], $attack, $ls_small_key",
+              "^$access_lorule_graveyard, titansmitt, [lamp], $attack, $ls_small_key",
+              "^$access_lorule_graveyard, titansmitt, [lampless], $attack, $ls_small_key",
               "$lampless_access_lorule_graveyard, titansmitt, [lampless], $attack, $ls_small_key"
             ],
             "capture_item": true,
@@ -175,7 +175,7 @@
             "name": "Chest",
             "access_rules": [
               "{csmc_on, $access_dark_ruins}",
-              "$access_lorule_graveyard",
+              "^$access_lorule_graveyard",
               "[lampless], $lampless_access_lorule_graveyard"
             ],
             "item_count": 1

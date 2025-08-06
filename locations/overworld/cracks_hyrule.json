@@ -10,7 +10,7 @@
             "map": "hyrule",
             "x": 1120,
             "y": 1440,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -35,7 +35,7 @@
             "map": "hyrule",
             "x": 102,
             "y": 342,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -54,7 +54,7 @@
             "map": "hyrule",
             "x": 935,
             "y": 310,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -77,7 +77,7 @@
             "map": "hyrule",
             "x": 1478,
             "y": 360,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -100,7 +100,7 @@
             "map": "hyrule",
             "x": 948,
             "y": 555,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -127,7 +127,7 @@
             "map": "hyrule",
             "x": 1425,
             "y": 545,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -145,7 +145,7 @@
             "map": "hyrule",
             "x": 1851,
             "y": 765,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -163,7 +163,7 @@
             "map": "hyrule",
             "x": 362,
             "y": 834,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -181,7 +181,7 @@
             "map": "hyrule",
             "x": 1401,
             "y": 1099,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -200,7 +200,7 @@
             "map": "hyrule",
             "x": 1803,
             "y": 1313,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -225,7 +225,7 @@
             "map": "hyrule",
             "x": 1611,
             "y": 1410,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -243,7 +243,7 @@
             "map": "hyrule",
             "x": 952,
             "y": 1561,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -261,7 +261,7 @@
             "map": "hyrule",
             "x": 1331,
             "y": 1845,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -279,7 +279,7 @@
             "map": "hyrule",
             "x": 1895,
             "y": 1535,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -298,7 +298,7 @@
             "map": "hyrule",
             "x": 590,
             "y": 1727,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -316,7 +316,7 @@
             "map": "hyrule",
             "x": 677,
             "y": 1709,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -334,7 +334,7 @@
             "map": "hyrule",
             "x": 653,
             "y": 1845,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -357,7 +357,7 @@
             "map": "hyrule",
             "x": 422,
             "y": 1751,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -376,7 +376,7 @@
             "map": "hyrule",
             "x": 351,
             "y": 1751,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -387,7 +387,7 @@
             "map": "hyrule",
             "x": 292,
             "y": 1560,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ],
         "sections": [
@@ -420,7 +420,7 @@
             "map": "hyrule",
             "x": 242,
             "y": 1855,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -444,7 +444,7 @@
             "map": "hyrule",
             "x": 74,
             "y": 1964,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       },
@@ -469,7 +469,7 @@
             "map": "hyrule",
             "x": 192,
             "y": 1530,
-            "badge_size": 40
+            "shape": "trapezoid"
           }
         ]
       }
@@ -482,7 +482,7 @@
         "map": "hyrule",
         "x": 1024,
         "y": 792,
-        "badge_size": 40
+        "shape": "trapezoid"
       },
       {
         "map": "hyrule_castle",

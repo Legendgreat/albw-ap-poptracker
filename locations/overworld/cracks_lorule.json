@@ -19,7 +19,7 @@
         "map": "lorule",
         "x": 1120,
         "y": 1440,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -41,7 +41,7 @@
         "map": "lorule",
         "x": 236,
         "y": 1084,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -64,7 +64,7 @@
         "map": "lorule",
         "x": 952,
         "y": 1561,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -87,7 +87,7 @@
         "map": "lorule",
         "x": 590,
         "y": 1727,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -109,7 +109,7 @@
         "map": "lorule",
         "x": 677,
         "y": 1709,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -135,7 +135,7 @@
         "map": "lorule",
         "x": 102,
         "y": 342,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -160,7 +160,7 @@
         "map": "lorule",
         "x": 697,
         "y": 146,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -185,7 +185,7 @@
         "map": "lorule",
         "x": 343,
         "y": 804,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -215,7 +215,7 @@
         "map": "lorule",
         "x": 651,
         "y": 1845,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -244,7 +244,7 @@
         "map": "lorule",
         "x": 422,
         "y": 1751,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -263,7 +263,7 @@
         "map": "lorule",
         "x": 351,
         "y": 1751,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -289,7 +289,7 @@
         "map": "lorule",
         "x": 242,
         "y": 1855,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -315,7 +315,7 @@
         "map": "lorule",
         "x": 74,
         "y": 1964,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -343,7 +343,7 @@
         "map": "lorule",
         "x": 192,
         "y": 1545,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -368,7 +368,7 @@
         "map": "lorule",
         "x": 945,
         "y": 555,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -395,7 +395,7 @@
         "map": "lorule",
         "x": 1850,
         "y": 687,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -421,7 +421,7 @@
         "map": "lorule",
         "x": 1401,
         "y": 1099,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -447,7 +447,7 @@
         "map": "lorule",
         "x": 1803,
         "y": 1313,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -473,7 +473,7 @@
         "map": "lorule",
         "x": 1425,
         "y": 545,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -504,7 +504,7 @@
         "map": "lorule",
         "x": 1327,
         "y": 1845,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -531,7 +531,7 @@
         "map": "lorule",
         "x": 1611,
         "y": 1410,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -558,7 +558,7 @@
         "map": "lorule",
         "x": 1895,
         "y": 1535,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -583,7 +583,7 @@
         "map": "lorule",
         "x": 957,
         "y": 331,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -607,7 +607,7 @@
         "map": "lorule",
         "x": 1625,
         "y": 83,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   },
@@ -632,7 +632,7 @@
         "map": "lorule",
         "x": 1478,
         "y": 360,
-        "badge_size": 40
+        "shape": "trapezoid"
       }
     ]
   }

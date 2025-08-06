@@ -69,7 +69,7 @@ function glitched_access_dark_ruins()
     end
 
     -- From Graveyard
-    if access_lorule_graveyard() and boost() and hasAny({ "flippers", "hookshot" }) then
+    if access_lorule_graveyard() == AccessibilityLevel.Normal and boost() and hasAny({ "flippers", "hookshot" }) then
         return true
     end
 
@@ -97,7 +97,7 @@ function advanced_access_dark_ruins()
     end
 
     -- From Graveyard
-    if access_lorule_graveyard() and boost() and hasAny({ "boots", "hookshot" }) then
+    if access_lorule_graveyard() == AccessibilityLevel.Normal and boost() and hasAny({ "boots", "hookshot" }) then
         return true
     end
     return false
@@ -110,7 +110,7 @@ function hell_access_dark_ruins()
     end
 
     -- From Graveyard
-    if access_lorule_graveyard() and hellBoost() and hasAny({ "boots", "hookshot" }) then
+    if access_lorule_graveyard() == AccessibilityLevel.Normal and hellBoost() and hasAny({ "boots", "hookshot" }) then
         return true
     end
 
@@ -129,14 +129,14 @@ function access_lorule_graveyard()
     end
 
     if hasAll({ "cracksanity", "merge" }) and hasAny({ "crack_philosopher", "crack_graveyard_lorule" }) then
-        return true
+        return AccessibilityLevel.Normal
     end
 
     if weather_vane_lorule("wv_graveyard") then
-        return true
+        return AccessibilityLevel.Normal
     end
 
-    return false
+    return AccessibilityLevel.None
 end
 
 -- [Lampless] Lorule Graveyard
