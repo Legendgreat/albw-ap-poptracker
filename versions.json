@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "1.4.1",
+      "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.4.1/ALBW_AP_PopTracker_v1.4.1.zip",
+      "sha256": "6E79C857794E208B9DD6D09F7653C74C619695710954D9155B3A97B938E72537",
+      "changelog": [
+        "This update fixes some weird logic around Lorule Graveyard, specifically to do with lamp/firerod related logic.",
+        "Cracks and Weather Vane locations are now trapezoid shaped. Cracks are slightly bigger than Weather Vanes so they're easier to distinguish.",
+        "Trial door settings logic is fixed, and should now actually be tracked properly."
+      ]
+    },
+    {
       "package_version": "1.4.0",
       "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.4.0/ALBW_AP_PopTracker_v1.4.0.zip",
       "sha256": "B2EEBEC2B5EB1184298A2686656FD5D44985B281A9C2921D393F2A8D79A24ACC",
