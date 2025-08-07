@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.4.1b",
+      "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.4.1b/ALBW_AP_PopTracker_v1.4.1b.zip",
+      "sha256": "484d35130571509a3fd5262f59c1b89ee12f862aaa6f022545c100a33a07805a",
+      "changelog": [
+        "Golden bee should now properly be maintained between reconnects."
+      ]
+    },
+    {
       "package_version": "1.4.1",
       "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.4.1/ALBW_AP_PopTracker_v1.4.1.zip",
       "sha256": "6E79C857794E208B9DD6D09F7653C74C619695710954D9155B3A97B938E72537",
