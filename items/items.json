@@ -1280,12 +1280,12 @@
       {
         "name": "Empty Bottle",
         "img": "images/items/bottle.png",
-        "codes": "bottle, bottles, bottle_empty, empty_bottle"
+        "codes": "p_bottle, bottle_empty, empty_bottle"
       },
       {
         "name": "Golden Bee",
         "img": "images/items/bottle_bee_golden.png",
-        "codes": "golden_bee, goldenbee"
+        "codes": "p_bottle, golden_bee, goldenbee"
       }
     ]
   }
