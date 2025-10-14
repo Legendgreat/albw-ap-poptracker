@@ -1,0 +1,71 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - legendgreat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report; please fill in with as much detail as possible.
+        If you need PopTracker logs for your bug report, you can enable logging for PopTracker by going to %AppData%/PopTracker, opening `PopTracker.json` and changing `"log": false,` to `"log": true,"`. A `log.txt` will then be made in the same folder, next to `PopTracker.json`.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-issue checklist
+      description: Please make sure you have done all of the following steps first;
+      options:
+        - label: I have made sure I am on the latest version of the tracker pack.
+          required: true
+        - label: I have asked on Discord, and made sure this is a tracker issue.
+          required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Are you on the latest version of the tracker pack?
+      description: If not, update first and see if your issue is still relevant.
+      options:
+        - No, I will download the newest version and try again.
+        - Yes, I'm on the latest release of albw-ap-poptracker.
+    validations:
+      required: true
+  - type: dropdown
+    id: ap-version
+    attributes:
+      label: What version of APWorld are you using?
+      description: Please select the version of APWorld you are using.
+      options:
+        - v0.1.3 (by randomsalience or Caroline)
+        - v0.1.3-3DS (by LittleCube-hax)
+        - v0.1.4+
+        - v0.1.4-3DS+
+    validations:
+      required: true
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: What kind of issue are you running into?
+      description: Is it an issue with logic (e.g. what the tracker says is not accurate to what randomizer logic should be) or is it a display issue (e.g. the tracker says you already cleared a check or item that you didn't, yet)
+      options:
+        - Logic issue
+        - Display issue
+        - Other...
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the issue?
+      description: What happened? And what should have happened instead? If relevant, provide your obtained items, defeated bosses, etc. Also, feel free to upload relevant screenshots of your game, the tracker and Discord chats.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: |
+        Please drag and drop your relevant `log.txt` here.
+    validations:
+      required: false
