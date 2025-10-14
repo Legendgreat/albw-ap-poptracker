@@ -21,16 +21,6 @@ body:
         - label: I have asked on Discord, and made sure this is a tracker issue.
           required: true
   - type: dropdown
-    id: version
-    attributes:
-      label: Are you on the latest version of the tracker pack?
-      description: If not, update first and see if your issue is still relevant.
-      options:
-        - No, I will download the newest version and try again.
-        - Yes, I'm on the latest release of albw-ap-poptracker.
-    validations:
-      required: true
-  - type: dropdown
     id: ap-version
     attributes:
       label: What version of APWorld are you using?
