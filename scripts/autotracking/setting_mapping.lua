@@ -1,5 +1,26 @@
 SLOT_CODES =
 {
+    
+    -- {
+    --    ["pedestal_requirement"] = 1,
+    --    ["chest_size_matches_contents"] = 1,
+    --    ["crack_shuffle"] = 0,
+    --    ["maiamai_mayhem"] = 1,
+    --    ["no_progression_enemies"] = 1,
+    --    ["minigames_excluded"] = 1,
+    --    ["nice_items"] = 1,
+    --    ["weather_vanes"] = 2,
+    --    ["open_trials_door"] = 0,
+    --    ["dark_rooms_lampless"] = 0,
+    --    ["logic_mode"] = 0,
+    --    ["lorule_castle_requirement"] = 3,
+    --    ["initial_crack_state"] = 1,
+    --    ["seed"] = 1512959087,
+    --    ["lamp_and_net_as_weapons"] = 0,
+    --    ["swordless_mode"] = 0,
+    --    ["trials_required"] = 1,
+    -- }
+
     chest_size_matches_contents =
     {
         code = "csmc",

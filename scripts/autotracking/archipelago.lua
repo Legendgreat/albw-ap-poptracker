@@ -157,6 +157,7 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
     resetItems(ITEM_MAPPING)
     resetLocations()
+    print(dump_table(slot_data))
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP and DEBUG_ON_CLEAR then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     end

@@ -104,7 +104,7 @@
               {
                 "hosted_item": "crack_rossos_house",
                 "name": "House Crack",
-                "access_rules": ["rosso"],
+                "access_rules": ["rosso", "{cracksanity, merge, quake_on}"],
                 "visibility_rules": ["cracksanity"]
               }
             ]
@@ -783,10 +783,7 @@
             "sections": [
               {
                 "name": "Silver Rupee",
-                "access_rules": [
-                  "not_cracksanity, merge, quake_on",
-                  "cracksanity, crack_left_hyrule_paradox, merge, quake_on"
-                ],
+                "access_rules": ["merge"],
                 "capture_item": true,
                 "item_count": 1
               }

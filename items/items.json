@@ -68,36 +68,6 @@
     ]
   },
   {
-    "name": "Empty Bottle / Golden Bee",
-    "type": "progressive",
-    "stages": [
-      {
-        "name": "Empty Bottle",
-        "img": "images/items/bottle.png",
-        "codes": "bottle, bottles, bottle_empty, empty_bottle"
-      },
-      {
-        "name": "Golden Bee",
-        "img": "images/items/bottle_bee_golden.png",
-        "codes": "golden_bee, goldenbee"
-      }
-    ]
-  },
-  // {
-  //   "name": "Bottle Trade Items",
-  //   "type": "progressive",
-  //   "stages": [
-  //     {
-  //       "img": "images/items/bottle_letter.png",
-  //       "codes": "bottle_trade, bottle_trade_items, bottle_letter, letter, letter_in_a_bottle"
-  //     },
-  //     {
-  //       "img": "images/items/bottle_milk_premium.png",
-  //       "codes": "bottle_milk_premium, milk, premium_milk, premiummilk"
-  //     }
-  //   ]
-  // },
-  {
     "name": "Letter in a Bottle",
     "type": "toggle",
     "img": "images/items/bottle_letter.png",
@@ -1280,7 +1250,7 @@
       {
         "name": "Empty Bottle",
         "img": "images/items/bottle.png",
-        "codes": "p_bottle, bottle_empty, empty_bottle"
+        "codes": "p_bottle, bottle, empty_bottle"
       },
       {
         "name": "Golden Bee",

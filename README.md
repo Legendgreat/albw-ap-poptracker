@@ -6,6 +6,20 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 
 [](https://github.com/Legendgreat/albw-ap-poptracker/tree/master#version_history)
 
+### 1.4.2
+
+#### Bug Fixes
+
+- Fixed a logic issue with the Cuccoo Mini-Dungeon/Paradox Cracks.
+- Fixed a display issue with Desert Palace crack and progression enemies.
+- Fixed a display issue with Rosso's House Crack showing as red in Cracksanity.
+- Graveyard crack in Lorule now matches the shape of other cracks.
+- Fixed issue with bottle auto-tracking.
+
+<details>
+
+<summary>1.4.1</summary>
+
 ### 1.4.1b
 
 - Golden bee should now properly be maintained between reconnects.
@@ -20,6 +34,8 @@ This is a [PopTracker](https://poptracker.github.io/) pack meant for tracking it
 #### Bug Fixes
 
 - Trial door settings logic is fixed, and should now actually be tracked properly.
+
+</details>
 
 <details>
 

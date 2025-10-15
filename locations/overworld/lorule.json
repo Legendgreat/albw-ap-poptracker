@@ -119,7 +119,8 @@
             "map": "lorule",
             "x": 1134,
             "y": 578,
-            "badge_size": 40
+            "badge_size": 40,
+            "shape": "trapezoid"
           }
         ],
         "sections": [
