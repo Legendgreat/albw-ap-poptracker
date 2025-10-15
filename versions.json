@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "package_version": "1.4.2",
+      "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.4.2/ALBW_AP_PopTracker_v1.4.2.zip",
+      "sha256": "1A1D62F6BBADBC85F3A192B3159E430C47EA920DF43ABED1736AB0F8E461DE51",
+      "changelog": [
+        "Fixed a logic issue with the Cuccoo Mini-Dungeon/Paradox Cracks.",
+        "Fixed a display issue with Desert Palace crack and progression enemies.",
+        "Fixed a display issue with Rosso's House Crack showing as red in Cracksanity.",
+        "Graveyard crack in Lorule now matches the shape of other cracks.",
+        "Fixed issue with bottle auto-tracking."
+      ]
+    },
+    {
       "package_version": "1.4.1b",
       "download_url": "https://github.com/Legendgreat/albw-ap-poptracker/releases/download/v1.4.1b/ALBW_AP_PopTracker_v1.4.1b.zip",
       "sha256": "484d35130571509a3fd5262f59c1b89ee12f862aaa6f022545c100a33a07805a",
